@@ -76,7 +76,7 @@ export default function Footer() {
 
 				<div className='footer-bottom'>
 					<p>
-						© {new Date().getFullYear()} sPaternostro — Buenos Aires.{' '}
+						© {new Date().getFullYear()} sPaternostro.{' '}
 						{t('footer.rights')}
 					</p>
 				</div>
