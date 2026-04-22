@@ -39,7 +39,7 @@
     "highlight4Title": "OtraRonda",
     "highlight4Desc": "From early-stage venture to professional brand: full redesign oriented to conversion.",
     "philosophy": "The beauty of a digital product is a direct consequence of its order. I design clear, structured products built to perform.",
-    "ctaTitle": "Interested in working together?",
+    "ctaTitle": "Let's make your next project a success",
     "ctaButton": "Let's talk",
     "stackDesign": "Design",
     "stackWeb": "Web Development",
@@ -129,6 +129,10 @@
       "focus": "Focus",
       "focusValue": "E‑commerce UX · Collaboration"
     },
+     "myRole": {
+      "title": "My Role",
+      "p1": "I led the UX and visual design of the new platform from end to end: information architecture, component design, collaboration with development for implementation, and iteration based on real user feedback. Decisions regarding structure, hierarchy, and brand experience were my sole responsibility."
+    },
     "overview": {
       "title": "Overview",
       "p1": "GamingCity is a hardware retailer specializing in gaming PCs and components.",
@@ -163,6 +167,10 @@
       "timelineValue": "Jan 2026 — Mar 2026",
       "focus": "Focus",
       "focusValue": "Structure · UX · TiendaNube"
+    },
+     "myRole": {
+      "title": "My Role",
+      "p1": "This was a solo project built from the ground up. I was responsible for all design decisions: platform research, information architecture, visual system, and iteration. The entire store—including its structure, navigation logic, and visual presentation—reflects my personal design criteria."
     },
     "overview": {
       "title": "Overview",
@@ -255,6 +263,10 @@
       "focusValue": "Structured reporting and communication clarity",
       "outcome": "Outcome",
       "outcomeValue": "Faster resolutions and reduced friction"
+    },
+     "myRole": {
+      "title": "My Role",
+      "p1": "I identified this problem autonomously and proposed a solution without a formal assignment. My contribution consisted of designing and implementing a structured incident reporting format, promoting its adoption across the team, and documenting it to ensure the process could be maintained without my direct involvement.."
     },
     "overview": {
       "title": "Overview",
