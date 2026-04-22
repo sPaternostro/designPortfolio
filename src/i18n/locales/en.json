@@ -1,0 +1,720 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "professionTag": "Ecommerce Designer & Project Manager",
+    "name": "Sebastián Paternostro",
+    "shortBio": "I design online stores and digital experiences that convert. Structure, clarity, and business focus — always.",
+    "viewWork": "View work",
+    "contact": "Contact",
+    "highlights": "Featured cases",
+    "readCase": "Read case",
+    "howTitle": "How I work",
+    "howSubtitle": "A clear process for outstanding results",
+    "howOneTitle": "Structured thinking",
+    "howOneDesc": "I don't design isolated screens, I design systems. The logic connecting each part is what makes a product scalable and consistent.",
+    "howTwoTitle": "Business focus",
+    "howTwoDesc": "I understand business goals to propose solutions that not only look good but also convert and solve real user problems.",
+    "howThreeTitle": "Clarity above all",
+    "howThreeDesc": "I remove friction. If an element doesn't help users achieve their goals simply, it shouldn't be there.",
+    "techTitle": "Stack & Tools",
+    "highlight1Tag1": "Ecommerce",
+    "highlight1Tag2": "Platform migration",
+    "highlight1Title": "GamingCity",
+    "highlight1Desc": "Migration from marketplace to independent ecommerce with focus on scalability and brand experience.",
+    "highlight2Tag1": "Ecommerce",
+    "highlight2Tag2": "TiendaNube",
+    "highlight2Title": "KIRO Store",
+    "highlight2Desc": "Online store built from scratch with custom design and conversion focus.",
+    "highlight3Tag1": "Ecommerce",
+    "highlight3Tag2": "B2B · Wholesale",
+    "highlight3Title": "Bulonera Hurlingham B2B",
+    "highlight3Desc": "Wholesale ecommerce focused on purchase speed and operational efficiency for frequent buyers.",
+    "highlight4Tag1": "Branding",
+    "highlight4Tag2": "Web Design",
+    "highlight4Title": "OtraRonda",
+    "highlight4Desc": "From early-stage venture to professional brand: full redesign oriented to conversion.",
+    "philosophy": "The beauty of a digital product is a direct consequence of its order. I design clear, structured products built to perform.",
+    "ctaTitle": "Interested in working together?",
+    "ctaButton": "Let's talk",
+    "stackDesign": "Design",
+    "stackWeb": "Web Development",
+    "stackOps": "Management & Operations"
+  },
+  "about": {
+    "title": "About me",
+    "description": "Web designer focused on ecommerce and conversion, based in Buenos Aires. I design experiences that help businesses sell better — combining solid structure, visual clarity, and a real understanding of the customer.",
+    "principlesTitle": "My Principles",
+    "principles": {
+      "root": "Structure",
+      "rootDesc": "The foundation of any design is a clear information architecture.",
+      "thinking": "Critical Thinking",
+      "thinkingDesc": "Question the 'why' before moving to the 'how'.",
+      "business": "Conversion",
+      "businessDesc": "Design oriented toward users completing their goal — and the business, theirs.",
+      "collaboration": "Collaboration",
+      "collaborationDesc": "Full alignment between design, development, and product."
+    },
+    "ctaTitle": "Let's work together",
+    "ctaText": "If you're looking for structure, clarity, and results focus, we can make a great team.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Contact me"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "description": "If you have a project in mind or just want to say hi, write me.",
+    "info": {
+      "email": "Email",
+      "linkedin": "LinkedIn"
+    },
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "placeholders": {
+      "name": "Full name",
+      "email": "email@example.com",
+      "message": "Write your message here..."
+    },
+    "send": "Send message",
+    "success": "Message sent successfully!"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Case studies and digital solutions.",
+    "readCase": "Read case",
+    "project1Tag1": "Process Design",
+    "project1Tag2": "Full Redesign",
+    "project1Title": "Incident Standardization",
+    "project1Desc": "Redesign of internal incident structure to reduce friction and optimize communication.",
+    "project1Link": "/projects/incident-standardization",
+    "project2Tag1": "Ecommerce Design",
+    "project2Tag2": "Scale & UX",
+    "project2Title": "GamingCity",
+    "project2Desc": "Migration from marketplace to independent e‑commerce with focus on scalability and brand experience.",
+    "project2Link": "/projects/gamingcity",
+    "project3Tag1": "Ecommerce",
+    "project3Tag2": "Tienda Nube",
+    "project3Title": "KIRO STORE",
+    "project3Desc": "Online store development on TiendaNube with custom design and conversion optimization.",
+    "project3Link": "/projects/kiro",
+    "project4Tag1": "UX Research",
+    "project4Tag2": "Product Strategy",
+    "project4Title": "Fintech Research",
+    "project4Desc": "Usability study and improvement proposal for a digital banking app.",
+    "project4Link": "/projects/fintech-research",
+    "project5Tag1": "Mobile",
+    "project5Tag2": "Design System",
+    "project5Title": "Mobile Design System",
+    "project5Desc": "Component library creation for a delivery app with Storybook documentation.",
+    "project5Link": "/projects/design-system",
+    "project6Tag1": "Web App",
+    "project6Tag2": "Dashboard",
+    "project6Title": "Admin Dashboard",
+    "project6Desc": "Internal dashboard for order and user management with real-time metrics.",
+    "project6Link": "/projects/admin-dashboard"
+  },
+  "gamingcity": {
+    "category": "Case Study",
+    "title": "GamingCity — From marketplace store to brand E‑commerce",
+    "intro": "GamingCity needed to migrate from MercadoShops to its own platform before the service shutdown. The challenge was translating their brand identity and marketing needs into a flexible experience while working under an existing CMS.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "Web Designer / Product UX",
+      "timeline": "Timeline",
+      "timelineValue": "Mar 2025 — Oct 2025",
+      "focus": "Focus",
+      "focusValue": "E‑commerce UX · Collaboration"
+    },
+    "overview": {
+      "title": "Overview",
+      "p1": "GamingCity is a hardware retailer specializing in gaming PCs and components.",
+      "p2": "Their previous store ran on MercadoShops, limiting brand flexibility. With the platform shutting down, they needed a system that would support growth and marketing campaigns.",
+      "p3": "The new site had to improve product discovery and tools like the PC builder."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The previous store offered little flexibility. The new platform allowed GamingCity to express their brand with full clarity.",
+      "before": "Before (Marketplace)",
+      "after": "After (Independent E‑commerce)"
+    },
+    "experience": "The New E‑commerce Experience",
+    "pcBuilder": {
+      "title": "PC Builder Experience",
+      "desc": "The configurator experience was refined to guide users in selecting compatible components while reducing errors."
+    },
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The new platform allowed GamingCity to overcome marketplace limitations and establish a solid digital presence.",
+      "p2": "The launch was completed successfully before the MercadoShops shutdown, ensuring a smooth transition."
+    }
+  },
+  "kiro": {
+    "category": "Ecommerce — TiendaNube",
+    "title": "KIRO — Building a Functional Ecommerce from Scratch",
+    "intro": "KIRO is a conceptual ecommerce project built using TiendaNube, focused on creating a clean, usable and conversion-oriented shopping experience within the limitations of a predefined platform.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "Web Designer / Product UX",
+      "timeline": "Timeline",
+      "timelineValue": "Jan 2026 — Mar 2026",
+      "focus": "Focus",
+      "focusValue": "Structure · UX · TiendaNube"
+    },
+    "overview": {
+      "title": "Overview",
+      "p1": "This project started with no prior structure: no existing store, no predefined navigation and no optimized product logic.",
+      "p2": "Unlike redesign projects, the challenge here was to build everything from zero while working within the constraints of TiendaNube's ecosystem.",
+      "p3": "The focus was to create a store that feels simple, clear and trustworthy for users, while remaining easy to manage from a business perspective."
+    },
+    "context": {
+      "title": "Context",
+      "p1": "TiendaNube provides a fast way to launch ecommerce websites, but it comes with strong limitations in layout flexibility, component customization and advanced UX patterns.",
+      "p2": "This creates a common problem: stores often look generic, product presentation lacks hierarchy, navigation becomes cluttered and UX decisions are constrained by the platform.",
+      "p3": "The challenge was to overcome these limitations without relying on custom development."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "item1": "Build a complete ecommerce experience from scratch",
+      "item2": "Avoid the 'template look' typical of TiendaNube stores",
+      "item3": "Improve product discoverability and clarity",
+      "item4": "Structure navigation in a scalable way",
+      "item5": "Deliver a usable and realistic store without custom code"
+    },
+    "approach": {
+      "title": "Approach",
+      "p1": "Instead of fighting the platform, the approach was to design within constraints and use them strategically.",
+      "p2": "Key decisions:",
+      "item1": "Simplify structure before adding complexity",
+      "item2": "Use hierarchy to guide user attention",
+      "item3": "Prioritize clarity over visual overload",
+      "item4": "Leverage available components in smarter ways",
+      "item5": "Reduce friction in the purchase flow",
+      "p3": "The focus was not on 'adding features', but on making better use of what already exists."
+    },
+    "keyDecisions": {
+      "title": "Key Decisions",
+      "structure": {
+        "title": "Product Structure",
+        "desc": "Products were organized to improve scanability and reduce cognitive load. Clear naming, grouping and visual hierarchy helped users quickly understand what they are looking at."
+      },
+      "navigation": {
+        "title": "Navigation Simplification",
+        "desc": "Menus and categories were structured to avoid unnecessary depth and confusion. The goal was to reduce decision fatigue and make browsing intuitive."
+      },
+      "clarity": {
+        "title": "Visual Clarity",
+        "desc": "Instead of overdesigning, the UI focuses on spacing, alignment and readability. This creates a cleaner experience without needing heavy customization."
+      },
+      "adaptation": {
+        "title": "Platform Adaptation",
+        "desc": "All decisions were made considering TiendaNube's limitations. Solutions were designed to be easy to implement, maintain and scale within the platform."
+      }
+    },
+    "visuals": {
+      "title": "Visuals",
+      "desc": "Screenshots of the final result within TiendaNube."
+    },
+    "outcome": {
+      "title": "Outcome",
+      "item1": "A functional ecommerce that feels cleaner and more intentional than typical template-based stores",
+      "item2": "Improved product discovery and navigation clarity",
+      "item3": "Smoother and more predictable purchase experience",
+      "item4": "Easily manageable without technical complexity"
+    },
+    "takeaways": {
+      "title": "Key Takeaways",
+      "item1": "Constraints don't limit design — they define it",
+      "item2": "Clarity is more valuable than customization",
+      "item3": "Structure has more impact than visuals alone",
+      "item4": "Good ecommerce UX is mostly about reducing friction",
+      "item5": "You don't need full control to build a solid product"
+    },
+    "value": {
+      "title": "Professional Value",
+      "item1": "Build structured ecommerce experiences from zero",
+      "item2": "Translate business needs into practical solutions",
+      "item3": "Work effectively within platform limitations",
+      "item4": "Focus on usability and clarity instead of unnecessary complexity"
+    }
+  },
+  "incident": {
+    "category": "Process Design",
+    "title": "Incident Reporting Standardization",
+    "subtitle": "Cross-team process improvement through structured communication",
+    "intro": "Redesigned the incident reporting workflow to transform ambiguous communication into a structured system. By optimizing and reducing operational friction, I made the resolution process both efficient and predictable.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "Web Designer contributing to process improvement",
+      "environment": "Environment",
+      "environmentValue": "Production with Support, Design and Development teams",
+      "focus": "Focus",
+      "focusValue": "Structured reporting and communication clarity",
+      "outcome": "Outcome",
+      "outcomeValue": "Faster resolutions and reduced friction"
+    },
+    "overview": {
+      "title": "Overview",
+      "p1": "The company operated under ISO-based quality procedures. However, daily execution revealed inconsistencies in how incidents were documented between Support, Design and Development teams."
+    },
+    "context": {
+      "title": "Context",
+      "p1": "Incident reports often contained minimal information, forcing developers to investigate context from scratch. This created repeated clarification loops, long resolution cycles and frustration across teams. Over time, frustration gradually turned into operational apathy."
+    },
+    "situation": {
+      "title": "Situation",
+      "p1": "Incident reports often contained minimal information, forcing developers to investigate context from scratch.",
+      "p2": "This created repeated clarification loops, long resolution cycles and frustration across teams. Over time, frustration gradually turned into operational apathy."
+    },
+    "insight": {
+      "title": "Insight",
+      "p1": "The core problem was not technical complexity but ambiguity in information transfer. Reducing friction required structuring the context before incidents reached development."
+    },
+    "processChange": {
+      "title": "Process Change",
+      "before": "Before",
+      "beforeItem1": "Vague incident descriptions",
+      "beforeItem2": "Developers investigating from scratch",
+      "beforeItem3": "Repeated clarification requests",
+      "beforeItem4": "Long resolution cycles",
+      "after": "After",
+      "afterItem1": "Structured incident format",
+      "afterItem2": "Clear reproduction steps",
+      "afterItem3": "Context provided upfront",
+      "afterItem4": "Faster and more predictable resolution"
+    },
+    "approach": {
+      "title": "Approach",
+      "p1": "Without formal assignment, I introduced a structured incident format including:",
+      "item1": "Clear problem categorization in the title",
+      "item2": "Explicit description of current vs expected behaviour",
+      "item3": "Client and server context",
+      "item4": "Reproduction steps",
+      "item5": "Screenshots (visual and structural)",
+      "item6": "Resolution hypothesis",
+      "item7": "Expected post-fix behaviour"
+    },
+    "impact": {
+      "title": "Impact",
+      "item1": "Significant reduction in cross-team communication loops",
+      "item2": "Improved delegation from senior to junior developers",
+      "item3": "Better traceability when clients requested updates",
+      "item4": "Many incidents resolved within the same day or week"
+    },
+    "principles": {
+      "title": "Key Principles",
+      "principle1Title": "Align teams through shared context",
+      "principle1Desc": "Clear information reduces misalignment and speeds up collaboration.",
+      "principle2Title": "Structure communication like a system",
+      "principle2Desc": "Documentation and structure can dramatically reduce operational friction.",
+      "principle3Title": "Prioritize clarity over speed",
+      "principle3Desc": "Taking time to understand the problem reduces unnecessary iterations.",
+      "principle4Title": "Minimize dependency loops",
+      "principle4Desc": "Provide enough context so teams can move forward independently."
+    }
+  },
+  "biotec": {
+    "category": "Web Design • Bilingual • Industrial",
+    "title": "Biotec S.A.",
+    "intro": "Bilingual web design for a food technology company focused on technical clarity and international reach.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Architecture • Bilingual • Technical clarity"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I was responsible for the full design of the site, from structure to interface. The work focused on organizing technical information, improving content clarity, and building a solid foundation to communicate effectively in both local and international markets."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "Biotec S.A. is an Argentine company with over 40 years in the food industry, specializing in the import, formulation, and production of additives.",
+      "p2": "Their offering combines technical development, quality certifications, and international supplier relationships.",
+      "p3": "The website needed to reflect that level of professionalism and serve as a commercial tool across different markets."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The previous site did not represent the company's technical level or global ambitions.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Experience & Structure",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The new site communicates Biotec's value proposition in a clear, technical, and professional way.",
+      "p2": "It becomes a commercial tool that supports both the local market and international expansion."
+    }
+  },
+  "accesoriosjorge": {
+    "category": "Ecommerce • B2B",
+    "title": "Accesorios Jorge",
+    "intro": "Design and development of a wholesale ecommerce focused on simplifying the purchase process and structuring commercial operations.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Operational efficiency • B2B • Catalog"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the full ecommerce experience, from catalog architecture to order flow. The focus was on reducing the steps required to complete a purchase and giving structure to a catalog that was previously managed manually."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "Accesorios Jorge is a wholesale auto parts distributor with a broad catalog and primarily manual sales processes.",
+      "p2": "The business needed to digitize its commercial channel without losing the agility that wholesale customers expect when placing an order.",
+      "p3": "The goal wasn't just to have an online store — it was to build a tool that both salespeople and customers could use efficiently every day."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Manual processes",
+      "c1desc": "Orders were placed via calls, WhatsApp, and spreadsheets. Every order was a different process with no standardization.",
+      "c2title": "Unstructured catalog",
+      "c2desc": "Products had no clear hierarchy. Finding a specific item required prior knowledge of the business.",
+      "c3title": "No B2B digital channel",
+      "c3desc": "There was no platform designed for the wholesale purchase flow: quantities, volume pricing, order history.",
+      "c4title": "Purchase speed",
+      "c4desc": "Wholesale buyers move fast and buy in volume. The experience needed to match that pace, not slow it down."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The order process went from manual and scattered to structured and self-managed.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Catalog & purchase experience",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The platform allows orders to be managed faster and more efficiently, reducing operational friction for both the internal team and customers.",
+      "p2": "It establishes a solid foundation for digital channel growth without relying on manual processes."
+    }
+  },
+  "bhb2b": {
+    "category": "Ecommerce • Wholesale",
+    "title": "Bulonera Hurlingham",
+    "intro": "Design of a wholesale online store focused on efficient navigation and fast ordering for B2B buyers.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Catalog • Speed • B2B"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the wholesale purchasing experience, with particular attention to catalog structure and reducing friction in the order flow. The work included architecture decisions, visual hierarchy, and purchase process optimization."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "Bulonera Hurlingham B2B is a wholesale hardware distributor with a customer base that places frequent, high-volume orders.",
+      "p2": "The challenge was building a platform that adapts to the wholesale buying rhythm: fast, direct, and with no unnecessary friction.",
+      "p3": "The experience had to work for customers who already know the catalog and know what they want — not for casual browsers."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Inefficient navigation",
+      "c1desc": "The catalog wasn't organized for fast purchasing. Finding a product required too many steps.",
+      "c2title": "No real B2B flow",
+      "c2desc": "The purchase experience didn't reflect B2B buyer needs: quantities, technical references, reordering.",
+      "c3title": "Catalog scalability",
+      "c3desc": "Adding new products or categories was a costly and unsystematic process."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "Navigation went from slow and confusing to direct and purchase-oriented.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Catalog & order experience",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The new ecommerce reduces the time it takes a wholesale customer to find and order what they need.",
+      "p2": "The catalog structure allows the business to scale without degrading the purchase experience."
+    }
+  },
+  "bombas": {
+    "category": "Web Redesign • Services",
+    "title": "Bombas y Servicios",
+    "intro": "Corporate portal update to improve content organization and navigation experience.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Structure • Clarity • Corporate"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the new site architecture and visual interface. The focus was on understanding how users access information and reorganizing content so that access is direct and frictionless."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "The previous site had structural issues that made it difficult to access key business information.",
+      "p2": "In the industrial sector, credibility and clarity are directly tied to conversion. A confusing site translates into missed opportunities."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Disorganized information",
+      "c1desc": "Content didn't follow a clear logic. Users had to actively search for what should have been immediately visible.",
+      "c2title": "Unintuitive navigation",
+      "c2desc": "The menu structure didn't reflect how users think. Orientation within the site required effort.",
+      "c3title": "Outdated image",
+      "c3desc": "The design didn't communicate the solidity and track record of the business. Brand perception was below reality."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "Key information went from scattered to hierarchical and accessible from the first moment.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Structure & navigation",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The site allows users to access information directly, without friction, and with a visual presentation that reflects the solidity of the business.",
+      "p2": "It becomes an active commercial credibility tool, not just a passive digital presence."
+    }
+  },
+  "comafer": {
+    "category": "Ecommerce • Wholesale",
+    "title": "Comafer",
+    "intro": "Ecommerce redesign focused on organizing an extensive catalog and improving the search and navigation experience.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Catalog • Search • Scalability"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the new site structure treating it as a system, not just a set of screens. The work included category reorganization, information hierarchy, and search flow optimization for a high-volume catalog."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "Comafer manages an extensive catalog in the hardware sector, with multiple categories, subcategories, and product variants.",
+      "p2": "The core problem wasn't the number of products — it was the difficulty of finding them. A large, poorly organized catalog is worse than a small, well-structured one.",
+      "p3": "The challenge was building an architecture that scales with the business without degrading the purchase experience."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Disorganized catalog",
+      "c1desc": "Categories didn't reflect how users search for products. The internal business logic didn't match the buyer's logic.",
+      "c2title": "Inefficient search",
+      "c2desc": "Finding a specific product required prior knowledge or multiple attempts. Navigation abandonment was high.",
+      "c3title": "Hard to scale",
+      "c3desc": "Adding new categories or products broke the existing structure rather than integrating into it.",
+      "c4title": "Purchase friction",
+      "c4desc": "Every additional step to find a product is an abandonment opportunity. The flow needed to be simplified."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "Navigation went from confusing and deep to direct, clear, and decision-oriented.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Catalog & purchase experience",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The new site improves navigation speed and reduces friction in product search, making purchasing decisions easier for wholesale buyers.",
+      "p2": "The architecture is prepared to grow with the catalog without degrading the experience."
+    }
+  },
+  "fjg": {
+    "category": "Landing • Services",
+    "title": "FJG Impermeabilizaciones",
+    "intro": "Design of a clear and direct landing page to communicate waterproofing services and facilitate contact with potential clients.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Conversion • Clarity • Lead generation"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the landing from start to finish, making all decisions around structure, content hierarchy, and calls to action. The goal was clear: the user arrives, understands what FJG offers, and makes contact without friction."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "FJG Impermeabilizaciones needed a digital presence that reflects professionalism and allows potential clients to get in touch simply and directly.",
+      "p2": "In services, trust is built before the first contact. The site had to convey credibility and make taking the next step easy."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "No commercial structure",
+      "c1desc": "There was no clear presentation of the services offered. Visitors didn't know what to do or what to expect.",
+      "c2title": "Unclear offer",
+      "c2desc": "Services were described generically, without differentiating value proposition or use cases.",
+      "c3title": "Low digital conversion",
+      "c3desc": "Without a clear and accessible call to action, the digital channel generated very few real inquiries."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The digital presence went from nonexistent to an active client acquisition tool.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Structure & conversion flow",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The site improves the business presentation and facilitates contact, functioning as an active lead generation channel.",
+      "p2": "Clear structure and visible calls to action reduce the friction between user interest and first contact."
+    }
+  },
+  "netegia": {
+    "category": "SaaS • ERP",
+    "title": "Netegia",
+    "intro": "Website restructuring to improve comprehension of a management system with multiple modules and functionalities.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Content architecture • SaaS • Clarity"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I worked on the site's content architecture, reorganizing product information so potential clients can understand what the system does, how it's organized, and why it's valuable — without needing a demo first."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "Netegia is an ERP system with multiple modules covering different business areas: administration, inventory, invoicing, logistics.",
+      "p2": "The challenge of communicating a complex product is that internal complexity cannot be transferred to the visitor. The site has to do the simplification work that the software can't do on its own.",
+      "p3": "A potential client who doesn't understand the product in the first 30 seconds doesn't convert. Content architecture was the core problem."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Hard to explain product",
+      "c1desc": "An ERP has many features. Without a clear structure, presenting everything is equivalent to presenting nothing relevant.",
+      "c2title": "No information hierarchy",
+      "c2desc": "The previous site didn't distinguish between what users need to know first and what is implementation detail.",
+      "c3title": "Unclear value proposition",
+      "c3desc": "It wasn't clear what problem Netegia solves or what type of business it's designed for."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The value proposition went from buried among features to visible from the first moment.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Architecture & product presentation",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The site improves product comprehension and makes it easier for potential clients to understand its value without needing an external explanation.",
+      "p2": "The module-based organization allows progressive exploration of the system without overwhelming users with technical information from the start."
+    }
+  },
+  "zafirofarm": {
+    "category": "Web Redesign • ERP",
+    "title": "Zafiro Farmacias",
+    "intro": "Update of a pharmacy chain's website to achieve a clearer, more modern and usable experience aligned with the business level.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "UX • Brand • Responsive"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I designed the new site experience, improving navigation structure, visual hierarchy, and brand presentation. The work was oriented toward aligning digital perception with the real level of the business."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "The previous site didn't reflect the level or track record of the business. The navigation experience was confusing and the design communicated an outdated image.",
+      "p2": "In health retail, trust and clarity are critical values. A site that doesn't convey them operates at a disadvantage against competitors with better digital presence."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Outdated design",
+      "c1desc": "The site's aesthetic didn't match the quality and seriousness of the business. The first impression created a negative gap.",
+      "c2title": "Confusing navigation",
+      "c2desc": "Users had difficulty finding basic information: locations, services, contact.",
+      "c3title": "No responsive optimization",
+      "c3desc": "Most traffic comes from mobile. The site wasn't adapted for that experience."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "Brand perception went from outdated to coherent with the real quality of the business.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Experience & brand presentation",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The site improves brand perception and user experience, aligning with the real level of the business.",
+      "p2": "Clear navigation and responsive design allow any user, on any device, to access what they need without friction."
+    }
+  },
+  "otraronda": {
+    "category": "Branding • Web Design • Conversion",
+    "title": "Otra Ronda",
+    "intro": "Full digital presence redesign to transform a bar service into a professional, attractive, and conversion-oriented brand.",
+    "meta": {
+      "role": "Role",
+      "roleValue": "Branding • UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Full project",
+      "focus": "Focus",
+      "focusValue": "Brand • Aesthetic • Conversion"
+    },
+    "myRole": {
+      "title": "My Role",
+      "p1": "I led the project as a full brand and digital experience reconstruction. I was responsible for aesthetic decisions, content architecture, the visual system, and conversion-oriented structure — from identity to contact flow."
+    },
+    "overview": {
+      "title": "Context",
+      "p1": "OtraRonda is a bar service for events that was in an early growth stage.",
+      "p2": "They already had an online presence, but it failed to convey the level of experience and quality their service actually delivered. The gap between business reality and digital image was the core problem.",
+      "p3": "The challenge was to build a digital identity that matches their evolution and allows them to compete in a highly visual and aspirational market."
+    },
+    "challenge": {
+      "title": "Challenge",
+      "c1title": "Misaligned image",
+      "c1desc": "The digital presence didn't reflect the real quality of the service. The first impression generated distrust rather than interest.",
+      "c2title": "No differentiation",
+      "c2desc": "In a visual and competitive market like events, the lack of a distinct identity made the brand invisible against competitors.",
+      "c3title": "Unclear commercial offer",
+      "c3desc": "Visitors couldn't quickly understand what OtraRonda offered, what types of events they served, or what the next step was to hire them.",
+      "c4title": "No conversion structure",
+      "c4desc": "The site didn't guide users toward any concrete action. There was no flow designed to convert visits into real inquiries."
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "desc": "The digital identity went from generic and misaligned to a brand with character, visual coherence, and commercial direction.",
+      "before": "Before",
+      "after": "After"
+    },
+    "experience": "Experience & visual system",
+    "outcome": {
+      "title": "Outcome",
+      "p1": "The new site positions OtraRonda as a more professional, trustworthy, and attractive offering within its market.",
+      "p2": "The experience better communicates the service value and facilitates contact, becoming a real client acquisition tool."
+    },
+    "notes": {
+      "title": "Reflection",
+      "p1": "This project reflects how clear structure and a well-defined aesthetic can transform the perception of a venture and accelerate its growth. Visual identity is not decoration — it's positioning."
+    }
+  },
+  "footer": {
+    "identityTitle": "Identity",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "subtitle": "Ecommerce & conversion designer. Structure, clarity, and business impact.",
+    "rights": "All rights reserved."
+  }
+}

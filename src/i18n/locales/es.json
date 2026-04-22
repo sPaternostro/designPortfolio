@@ -1,0 +1,744 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "caseNav": {
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "ctaTag": "¿Trabajamos juntos?",
+    "ctaTitle": "Si este tipo de trabajo te interesa, hablemos.",
+    "ctaDesc": "Puedo aportar estructura, claridad y foco en resultados a tu próximo proyecto.",
+    "ctaButton": "Escribime",
+    "ctaProjects": "Ver otros casos"
+  },
+  "home": {
+    "professionTag": "Ecommerce Designer & Project Manager",
+    "name": "Sebastián Paternostro",
+    "shortBio": "Diseño tiendas y experiencias digitales que convierten. Estructura, claridad y foco en el negocio — siempre.",
+    "viewWork": "Ver proyectos",
+    "contact": "Contacto",
+    "highlights": "Casos destacados",
+    "readCase": "Ver caso",
+    "howTitle": "Cómo trabajo",
+    "howSubtitle": "Un proceso claro para resultados que cierran",
+    "howOneTitle": "Pensamiento estructurado",
+    "howOneDesc": "No diseño pantallas sueltas, diseño sistemas. La lógica con la que se conecta cada parte es lo que hace que un producto escale y tenga coherencia.",
+    "howTwoTitle": "Enfoque en negocio",
+    "howTwoDesc": "Entiendo los objetivos comerciales para proponer soluciones que no solo se vean bien, sino que conviertan y resuelvan problemas reales de los usuarios.",
+    "howThreeTitle": "Claridad ante todo",
+    "howThreeDesc": "Elimino la fricción. Si un elemento no ayuda al usuario a cumplir su objetivo de manera simple, no tiene por qué estar.",
+    "techTitle": "Stack & Herramientas",
+    "highlight1Tag1": "Ecommerce",
+    "highlight1Tag2": "Migración de plataforma",
+    "highlight1Title": "GamingCity",
+    "highlight1Desc": "Migración de marketplace a ecommerce independiente con foco en escalabilidad y experiencia de marca.",
+    "highlight2Tag1": "Ecommerce",
+    "highlight2Tag2": "TiendaNube",
+    "highlight2Title": "KIRO Store",
+    "highlight2Desc": "Desarrollo de tienda online desde cero con diseño personalizado y foco en conversión.",
+    "highlight3Tag1": "Ecommerce",
+    "highlight3Tag2": "B2B · Mayorista",
+    "highlight3Title": "Bulonera Hurlingham B2B",
+    "highlight3Desc": "Ecommerce mayorista orientado a velocidad de compra y eficiencia operativa para clientes frecuentes.",
+    "highlight4Tag1": "Branding",
+    "highlight4Tag2": "Web Design",
+    "highlight4Title": "OtraRonda",
+    "highlight4Desc": "De emprendimiento inicial a marca profesional: rediseño completo orientado a conversión.",
+    "philosophy": "La belleza de un producto digital es una consecuencia directa de su orden. Diseño productos claros y estructurados, pensados para funcionar.",
+    "ctaTitle": "¿Te interesa trabajar juntos?",
+    "ctaButton": "Hablemos",
+    "stackDesign": "Diseño",
+    "stackWeb": "Desarrollo Web",
+    "stackOps": "Gestión & Operaciones"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Diseñador web con foco en ecommerce y conversión, basado en Buenos Aires. Diseño experiencias que ayudan a los negocios a vender mejor — combinando estructura sólida, claridad visual y comprensión real del cliente.",
+    "principlesTitle": "Mis Principios",
+    "principles": {
+      "root": "Estructura",
+      "rootDesc": "La base de todo diseño es una arquitectura de información clara.",
+      "thinking": "Pensamiento Crítico",
+      "thinkingDesc": "Cuestionar el 'por qué' antes de pasar al 'cómo'.",
+      "business": "Conversión",
+      "businessDesc": "Diseño orientado a que el usuario complete su objetivo — y el negocio, el suyo.",
+      "collaboration": "Colaboración",
+      "collaborationDesc": "Alineación total entre diseño, desarrollo y producto."
+    },
+    "ctaTitle": "¿Trabajamos juntos?",
+    "ctaText": "Si buscás estructura, claridad y foco en resultados, podemos hacer un gran equipo.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactame"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "description": "Si tenés un proyecto en mente o solo querés saludar, escribime.",
+    "info": {
+      "email": "Email",
+      "linkedin": "LinkedIn"
+    },
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "placeholders": {
+      "name": "Nombre y Apellido",
+      "email": "email@ejemplo.com",
+      "message": "Escribí tu mensaje acá..."
+    },
+    "send": "Enviar mensaje",
+    "success": "¡Mensaje enviado con éxito!",
+    "successDesc": "Recibí tu mensaje. Te respondo a la brevedad.",
+    "sending": "Enviando...",
+    "error": "Hubo un error al enviar. Intentá de nuevo o escribime directo al mail."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Casos de estudio y soluciones digitales.",
+    "readCase": "Ver caso",
+    "project1Tag1": "Process Design",
+    "project1Tag2": "Full Redesign",
+    "project1Title": "Estandarización de Incidentes",
+    "project1Desc": "Rediseño de la estructura interna de incidentes para reducir fricción y optimizar la comunicación.",
+    "project1Link": "/projects/incident-standardization",
+    "project2Tag1": "Ecommerce Design",
+    "project2Tag2": "Scale & UX",
+    "project2Title": "GamingCity",
+    "project2Desc": "Migración de marketplace a ecommerce independiente con foco en escalabilidad y experiencia de marca.",
+    "project2Link": "/projects/gamingcity",
+    "project3Tag1": "Ecommerce",
+    "project3Tag2": "Tienda Nube",
+    "project3Title": "KIRO STORE",
+    "project3Desc": "Desarrollo de tienda online sobre TiendaNube con diseño personalizado y optimización de conversión.",
+    "project3Link": "/projects/kiro",
+    "project4Tag1": "UX Research",
+    "project4Tag2": "Product Strategy",
+    "project4Title": "Investigación para Fintech",
+    "project4Desc": "Estudio de usabilidad y propuesta de mejora para app de banca digital.",
+    "project4Link": "/projects/fintech-research",
+    "project5Tag1": "Mobile",
+    "project5Tag2": "Design System",
+    "project5Title": "Sistema de Diseño Móvil",
+    "project5Desc": "Creación de librería de componentes para app de delivery con documentación en Storybook.",
+    "project5Link": "/projects/design-system",
+    "project6Tag1": "Web App",
+    "project6Tag2": "Dashboard",
+    "project6Title": "Panel de Administración",
+    "project6Desc": "Dashboard interno para gestión de pedidos y usuarios con métricas en tiempo real.",
+    "project6Link": "/projects/admin-dashboard"
+  },
+  "gamingcity": {
+    "category": "Caso de Estudio",
+    "title": "GamingCity — De tienda de marketplace a un Ecommerce de marca",
+    "intro": "GamingCity necesitaba migrar de MercadoShops a su propia plataforma antes del cierre del servicio. El desafío fue traducir su identidad de marca y necesidades de marketing en una experiencia flexible trabajando bajo las limitaciones de un CMS existente.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "Diseñador Web / Product UX",
+      "timeline": "Timeline",
+      "timelineValue": "Mar 2025 — Oct 2025",
+      "focus": "Foco",
+      "focusValue": "UX Ecommerce · Colaboración"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Lideré el diseño UX y visual de la nueva plataforma de punta a punta: arquitectura de información, diseño de componentes, colaboración con desarrollo para la implementación e iteración basada en feedback real. Las decisiones sobre estructura, jerarquía y experiencia de marca fueron mi responsabilidad."
+    },
+    "overview": {
+      "title": "Resumen",
+      "p1": "GamingCity es un retailer de hardware especializado en PCs gaming y componentes.",
+      "p2": "Su tienda anterior corría en MercadoShops, lo que limitaba la flexibilidad de marca. Ante el cierre de la plataforma, necesitaban un sistema que soporte el crecimiento y sus campañas de marketing.",
+      "p3": "El nuevo sitio debía mejorar el descubrimiento de productos y herramientas de configuración como el armador de PCs."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La tienda anterior ofrecía poca flexibilidad. La nueva plataforma permitió a GamingCity expresar su marca con total claridad.",
+      "before": "Antes (Marketplace)",
+      "after": "Después (Ecommerce Independiente)"
+    },
+    "experience": "La Nueva Experiencia Ecommerce",
+    "pcBuilder": {
+      "title": "Experiencia Armado de PC",
+      "desc": "Se refinó la experiencia del configurador para guiar al usuario en la selección de componentes compatibles reduciendo errores."
+    },
+    "outcome": {
+      "title": "Resultado",
+      "p1": "La nueva plataforma permitió a GamingCity superar las limitaciones del marketplace y establecer una presencia digital sólida.",
+      "p2": "El lanzamiento se completó con éxito antes del cierre de MercadoShops, asegurando una transición fluida."
+    }
+  },
+  "kiro": {
+    "category": "Ecommerce — TiendaNube",
+    "title": "KIRO — Construyendo un Ecommerce funcional desde cero",
+    "intro": "KIRO es un proyecto conceptual de ecommerce construido sobre TiendaNube, enfocado en crear una experiencia de compra limpia, usable y orientada a la conversión dentro de las limitaciones de una plataforma predefinida.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "Diseñador Web / Product UX",
+      "timeline": "Timeline",
+      "timelineValue": "Ene 2026 — Mar 2026",
+      "focus": "Foco",
+      "focusValue": "Estructura · UX · TiendaNube"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Este fue un proyecto individual desde cero. Fui responsable de todas las decisiones de diseño: investigación de la plataforma, arquitectura de información, sistema visual e iteración. La tienda completa — estructura, lógica de navegación y presentación visual — refleja mis propios criterios de diseño."
+    },
+    "overview": {
+      "title": "Resumen",
+      "p1": "Este proyecto comenzó sin estructura previa: sin tienda existente, sin navegación definida y sin lógica de producto optimizada.",
+      "p2": "A diferencia de los proyectos de rediseño, el desafío acá fue construir todo desde cero trabajando dentro de las limitaciones del ecosistema TiendaNube.",
+      "p3": "El foco estuvo en crear una tienda que se sienta simple, clara y confiable para los usuarios, y que al mismo tiempo sea fácil de gestionar desde el lado del negocio."
+    },
+    "context": {
+      "title": "Contexto",
+      "p1": "TiendaNube ofrece una forma rápida de lanzar sitios de ecommerce, pero con fuertes limitaciones en flexibilidad de layout, personalización de componentes y patrones avanzados de UX.",
+      "p2": "Esto genera un problema común: las tiendas suelen verse genéricas, la presentación de productos carece de jerarquía, la navegación se vuelve confusa y las decisiones de UX están restringidas por la plataforma.",
+      "p3": "El desafío fue superar estas limitaciones sin depender de desarrollo personalizado."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "item1": "Construir una experiencia de ecommerce completa desde cero",
+      "item2": "Evitar el aspecto de \"template\" típico de TiendaNube",
+      "item3": "Mejorar la descubribilidad y claridad de los productos",
+      "item4": "Estructurar la navegación de forma escalable",
+      "item5": "Entregar una tienda usable y realista sin código personalizado"
+    },
+    "approach": {
+      "title": "Enfoque",
+      "p1": "En lugar de luchar contra la plataforma, el enfoque fue diseñar dentro de las limitaciones y usarlas estratégicamente.",
+      "p2": "Decisiones clave:",
+      "item1": "Simplificar la estructura antes de agregar complejidad",
+      "item2": "Usar jerarquía para guiar la atención del usuario",
+      "item3": "Priorizar claridad por sobre sobrecarga visual",
+      "item4": "Aprovechar los componentes disponibles de forma más inteligente",
+      "item5": "Reducir la fricción en el flujo de compra",
+      "p3": "El foco no estuvo en \"agregar funciones\", sino en hacer mejor uso de lo que ya existe."
+    },
+    "keyDecisions": {
+      "title": "Decisiones clave",
+      "structure": {
+        "title": "Estructura de productos",
+        "desc": "Los productos se organizaron para mejorar la escaneabilidad y reducir la carga cognitiva. Nombres claros, agrupación y jerarquía visual ayudan a entender rápidamente qué se está viendo."
+      },
+      "navigation": {
+        "title": "Simplificación de navegación",
+        "desc": "Menús y categorías se estructuraron para evitar profundidad innecesaria y confusión. El objetivo fue reducir la fatiga de decisión y hacer la navegación intuitiva."
+      },
+      "clarity": {
+        "title": "Claridad visual",
+        "desc": "En lugar de sobrediseñar, la UI se enfoca en espaciado, alineación y legibilidad. Esto crea una experiencia más limpia sin necesidad de personalización pesada."
+      },
+      "adaptation": {
+        "title": "Adaptación a la plataforma",
+        "desc": "Todas las decisiones se tomaron considerando las limitaciones de TiendaNube. Las soluciones se diseñaron para ser fáciles de implementar, mantener y escalar dentro de la plataforma."
+      }
+    },
+    "visuals": {
+      "title": "Visualización",
+      "desc": "Capturas del resultado final dentro de TiendaNube."
+    },
+    "outcome": {
+      "title": "Resultado",
+      "item1": "Una tienda funcional que se siente más limpia e intencional que las típicas basadas en templates",
+      "item2": "Mejora en el descubrimiento de productos y claridad de navegación",
+      "item3": "Experiencia de compra más fluida y predecible",
+      "item4": "Fácil de gestionar sin complejidad técnica"
+    },
+    "takeaways": {
+      "title": "Aprendizajes clave",
+      "item1": "Las limitaciones no restringen el diseño — lo definen",
+      "item2": "La claridad es más valiosa que la personalización",
+      "item3": "La estructura tiene más impacto que lo visual solamente",
+      "item4": "Una buena UX en ecommerce se trata principalmente de reducir fricción",
+      "item5": "No se necesita control total para construir un producto sólido"
+    },
+    "value": {
+      "title": "Valor profesional",
+      "item1": "Construir experiencias de ecommerce estructuradas desde cero",
+      "item2": "Traducir necesidades de negocio en soluciones prácticas",
+      "item3": "Trabajar efectivamente dentro de limitaciones de plataforma",
+      "item4": "Enfocarse en usabilidad y claridad en lugar de complejidad innecesaria"
+    }
+  },
+  "incident": {
+    "category": "Process Design",
+    "title": "Estandarización de Reporte de Incidentes",
+    "subtitle": "Mejora de procesos entre equipos mediante comunicación estructurada",
+    "intro": "Rediseño del flujo de reporte de incidentes para transformar una comunicación ambigua en un sistema estructurado. Optimice y reduje la friccion operativa, haciendolo eficiente y predecible.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "Diseñador Web contribuyendo a mejora de procesos",
+      "environment": "Entorno",
+      "environmentValue": "Producción con equipos de Soporte, Diseño y Desarrollo",
+      "focus": "Foco",
+      "focusValue": "Reporte estructurado y claridad comunicacional",
+      "outcome": "Resultado",
+      "outcomeValue": "Resoluciones más rápidas y fricción reducida"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Identifiqué este problema de forma autónoma y propuse la solución sin una asignación formal. Mi contribución fue diseñar e implementar un formato estructurado de reporte de incidentes, promover su adopción en el equipo y documentarlo para que pudiera mantenerse sin mi participación directa."
+    },
+    "overview": {
+      "title": "Resumen",
+      "p1": "La empresa operaba bajo procedimientos de calidad basados en normas ISO. Sin embargo, la ejecución diaria revelaba inconsistencias en cómo se documentaban los incidentes entre los equipos de Soporte, Diseño y Desarrollo."
+    },
+    "context": {
+      "title": "Contexto",
+      "p1": "Los reportes de incidentes frecuentemente contenían información mínima, obligando a los desarrolladores a investigar el contexto desde cero. Esto generaba ciclos repetidos de aclaraciones, tiempos largos de resolución y frustración entre equipos. Con el tiempo, la frustración se convirtió en apatía operativa."
+    },
+    "situation": {
+      "title": "Situación",
+      "p1": "Los reportes de incidentes frecuentemente contenían información mínima, obligando a los desarrolladores a investigar el contexto desde cero.",
+      "p2": "Esto generaba ciclos repetidos de aclaraciones, tiempos largos de resolución y frustración entre equipos. Con el tiempo, la frustración se convirtió gradualmente en apatía operativa."
+    },
+    "insight": {
+      "title": "Hallazgo",
+      "p1": "El problema central no era la complejidad técnica, sino la ambigüedad en la transferencia de información. Reducir la fricción requería estructurar el contexto antes de que los incidentes llegaran a desarrollo."
+    },
+    "processChange": {
+      "title": "Cambio en el proceso",
+      "before": "Antes",
+      "beforeItem1": "Descripciones vagas de incidentes",
+      "beforeItem2": "Desarrolladores investigando desde cero",
+      "beforeItem3": "Solicitudes repetidas de aclaración",
+      "beforeItem4": "Ciclos largos de resolución",
+      "after": "Después",
+      "afterItem1": "Formato estructurado de incidentes",
+      "afterItem2": "Pasos claros de reproducción",
+      "afterItem3": "Contexto proporcionado por adelantado",
+      "afterItem4": "Resolución más rápida y predecible"
+    },
+    "approach": {
+      "title": "Enfoque",
+      "p1": "Sin una asignación formal, introduje un formato estructurado de incidentes que incluía:",
+      "item1": "Categorización clara del problema en el título",
+      "item2": "Descripción explícita del comportamiento actual vs. esperado",
+      "item3": "Contexto del cliente y servidor",
+      "item4": "Pasos de reproducción",
+      "item5": "Capturas de pantalla (visuales y estructurales)",
+      "item6": "Hipótesis de resolución",
+      "item7": "Comportamiento esperado post-solución"
+    },
+    "impact": {
+      "title": "Impacto",
+      "item1": "Reducción significativa de ciclos de comunicación entre equipos",
+      "item2": "Mejor delegación de desarrolladores senior a junior",
+      "item3": "Mayor trazabilidad cuando los clientes solicitaban actualizaciones",
+      "item4": "Muchos incidentes resueltos en el mismo día o semana"
+    },
+    "principles": {
+      "title": "Principios clave",
+      "principle1Title": "Alinear equipos mediante contexto compartido",
+      "principle1Desc": "La información clara reduce la desalineación y acelera la colaboración.",
+      "principle2Title": "Estructurar la comunicación como un sistema",
+      "principle2Desc": "La documentación y la estructura pueden reducir drásticamente la fricción operativa.",
+      "principle3Title": "Priorizar claridad sobre velocidad",
+      "principle3Desc": "Tomarse el tiempo para entender el problema reduce iteraciones innecesarias.",
+      "principle4Title": "Minimizar bucles de dependencia",
+      "principle4Desc": "Proporcionar suficiente contexto para que los equipos avancen de forma independiente."
+    }
+  },
+  "biotec": {
+    "category": "Web Design • Bilingüe • Industrial",
+    "title": "Biotec S.A.",
+    "intro": "Diseño web bilingüe para empresa de tecnología alimentaria con foco en claridad técnica y proyección internacional.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Arquitectura • Bilingüe • Claridad técnica"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Me encargué del diseño completo del sitio, desde la estructura hasta la interfaz. El trabajo estuvo enfocado en ordenar la información técnica, mejorar la claridad del contenido y construir una base sólida para comunicar tanto a nivel local como internacional."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "Biotec S.A. es una empresa argentina con más de 40 años en la industria alimenticia, especializada en importación, formulación y producción de aditivos.",
+      "p2": "Su propuesta combina desarrollo técnico, certificaciones de calidad y relaciones internacionales con múltiples proveedores.",
+      "p3": "El sitio web debía reflejar ese nivel de profesionalismo y funcionar como herramienta comercial para distintos mercados."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "El sitio anterior no representaba el nivel técnico ni la proyección global de la empresa.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Experiencia y estructura",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El nuevo sitio permite comunicar la propuesta de valor de Biotec de forma clara, técnica y profesional.",
+      "p2": "Se convierte en una herramienta comercial que acompaña tanto el mercado local como la expansión internacional."
+    }
+  },
+  "accesoriosjorge": {
+    "category": "Ecommerce • B2B",
+    "title": "Accesorios Jorge",
+    "intro": "Diseño y desarrollo de un ecommerce orientado a clientes mayoristas, enfocado en simplificar la compra y ordenar la operación comercial.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Eficiencia operativa • B2B • Catálogo"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Diseñé la experiencia completa del ecommerce, desde la arquitectura de catálogo hasta el flujo de pedido. El foco estuvo en reducir los pasos necesarios para comprar y darle estructura a un catálogo que hasta entonces se manejaba de forma manual."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "Accesorios Jorge es un mayorista de autopartes con un catálogo amplio y procesos de venta principalmente manuales.",
+      "p2": "El negocio necesitaba digitalizar su canal comercial sin perder la agilidad que los clientes esperan en una compra mayorista.",
+      "p3": "El objetivo no era solo tener una tienda online, sino construir una herramienta que los vendedores y clientes pudieran usar de forma eficiente todos los días."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Procesos manuales",
+      "c1desc": "La toma de pedidos dependía de llamadas, WhatsApp y planillas. Cada pedido era un proceso distinto sin estandarización.",
+      "c2title": "Catálogo sin estructura",
+      "c2desc": "Los productos no tenían una jerarquía clara. Encontrar un ítem específico requería conocimiento previo del negocio.",
+      "c3title": "Sin canal digital B2B",
+      "c3desc": "No existía ninguna plataforma pensada para el flujo de compra mayorista: cantidades, precios por volumen, historial.",
+      "c4title": "Velocidad de compra",
+      "c4desc": "Los clientes mayoristas compran rápido y en volumen. La experiencia tenía que acompañar ese ritmo, no frenarlo."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "El proceso de pedido pasó de manual y disperso a estructurado y autogestionable.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Experiencia de catálogo y compra",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "La plataforma permite gestionar pedidos de forma más rápida y ordenada, reduciendo fricción operativa tanto para el equipo interno como para los clientes.",
+      "p2": "Sienta una base sólida para el crecimiento del canal digital sin depender de procesos manuales."
+    }
+  },
+  "bhb2b": {
+    "category": "Ecommerce • Mayorista",
+    "title": "Bulonera Hurlingham",
+    "intro": "Diseño de tienda online orientada a clientes mayoristas del rubro ferretero, con foco en navegación eficiente y velocidad en la compra.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Catálogo • Velocidad • B2B"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Me encargué del diseño de la experiencia de compra mayorista, con especial atención a la estructura del catálogo y la reducción de fricción en el flujo de pedido. El trabajo incluyó decisiones de arquitectura, jerarquía visual y optimización del proceso de compra."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "Bulonera Hurlingham B2B es un mayorista del rubro ferretero con una cartera de clientes que necesita hacer pedidos frecuentes y en volumen.",
+      "p2": "El desafío era construir una plataforma que se adapte al ritmo de compra mayorista: rápido, directo y sin fricciones innecesarias.",
+      "p3": "La experiencia tenía que funcionar para clientes que ya conocen el catálogo y saben lo que quieren, no para el explorador casual."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Navegación poco eficiente",
+      "c1desc": "El catálogo no estaba organizado para compra rápida. Encontrar un producto requería demasiados pasos.",
+      "c2title": "Sin flujo mayorista real",
+      "c2desc": "La experiencia de compra no reflejaba las necesidades del cliente B2B: cantidades, referencias técnicas, reorden.",
+      "c3title": "Escalabilidad del catálogo",
+      "c3desc": "Incorporar nuevos productos o categorías era un proceso costoso y poco sistematizado."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La navegación pasó de confusa y lenta a directa y orientada a la decisión de compra.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Experiencia de catálogo y pedido",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El nuevo ecommerce reduce el tiempo que le lleva a un cliente mayorista encontrar y pedir lo que necesita.",
+      "p2": "La estructura del catálogo permite escalar el negocio sin que la experiencia de compra se degrade."
+    }
+  },
+  "bombas": {
+    "category": "Rediseño Web • Servicios",
+    "title": "Bombas y Servicios",
+    "intro": "Actualización del portal corporativo para mejorar la organización de contenidos y la experiencia de navegación.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Estructura • Claridad • Corporativo"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Diseñé la nueva arquitectura del sitio y la interfaz visual. El foco estuvo en entender cómo los usuarios acceden a la información y reorganizar el contenido para que ese acceso sea directo y sin fricciones."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "El sitio anterior presentaba problemas estructurales que dificultaban el acceso a la información clave del negocio.",
+      "p2": "Para una empresa del rubro industrial, la credibilidad y la claridad son factores directamente ligados a la conversión. Un sitio confuso traduce en oportunidades perdidas."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Información desordenada",
+      "c1desc": "El contenido no seguía una lógica clara. El usuario debía buscar activamente lo que debería estar visible.",
+      "c2title": "Navegación poco intuitiva",
+      "c2desc": "La estructura de menús no reflejaba cómo piensan los usuarios. Requería esfuerzo orientarse dentro del sitio.",
+      "c3title": "Imagen desactualizada",
+      "c3desc": "El diseño no transmitía la solidez y trayectoria del negocio. La percepción de marca era menor a la realidad."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La información clave pasó de estar dispersa a estar jerarquizada y accesible desde el primer momento.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Estructura y navegación",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El sitio permite acceder a la información de forma directa, sin fricción y con una presentación visual que refleja la solidez del negocio.",
+      "p2": "Se convierte en una herramienta activa de credibilidad comercial, no solo en una presencia digital pasiva."
+    }
+  },
+  "comafer": {
+    "category": "Ecommerce • Mayorista",
+    "title": "Comafer",
+    "intro": "Rediseño del ecommerce con foco en organizar un catálogo extenso y mejorar la experiencia de búsqueda y navegación.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Catálogo • Búsqueda • Escalabilidad"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Diseñé la nueva estructura del sitio tratándolo como un sistema, no solo como un conjunto de pantallas. El trabajo incluyó la reorganización de categorías, la jerarquía de información y la optimización del flujo de búsqueda para un catálogo de gran volumen."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "Comafer maneja un catálogo extenso dentro del rubro ferretero, con múltiples categorías, subcategorías y variantes de producto.",
+      "p2": "El problema central no era la cantidad de productos, sino la dificultad para encontrarlos. Un catálogo grande mal organizado es peor que uno pequeño bien estructurado.",
+      "p3": "El desafío era construir una arquitectura que escale con el negocio sin que la experiencia de compra se degrade."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Catálogo desorganizado",
+      "c1desc": "Las categorías no reflejaban cómo los usuarios buscan productos. La lógica interna del negocio no coincidía con la lógica del comprador.",
+      "c2title": "Búsqueda ineficiente",
+      "c2desc": "Encontrar un producto específico requería conocimiento previo o múltiples intentos. La tasa de abandono era alta en navegación.",
+      "c3title": "Difícil de escalar",
+      "c3desc": "Incorporar nuevas categorías o productos rompía la estructura existente en lugar de integrarse a ella.",
+      "c4title": "Fricción en la compra",
+      "c4desc": "Cada paso adicional para encontrar un producto es una oportunidad de abandono. El flujo necesitaba simplificarse."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La navegación pasó de confusa y profunda a directa, clara y orientada a la decisión.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Catálogo y experiencia de compra",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El nuevo sitio mejora la velocidad de navegación y reduce la fricción en la búsqueda de productos, facilitando la toma de decisiones del comprador mayorista.",
+      "p2": "La arquitectura está preparada para crecer con el catálogo sin que la experiencia se degrade."
+    }
+  },
+  "fjg": {
+    "category": "Landing • Servicios",
+    "title": "FJG Impermeabilizaciones",
+    "intro": "Diseño de una landing clara y directa para comunicar servicios de impermeabilización y facilitar el contacto con potenciales clientes.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Conversión • Claridad • Lead generation"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Diseñé la landing de principio a fin, tomando las decisiones de estructura, jerarquía de contenido y llamadas a la acción. El objetivo era claro: que el usuario llegue, entienda qué ofrece FJG y tome contacto sin fricción."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "FJG Impermeabilizaciones necesitaba una presencia digital que refleje profesionalismo y permita captar consultas de manera simple y directa.",
+      "p2": "En servicios, la confianza se construye antes del primer contacto. El sitio tenía que transmitir credibilidad y hacer que dar el siguiente paso sea fácil."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Sin estructura comercial",
+      "c1desc": "No existía una presentación clara de los servicios ofrecidos. El visitante no sabía qué hacer ni qué esperar.",
+      "c2title": "Baja claridad en la oferta",
+      "c2desc": "Los servicios estaban descritos de forma genérica, sin diferenciar propuesta de valor ni casos de aplicación.",
+      "c3title": "Baja conversión digital",
+      "c3desc": "Sin una llamada a la acción clara y accesible, el canal digital generaba muy pocas consultas reales."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La presencia digital pasó de inexistente a una herramienta activa de captación de clientes.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Estructura y flujo de conversión",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El sitio mejora la presentación del negocio y facilita el contacto, funcionando como un canal activo de generación de consultas.",
+      "p2": "La estructura clara y las llamadas a la acción visibles reducen la fricción entre el interés del usuario y el primer contacto."
+    }
+  },
+  "netegia": {
+    "category": "SaaS • ERP",
+    "title": "Netegia",
+    "intro": "Reestructuración del sitio web para mejorar la comprensión de un sistema de gestión con múltiples módulos y funcionalidades.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Arquitectura de contenido • SaaS • Claridad"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Trabajé sobre la arquitectura de contenido del sitio, reorganizando la información del producto para que un potencial cliente pueda entender qué hace el sistema, cómo está organizado y por qué le conviene, sin necesitar una demo previa."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "Netegia es un sistema ERP con múltiples módulos que abarca distintas áreas de una empresa: administración, stock, facturación, logística.",
+      "p2": "El desafío de comunicar un producto complejo es que la complejidad interna no puede trasladarse al visitante. El sitio tiene que hacer el trabajo de simplificación que el software no puede hacer solo.",
+      "p3": "Un potencial cliente que no entiende el producto en los primeros 30 segundos, no convierte. La arquitectura de contenido era el problema central."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Producto difícil de explicar",
+      "c1desc": "Un ERP tiene muchas funcionalidades. Sin una estructura clara, presentar todo equivale a no presentar nada relevante.",
+      "c2title": "Información sin jerarquía",
+      "c2desc": "El sitio anterior no distinguía entre lo que el usuario necesita saber primero y lo que es detalle de implementación.",
+      "c3title": "Baja claridad de valor",
+      "c3desc": "No quedaba claro qué problema resuelve Netegia ni para qué tipo de empresa está pensado."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La propuesta de valor pasó de enterrada entre funcionalidades a visible desde el primer momento.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Arquitectura y presentación del producto",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El sitio mejora la comprensión del producto y facilita que potenciales clientes entiendan su valor sin necesitar una explicación externa.",
+      "p2": "La organización por módulos permite explorar el sistema de forma progresiva, sin abrumar con información técnica desde el inicio."
+    }
+  },
+  "zafirofarm": {
+    "category": "Rediseño Web • ERP",
+    "title": "Zafiro Farmacias",
+    "intro": "Actualización del sitio de una cadena de farmacias para lograr una experiencia más clara, moderna y alineada con el nivel del negocio.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "UX • Marca • Responsive"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Diseñé la nueva experiencia del sitio, mejorando la estructura de navegación, la jerarquía visual y la presentación de la marca. El trabajo estuvo orientado a alinear la percepción digital con el nivel real del negocio."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "El sitio anterior no reflejaba el nivel ni la trayectoria del negocio. La experiencia de navegación era confusa y el diseño transmitía una imagen desactualizada.",
+      "p2": "En retail de salud, la confianza y la claridad son valores críticos. Un sitio que no los transmite opera en desventaja frente a competidores con mejor presencia digital."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Diseño desactualizado",
+      "c1desc": "La estética del sitio no acompañaba la calidad y seriedad del negocio. La primera impresión generaba una brecha negativa.",
+      "c2title": "Navegación confusa",
+      "c2desc": "Los usuarios tenían dificultad para encontrar información básica: ubicaciones, servicios, contacto.",
+      "c3title": "Sin optimización responsive",
+      "c3desc": "Gran parte del tráfico proviene de mobile. El sitio no estaba adaptado para esa experiencia."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La percepción de marca pasó de desactualizada a coherente con la calidad real del negocio.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Experiencia y presentación de marca",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El sitio mejora la percepción de marca y la experiencia de uso, alineándose con el nivel real del negocio.",
+      "p2": "La navegación clara y el diseño responsivo permiten que cualquier usuario, en cualquier dispositivo, acceda a lo que necesita sin fricción."
+    }
+  },
+  "otraronda": {
+    "category": "Branding • Web Design • Conversión",
+    "title": "Otra Ronda",
+    "intro": "Rediseño completo de la presencia digital para transformar un servicio de barra en una marca profesional, atractiva y orientada a la conversión.",
+    "meta": {
+      "role": "Rol",
+      "roleValue": "Branding • UX/UI Design • Web Design",
+      "timeline": "Timeline",
+      "timelineValue": "Proyecto completo",
+      "focus": "Foco",
+      "focusValue": "Marca • Estética • Conversión"
+    },
+    "myRole": {
+      "title": "Mi rol",
+      "p1": "Lideré el proyecto como una reconstrucción completa de marca y experiencia digital. Fui responsable de las decisiones estéticas, la arquitectura de contenido, el sistema visual y la estructura orientada a conversión — desde la identidad hasta el flujo de contacto."
+    },
+    "overview": {
+      "title": "Contexto",
+      "p1": "OtraRonda es un servicio de barra para eventos que se encontraba en una etapa temprana de crecimiento.",
+      "p2": "Ya contaba con presencia online, pero no lograba transmitir el nivel de experiencia ni la calidad del servicio que ofrecía. La brecha entre la realidad del negocio y su imagen digital era el principal problema.",
+      "p3": "El desafío fue construir una identidad digital que acompañe su evolución y le permita competir en un mercado altamente visual y aspiracional."
+    },
+    "challenge": {
+      "title": "Desafío",
+      "c1title": "Imagen desalineada",
+      "c1desc": "La presencia digital no reflejaba el nivel real del servicio. La primera impresión generaba desconfianza en lugar de interés.",
+      "c2title": "Sin diferenciación",
+      "c2desc": "En un mercado visual y competitivo como el de eventos, la falta de identidad propia hacía invisible a la marca frente a competidores.",
+      "c3title": "Propuesta comercial poco clara",
+      "c3desc": "El visitante no entendía rápidamente qué ofrecía OtraRonda, para qué tipo de eventos ni cuál era el siguiente paso para contratar.",
+      "c4title": "Sin estructura de conversión",
+      "c4desc": "El sitio no guiaba al usuario hacia ninguna acción concreta. No había un flujo pensado para convertir visitas en consultas reales."
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "desc": "La identidad digital pasó de genérica y desalineada a una marca con carácter, coherencia visual y orientación comercial.",
+      "before": "Antes",
+      "after": "Después"
+    },
+    "experience": "Experiencia y sistema visual",
+    "outcome": {
+      "title": "Resultado",
+      "p1": "El nuevo sitio posiciona a OtraRonda como una propuesta más profesional, confiable y atractiva dentro de su mercado.",
+      "p2": "La experiencia comunica mejor el valor del servicio y facilita el contacto, convirtiéndose en una herramienta real de captación de clientes."
+    },
+    "notes": {
+      "title": "Reflexión",
+      "p1": "Este proyecto refleja cómo una estructura clara y una estética bien definida pueden transformar la percepción de un emprendimiento y acelerar su crecimiento. La identidad visual no es decoración — es posicionamiento."
+    }
+  },
+  "footer": {
+    "identityTitle": "Identidad",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "subtitle": "Ecommerce & conversion designer. Estructura, claridad e impacto en el negocio.",
+    "rights": "Todos los derechos reservados."
+  }
+}
