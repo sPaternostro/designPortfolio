@@ -1,9 +1,5 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-
-const WA_NUMBER = '541173857303';
-const WA_MESSAGE = encodeURIComponent("Hi Sebastián, I saw your portfolio and I'd like to talk.");
-// const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 const CV_LINK = 'https://drive.google.com/drive/folders/1kupIQ87pj4JWaQSYbLx0xLsTbIOi96gL?usp=sharing';
 const CALENDLY_LINK = 'https://calendly.com/paternostro';
 
