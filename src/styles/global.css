@@ -1128,7 +1128,7 @@ body {
 
 .floating-contact-tooltip.is-visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(130px);
 }
 
 .floating-tooltip-arrow {
