@@ -5,6 +5,7 @@ const WA_NUMBER = '541173857303';
 const WA_MESSAGE = encodeURIComponent("Hi Sebastián, I saw your portfolio and I'd like to talk.");
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 const CV_LINK = 'https://drive.google.com/drive/folders/1kupIQ87pj4JWaQSYbLx0xLsTbIOi96gL?usp=sharing';
+const CALENDLY_LINK = 'https://calendly.com/paternostro';
 
 const CASES = [
   {
@@ -66,37 +67,34 @@ export default function Hire() {
               <span className="hire-available-dot" />
               Available for remote work
             </span>
-            <p className="hire-updated">Japan - Europe - United States</p>
+            <p className="hire-updated">Japan - Europe - United States - LatAm</p>
           </div>
 
           <h1 className="text-gradient hire-name">Sebastián Paternostro</h1>
-          <p className="hire-role">Ecommerce & Conversion Designer · Project Manager </p>
+          <p className="hire-role">Ecommerce Designer & Digital Problem Solver</p>
 
           <p className="text-secondary hire-tagline">
-            I design ecommerce experiences and landing pages that convert — not just look good.
-            My focus is on business outcomes: clear structure, reduced friction, and design decisions
-            that align with how customers actually buy.
+           I make sure your online store doesn't just look great—it works. I specialize in designing experiences that make sense for both your business and your users, keeping everything running smoothly from start to finish.
           </p>
 
           <p className="text-secondary hire-tagline-sub">
-            I work well with small teams, speak the language of business and development,
-            and take ownership of problems without needing to be assigned to them.
+          I speak the language of both design and development, acting as the glue that keeps teams aligned. I take full ownership of my projects, solving hurdles as they come and protecting the team’s progress. If you're looking for someone who gets things done and protects the project’s success, let’s talk.
           </p>
 
           <div className="hire-actions">
-            <a href={CV_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            <a href={CALENDLY_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              
+              Book a call
+            </a>
+            <a href={CV_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round" />
                 <polyline points="7 10 12 15 17 10" strokeLinecap="round" strokeLinejoin="round" />
                 <line x1="12" y1="15" x2="12" y2="3" strokeLinecap="round" />
-              </svg>
-              Download CV
+              </svg> Download CV
             </a>
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-              Send a message
-            </a>
-            <a href="mailto:sebastian.paternostro@gmail.com" className="btn btn-secondary">
-              sebastian.paternostro@gmail.com
+            <a href="/contact" className="btn btn-secondary">
+              More options
             </a>
           </div>
         </section>
