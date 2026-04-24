@@ -15,9 +15,9 @@
     "ctaProjects": "Ver otros casos"
   },
   "home": {
-    "professionTag": "Ecommerce Designer & Project Manager",
+    "professionTag": "Ecommerce Designer & Digital Problem Solver",
     "name": "Sebastián Paternostro",
-    "shortBio": "Diseño tiendas y experiencias digitales que convierten. Estructura, claridad y foco en el negocio — siempre.",
+    "shortBio": "Diseño y coordino soluciones digitales que convierten. Soy el nexo entre diseño, negocio y desarrollo — garantizando claridad, estructura y resultados en cada proyecto.",
     "viewWork": "Ver proyectos",
     "contact": "Contacto",
     "highlights": "Casos destacados",
@@ -73,13 +73,25 @@
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactame"
   },
+  "floatingContact": {
+    "tooltip": "¿Hablamos?",
+    "menuLabel": "Opciones de contacto",
+    "calendly": "Agendar asesoria",
+    "whatsapp": "WhatsApp",
+    "email": "Enviar correo",
+    "ariaLabel": "Abrir opciones de contacto"
+  },
   "contact": {
     "title": "Hablemos",
     "description": "Contame sobre tu proyecto.",
     "info": {
       "email": "Email",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "calendly": "Reunión",
+      "calendlyLabel": "Agendar asesoria por Calendly"
     },
+    "orSchedule": "o si preferís,",
+    "scheduleCall": "Agendar una asesoria",
     "name": "Nombre",
     "email": "Email",
     "message": "Mensaje",

@@ -5,10 +5,18 @@
     "about": "About",
     "contact": "Contact"
   },
+  "floatingContact": {
+    "tooltip": "Let's talk?",
+    "menuLabel": "Contact options",
+    "calendly": "Book a call",
+    "whatsapp": "WhatsApp",
+    "email": "Send an email",
+    "ariaLabel": "Open contact options"
+  },
   "home": {
-    "professionTag": "Ecommerce Designer & Project Manager",
+    "professionTag": "Ecommerce Designer & Digital Problem Solver",
     "name": "Sebastián Paternostro",
-    "shortBio": "I design online stores and digital experiences that convert. Structure, clarity, and business focus — always.",
+    "shortBio": "I design and coordinate digital solutions that convert. I'm the link between design, business, and development — ensuring clarity, structure, and results in every project.",
     "viewWork": "View work",
     "contact": "Contact",
     "highlights": "Featured cases",
@@ -69,8 +77,12 @@
     "description": "If you have a project in mind or just want to say hi, write me.",
     "info": {
       "email": "Email",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "calendly": "Meeting",
+      "calendlyLabel": "Book a call via Calendly"
     },
+    "orSchedule": "or if you prefer,",
+    "scheduleCall": "Book a call",
     "name": "Name",
     "email": "Email",
     "message": "Message",
@@ -129,7 +141,7 @@
       "focus": "Focus",
       "focusValue": "E‑commerce UX · Collaboration"
     },
-     "myRole": {
+    "myRole": {
       "title": "My Role",
       "p1": "I led the UX and visual design of the new platform from end to end: information architecture, component design, collaboration with development for implementation, and iteration based on real user feedback. Decisions regarding structure, hierarchy, and brand experience were my sole responsibility."
     },
@@ -168,7 +180,7 @@
       "focus": "Focus",
       "focusValue": "Structure · UX · TiendaNube"
     },
-     "myRole": {
+    "myRole": {
       "title": "My Role",
       "p1": "This was a solo project built from the ground up. I was responsible for all design decisions: platform research, information architecture, visual system, and iteration. The entire store—including its structure, navigation logic, and visual presentation—reflects my personal design criteria."
     },
@@ -264,7 +276,7 @@
       "outcome": "Outcome",
       "outcomeValue": "Faster resolutions and reduced friction"
     },
-     "myRole": {
+    "myRole": {
       "title": "My Role",
       "p1": "I identified this problem autonomously and proposed a solution without a formal assignment. My contribution consisted of designing and implementing a structured incident reporting format, promoting its adoption across the team, and documenting it to ensure the process could be maintained without my direct involvement.."
     },
