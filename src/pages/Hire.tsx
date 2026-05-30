@@ -1,183 +1,126 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
+
 const CV_LINK = 'https://drive.google.com/drive/folders/1kupIQ87pj4JWaQSYbLx0xLsTbIOi96gL?usp=sharing';
 const CALENDLY_LINK = 'https://calendly.com/paternostro';
 
-const CASES = [
-  {
-    id: 'gamingcity',
-    tag: 'Ecommerce UX · Migration',
-    title: 'GamingCity',
-    summary:
-      'Led the full migration from a marketplace store to an independent ecommerce platform. Responsible for information architecture, component design, and cross-team collaboration with development. Focus on product discovery, brand clarity, and scalable structure.',
-    to: '/projects/gamingcity',
-  },
-  {
-    id: 'kiro',
-    tag: 'Ecommerce · TiendaNube',
-    title: 'KIRO Store',
-    summary:
-      'Built a complete ecommerce experience from scratch within platform constraints. Prioritized conversion-oriented UX: clear hierarchy, reduced friction in the purchase flow, and scalable navigation — without custom code.',
-    to: '/projects/kiro',
-  },
-  {
-    id: 'incident-standardization',
-    tag: 'Process Design · Cross-team',
-    title: 'Incident Standardization',
-    summary:
-      'Identified and solved a recurring operational problem without formal assignment. Designed and implemented a structured incident reporting format that reduced communication loops and accelerated resolution cycles across Support, Design, and Development teams.',
-    to: '/projects/incident-standardization',
-  },
-];
-
-const SKILLS = [
-  'Ecommerce UX',
-  'Conversion Optimization',
-  'Landing Page Design',
-  'Information Architecture',
-  'Product Thinking',
-  'Project Management',
-  'Figma',
-  'React',
-  'Design Systems',
-  'Cross-team Collaboration',
-  'Customer Experience',
-  'Structured Problem Solving',
+const CASE_LINKS = [
+  { id: 'gamingcity', to: '/projects/gamingcity' },
+  { id: 'kiro',      to: '/projects/kiro' },
+  { id: 'incident',  to: '/projects/incident-standardization' },
 ];
 
 export default function Hire() {
+  const { t } = useTranslation();
+
+  const skills = t('hire.skills', { returnObjects: true }) as string[];
+
   return (
     <>
       <SEO
-        title="Available for Work — Sebastián Paternostro"
-        description="Ecommerce & conversion-focused Web Designer available for remote work. I help businesses sell better through clear structure, sharp UX, and business-aligned design decisions."
+        title={t('hire.seoTitle', 'Available for Work — Sebastián Paternostro')}
+        description={t('hire.seoDesc', 'Ecommerce UX/UI Designer & Project Owner available for remote work.')}
         path="/hire"
       />
 
       <main className="container hire-page">
 
-        {/* HEADER */}
         <section className="hire-header section-spacer">
           <div className="hire-header-meta">
             <span className="hire-available-badge">
               <span className="hire-available-dot" />
-              Available for remote work
+              {t('hire.badge')}
             </span>
-            <p className="hire-updated">Japan - Europe - United States - LatAm</p>
+            <p className="hire-updated">{t('hire.markets')}</p>
           </div>
 
           <h1 className="text-gradient hire-name">Sebastián Paternostro</h1>
-          <p className="hire-role">Ecommerce Designer & Digital Problem Solver</p>
-
-          <p className="text-secondary hire-tagline">
-           I make sure your online store doesn't just look great—it works. I specialize in designing experiences that make sense for both your business and your users, keeping everything running smoothly from start to finish.
-          </p>
-
-          <p className="text-secondary hire-tagline-sub">
-          I speak the language of both design and development, acting as the glue that keeps teams aligned. I take full ownership of my projects, solving hurdles as they come and protecting the team’s progress. If you're looking for someone who gets things done and protects the project’s success, let’s talk.
-          </p>
+          <p className="hire-role">{t('hire.role')}</p>
+          <p className="text-secondary hire-tagline">{t('hire.tagline')}</p>
+          <p className="text-secondary hire-tagline-sub">{t('hire.taglineSub')}</p>
 
           <div className="hire-actions">
             <a href={CALENDLY_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-              
-              Book a call
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              {t('hire.bookCall')}
             </a>
             <a href={CV_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round" />
-                <polyline points="7 10 12 15 17 10" strokeLinecap="round" strokeLinejoin="round" />
-                <line x1="12" y1="15" x2="12" y2="3" strokeLinecap="round" />
-              </svg> Download CV
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round"/>
+                <polyline points="7 10 12 15 17 10" strokeLinecap="round" strokeLinejoin="round"/>
+                <line x1="12" y1="15" x2="12" y2="3" strokeLinecap="round"/>
+              </svg>
+              {t('hire.downloadCV')}
             </a>
-            <a href="/contact" className="btn btn-secondary">
-              More options
-            </a>
+            <Link to="/contact" className="btn btn-secondary">
+              {t('hire.moreOptions')}
+            </Link>
           </div>
         </section>
 
-        {/* WHAT I DO */}
         <section className="hire-section">
-          <h2 className="hire-section-title">What I do</h2>
+          <h2 className="hire-section-title">{t('hire.whatIDo')}</h2>
           <div className="hire-what-grid">
-            <div className="hire-what-item glass-card">
-              <h3 className="hire-what-title">Ecommerce Design</h3>
-              <p className="text-secondary hire-what-desc">
-                I design online stores that guide users from discovery to purchase with minimum friction.
-                Product pages, category structure, checkout flows, and campaign landing pages — all built
-                around how customers actually navigate and decide.
-              </p>
-            </div>
-            <div className="hire-what-item glass-card">
-              <h3 className="hire-what-title">Conversion-focused UX</h3>
-              <p className="text-secondary hire-what-desc">
-                I question assumptions before adding elements. Every design decision I make is tied
-                to a business goal: increase conversions, reduce drop-off, build trust, or simplify
-                a process that creates friction.
-              </p>
-            </div>
-            <div className="hire-what-item glass-card">
-              <h3 className="hire-what-title">Project Management</h3>
-              <p className="text-secondary hire-what-desc">
-                I bridge design and development. I communicate clearly across teams, structure
-                workflows, anticipate blockers, and make sure that what gets built is what was agreed.
-                I take ownership of outcomes, not just deliverables.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* CASES */}
-        <section className="hire-section">
-          <h2 className="hire-section-title">Selected work</h2>
-          <div className="hire-cases">
-            {CASES.map((c) => (
-              <div key={c.id} className="hire-case glass-card">
-                <div className="hire-case-header">
-                  <span className="card-tag">{c.tag}</span>
-                  <h3 className="hire-case-title">{c.title}</h3>
-                </div>
-                <p className="text-secondary hire-case-summary">{c.summary}</p>
-                <Link to={c.to} className="hire-case-link">
-                  Read full case →
-                </Link>
+            {[1, 2, 3].map((n) => (
+              <div key={n} className="hire-what-item glass-card">
+                <h3 className="hire-what-title">{t(`hire.card${n}Title`)}</h3>
+                <p className="text-secondary hire-what-desc">{t(`hire.card${n}Desc`)}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* ABOUT */}
         <section className="hire-section">
-          <h2 className="hire-section-title">About me</h2>
-          <div className="hire-about glass-card">
-            <p className="text-secondary">
-              Web designer from Buenos Aires with a strong focus on ecommerce, conversion,
-              and business-aligned design. I don't design isolated screens — I design systems
-              and flows that make businesses sell better and users trust faster.
-            </p>
-            <p className="text-secondary" style={{ marginTop: '1rem' }}>
-              I have hands-on experience in real production environments, working alongside
-              support, development, and business teams. I take initiative, communicate clearly,
-              and deliver structured solutions that solve the actual problem — not just the visible one.
-            </p>
-            <p className="text-secondary" style={{ marginTop: '1rem' }}>
-              Looking for remote opportunities where design has real impact on business outcomes.
-              Open to full-time roles, long-term freelance, and project-based work.
-            </p>
+          <h2 className="hire-section-title">{t('hire.selectedWork')}</h2>
+          <div className="hire-cases">
+            {CASE_LINKS.map(({ id, to }, i) => {
+              const n = i + 1;
+              return (
+                <div key={id} className="hire-case glass-card">
+                  <div className="hire-case-header">
+                    <span className="card-tag">{t(`hire.case${n}Tag`)}</span>
+                    <h3 className="hire-case-title">{t(`hire.case${n}Title`)}</h3>
+                  </div>
+                  <p className="text-secondary hire-case-summary">{t(`hire.case${n}Summary`)}</p>
+                  <Link to={to} className="hire-case-link">{t('hire.readCase')}</Link>
+                </div>
+              );
+            })}
           </div>
         </section>
 
-        {/* SKILLS */}
         <section className="hire-section">
-          <h2 className="hire-section-title">Skills & Tools</h2>
+          <h2 className="hire-section-title">{t('hire.aboutTitle')}</h2>
+          <div className="hire-about glass-card">
+            {[1, 2, 3].map((n) => (
+              <p
+                key={n}
+                className="text-secondary"
+                style={n > 1 ? { marginTop: '1rem' } : undefined}
+              >
+                {t(`hire.about${n}`)}
+              </p>
+            ))}
+          </div>
+        </section>
+
+        <section className="hire-section">
+          <h2 className="hire-section-title">{t('hire.skillsTitle')}</h2>
           <div className="hire-skills-grid">
-            {SKILLS.map((skill) => (
+            {skills.map((skill) => (
               <span key={skill} className="hire-skill-tag">{skill}</span>
             ))}
           </div>
         </section>
 
-        {/* LINKS */}
         <section className="hire-section hire-links-section">
+          <h2 className="hire-section-title">{t('hire.linksTitle')}</h2>
           <div className="hire-links">
             <a href="https://www.linkedin.com/in/spaternostro99/" target="_blank" rel="noopener noreferrer" className="hire-link">
               LinkedIn ↗
@@ -186,7 +129,7 @@ export default function Hire() {
               GitHub ↗
             </a>
             <Link to="/projects" className="hire-link">
-              Full portfolio ↗
+              {t('hire.portfolio')}
             </Link>
           </div>
         </section>

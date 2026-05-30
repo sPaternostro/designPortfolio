@@ -27,19 +27,18 @@ export default function NotFound() {
       <div className="not-found-inner">
         <p className="not-found-code">404</p>
         <h1 className="text-gradient not-found-title">
-          {t('notFound.title', 'Esta página no existe.')}
+          {t('notFound.title')}
         </h1>
         <p className="text-secondary not-found-desc">
-          {t('notFound.desc', 'La URL que ingresaste no corresponde a ninguna página.')}{' '}
-          {t('notFound.redirect', 'Vas a ser redirigido al inicio en')}{' '}
-          <span className="not-found-countdown">{countdown}s</span>.
+          {t('notFound.desc')}{' '}
+          {t('notFound.redirect', { count: countdown })}
         </p>
         <div className="not-found-actions">
           <Link to="/" className="btn btn-primary">
-            {t('notFound.home', 'Ir al inicio')}
+            {t('notFound.home')}
           </Link>
           <Link to="/projects" className="btn btn-secondary">
-            {t('notFound.projects', 'Ver proyectos')}
+            {t('notFound.projects')}
           </Link>
         </div>
       </div>

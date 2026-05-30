@@ -5,8 +5,17 @@
     "about": "About",
     "contact": "Contact"
   },
+  "caseNav": {
+    "prev": "Previous",
+    "next": "Next",
+    "ctaTag": "Lets work together",
+    "ctaTitle": "If this type of work interests you, lets talk.",
+    "ctaDesc": "I can bring structure, clarity and results to your project.",
+    "ctaButton": "Book a call",
+    "ctaProjects": "See other cases"
+  },
   "floatingContact": {
-    "tooltip": "Let's talk?",
+    "tooltip": "Let's talk",
     "menuLabel": "Contact options",
     "calendly": "Book a call",
     "whatsapp": "WhatsApp",
@@ -14,67 +23,67 @@
     "ariaLabel": "Open contact options"
   },
   "home": {
-    "professionTag": "Ecommerce Designer & Digital Problem Solver",
+    "professionTag": "Ecommerce UI/UX Designer & Project Lead",
     "name": "Sebastián Paternostro",
-    "shortBio": "I design and coordinate digital solutions that convert. I'm the link between design, business, and development — ensuring clarity, structure, and results in every project.",
+    "shortBio": "I design ecommerce experiences and help teams bring them to life. By aligning business goals, user needs, and development realities, I create digital products that are clear, scalable, and built to perform.",
     "viewWork": "View work",
     "contact": "Contact",
     "highlights": "Featured cases",
     "readCase": "Read case",
     "howTitle": "How I work",
     "howSubtitle": "A clear process for outstanding results",
-    "howOneTitle": "Structured thinking",
-    "howOneDesc": "I don't design isolated screens, I design systems. The logic connecting each part is what makes a product scalable and consistent.",
-    "howTwoTitle": "Business focus",
-    "howTwoDesc": "I understand business goals to propose solutions that not only look good but also convert and solve real user problems.",
-    "howThreeTitle": "Clarity above all",
-    "howThreeDesc": "I remove friction. If an element doesn't help users achieve their goals simply, it shouldn't be there.",
+    "howOneTitle": "Conversion UI/UX",
+    "howOneDesc": "I architect complex checkouts, landing layouts, and catalog schemas using modern frameworks, optimized around how users analyze data and complete goals.",
+    "howTwoTitle": "Cross-Team Leadership",
+    "howTwoDesc": "I help projects move from idea to launch by aligning business needs, design decisions, and development priorities. My role is keeping teams moving in the same direction while maintaining quality and delivery timelines.",
+    "howThreeTitle": "Frontend Visual QA",
+    "howThreeDesc": "I perform rigorous interface audits against implemented layouts to catch and eliminate UI discrepancies, responsive breaks, and UX regressions before live deployment.",
     "techTitle": "Stack & Tools",
     "highlight1Tag1": "Ecommerce",
     "highlight1Tag2": "Platform migration",
     "highlight1Title": "GamingCity",
-    "highlight1Desc": "Migration from marketplace to independent ecommerce with focus on scalability and brand experience.",
+    "highlight1Desc": "Led the visual overhaul and end-to-end user experience redesign for a critical platform migration, ensuring zero operational downtime prior to marketplace deprecation.",
     "highlight2Tag1": "Ecommerce",
     "highlight2Tag2": "TiendaNube",
     "highlight2Title": "KIRO Store",
-    "highlight2Desc": "Online store built from scratch with custom design and conversion focus.",
-    "highlight3Tag1": "Ecommerce",
-    "highlight3Tag2": "B2B · Wholesale",
-    "highlight3Title": "Bulonera Hurlingham B2B",
-    "highlight3Desc": "Wholesale ecommerce focused on purchase speed and operational efficiency for frequent buyers.",
+    "highlight2Desc": "Engineered a custom-designed storefront within predefined SaaS platform limitations. Structured intuitive filtering systems and streamlined the mobile checkout funnel.",
+    "highlight3Tag1": "Process Design",
+    "highlight3Tag2": "Operations",
+    "highlight3Title": "Incident Standardization",
+    "highlight3Desc": "Created an internal reporting workflow that eliminated communication noise between Support and Engineering, significantly accelerating development bug-fix timelines.",
     "highlight4Tag1": "Branding",
     "highlight4Tag2": "Web Design",
     "highlight4Title": "OtraRonda",
-    "highlight4Desc": "From early-stage venture to professional brand: full redesign oriented to conversion.",
-    "philosophy": "The beauty of a digital product is a direct consequence of its order. I design clear, structured products built to perform.",
+    "highlight4Desc": "Full brand and web redesign for a premium mobile bar service, translating a high-end experience into a functional digital portal with dynamic media integration.",
+    "philosophy": "Good design isn't about adding more. It's about helping people find what they need and take action with confidence.",
     "ctaTitle": "Let's make your next project a success",
     "ctaButton": "Let's talk",
-    "stackDesign": "Design",
+    "stackDesign": "Design & UI/UX",
     "stackWeb": "Web Development",
     "stackOps": "Management & Operations"
   },
   "about": {
     "title": "About me",
-    "description": "I am a Web Designer and Digital Solution Facilitator based in Buenos Aires. My approach goes beyond aesthetics; I specialize in bridging the gap between business needs and technical capabilities to build high-converting platforms. I act as the strategic link between design, business strategy, and development. My goal is to simplify complexity, ensuring clear processes, timely delivery, and, most importantly, results that drive growth. I believe that the best technology is that which serves a well-structured business strategy.",
+    "description": "I'm an Ecommerce UX/UI Designer and Project Lead based in Buenos Aires. Over the years, I've found that successful digital products rarely come from design alone. The best results happen when business goals, user needs, and development constraints are aligned from the start. I work closely with business stakeholders and development teams to turn requirements into clear, actionable solutions. Whether it's defining structure, reducing friction in a purchase flow, or helping teams stay aligned during implementation, my focus is always the same: creating products that work for both users and the business.",
     "principlesTitle": "My Principles",
     "principles": {
       "root": "Structure",
-      "rootDesc": "The foundation of any design is a clear information architecture.",
+      "rootDesc": "Clear information architecture helps users navigate products with less friction and greater confidence.",
       "thinking": "Critical Thinking",
-      "thinkingDesc": "Question the 'why' before moving to the 'how'.",
-      "business": "Conversion",
-      "businessDesc": "Design oriented toward users completing their goal — and the business, theirs.",
-      "collaboration": "Collaboration",
-      "collaborationDesc": "Full alignment between design, development, and product."
+      "thinkingDesc": "Understanding the business context, user needs, and technical constraints before making design decisions.",
+      "business": "Conversion Focus",
+      "businessDesc": "Designing experiences that help users complete their goals while supporting business objectives.",
+      "collaboration": "Cross-Team Collaboration",
+      "collaborationDesc": "Working closely with stakeholders and development teams to keep projects aligned from idea to delivery."
     },
     "ctaTitle": "Let's work together",
-    "ctaText": "If you're looking for structure, clarity, and results focus, we can make a great team.",
+    "ctaText": "If you're looking for clarity, structure, and a design process aligned with business goals, I'd love to hear about your project.",
     "ctaProjects": "View projects",
-    "ctaContact": "Contact me"
+    "ctaContact": "Book a call"
   },
   "contact": {
     "title": "Let's talk",
-    "description": "If you have a project in mind or just want to say hi, write me.",
+    "description": "If you have a project in mind or want to explore an execution strategy, write me.",
     "info": {
       "email": "Email",
       "linkedin": "LinkedIn",
@@ -96,12 +105,12 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Case studies and digital solutions.",
+    "subtitle": "Selected projects focused on growth, operational clarity, and cross-team execution.",
     "readCase": "Read case",
     "project1Tag1": "Process Design",
     "project1Tag2": "Full Redesign",
     "project1Title": "Incident Standardization",
-    "project1Desc": "Redesign of internal incident structure to reduce friction and optimize communication.",
+    "project1Desc": "Standardizing internal reporting procedures to cut down cross-team verification loops and speed up technical resolution times.",
     "project1Link": "/projects/incident-standardization",
     "project2Tag1": "Ecommerce Design",
     "project2Tag2": "Scale & UX",
@@ -135,7 +144,7 @@
     "intro": "GamingCity needed to migrate from MercadoShops to its own platform before the service shutdown. The challenge was translating their brand identity and marketing needs into a flexible experience while working under an existing CMS.",
     "meta": {
       "role": "Role",
-      "roleValue": "Web Designer / Product UX",
+      "roleValue": "Ecommerce Designer / Project Lead",
       "timeline": "Timeline",
       "timelineValue": "Mar 2025 — Oct 2025",
       "focus": "Focus",
@@ -174,7 +183,7 @@
     "intro": "KIRO is a conceptual ecommerce project built using TiendaNube, focused on creating a clean, usable and conversion-oriented shopping experience within the limitations of a predefined platform.",
     "meta": {
       "role": "Role",
-      "roleValue": "Web Designer / Product UX",
+      "roleValue": "Ecommerce Designer / Project Lead",
       "timeline": "Timeline",
       "timelineValue": "Jan 2026 — Mar 2026",
       "focus": "Focus",
@@ -265,20 +274,20 @@
     "category": "Process Design",
     "title": "Incident Reporting Standardization",
     "subtitle": "Cross-team process improvement through structured communication",
-    "intro": "Redesigned the incident reporting workflow to transform ambiguous communication into a structured system. By optimizing and reducing operational friction, I made the resolution process both efficient and predictable.",
+    "intro": "Redesigned the internal issue documentation workflow to transform chaotic reporting into a highly structured protocol, reducing communication overhead and development bottlenecks.",
     "meta": {
       "role": "Role",
-      "roleValue": "Web Designer contributing to process improvement",
+      "roleValue": "Project Lead contributing to process optimization",
       "environment": "Environment",
-      "environmentValue": "Production with Support, Design and Development teams",
+      "environmentValue": "Cross-functional framework (Support, Design, and Development)",
       "focus": "Focus",
-      "focusValue": "Structured reporting and communication clarity",
+      "focusValue": "Information formatting and workflow architecture",
       "outcome": "Outcome",
-      "outcomeValue": "Faster resolutions and reduced friction"
+      "outcomeValue": "Accelerated bug resolution cycles and transparent tracking"
     },
     "myRole": {
       "title": "My Role",
-      "p1": "I identified this problem autonomously and proposed a solution without a formal assignment. My contribution consisted of designing and implementing a structured incident reporting format, promoting its adoption across the team, and documenting it to ensure the process could be maintained without my direct involvement.."
+      "p1": "I audited the process flaws autonomously and designed a comprehensive issue template detailing reproduction steps, exact technical contexts, and visual payloads. I drove its implementation across development teams, reducing feedback loops dramatically."
     },
     "overview": {
       "title": "Overview",
@@ -286,7 +295,7 @@
     },
     "context": {
       "title": "Context",
-      "p1": "Incident reports often contained minimal information, forcing developers to investigate context from scratch. This created repeated clarification loops, long resolution cycles and frustration across teams. Over time, frustration gradually turned into operational apathy."
+      "p1": "Ambiguous error logging forced developers to waste extensive time mapping contexts from scratch, causing friction and long delivery delays."
     },
     "situation": {
       "title": "Situation",
@@ -295,7 +304,7 @@
     },
     "insight": {
       "title": "Insight",
-      "p1": "The core problem was not technical complexity but ambiguity in information transfer. Reducing friction required structuring the context before incidents reached development."
+      "p1": "Operational efficiency falls apart when information handoffs are unstructured. Standardizing the mandatory documentation parameters completely solves the structural gridlock."
     },
     "processChange": {
       "title": "Process Change",
@@ -305,14 +314,14 @@
       "beforeItem3": "Repeated clarification requests",
       "beforeItem4": "Long resolution cycles",
       "after": "After",
-      "afterItem1": "Structured incident format",
+      "afterItem1": "Mandatory data requirements",
       "afterItem2": "Clear reproduction steps",
-      "afterItem3": "Context provided upfront",
-      "afterItem4": "Faster and more predictable resolution"
+      "afterItem3": "Client and error contexts provided upfront",
+      "afterItem4": "Predictable same-week engineering resolutions"
     },
     "approach": {
       "title": "Approach",
-      "p1": "Without formal assignment, I introduced a structured incident format including:",
+      "p1": "Introduced an incident structure requiring clear problem categorization, current vs. expected behavior, structural screenshots, and an initial resolution hypothesis to isolate backend from frontend faults.",
       "item1": "Clear problem categorization in the title",
       "item2": "Explicit description of current vs expected behaviour",
       "item3": "Client and server context",
@@ -323,21 +332,21 @@
     },
     "impact": {
       "title": "Impact",
-      "item1": "Significant reduction in cross-team communication loops",
-      "item2": "Improved delegation from senior to junior developers",
-      "item3": "Better traceability when clients requested updates",
-      "item4": "Many incidents resolved within the same day or week"
+      "item1": "Drastic drop in cross-department clarification requests",
+      "item2": "Seamless task delegation from senior to junior developers",
+      "item3": "Immediate status reporting availability for stakeholders",
+      "item4": "High volume of operational bugs resolved within 24 hours"
     },
     "principles": {
       "title": "Key Principles",
-      "principle1Title": "Align teams through shared context",
-      "principle1Desc": "Clear information reduces misalignment and speeds up collaboration.",
-      "principle2Title": "Structure communication like a system",
-      "principle2Desc": "Documentation and structure can dramatically reduce operational friction.",
-      "principle3Title": "Prioritize clarity over speed",
-      "principle3Desc": "Taking time to understand the problem reduces unnecessary iterations.",
-      "principle4Title": "Minimize dependency loops",
-      "principle4Desc": "Provide enough context so teams can move forward independently."
+      "principle1Title": "Shared operational context",
+      "principle1Desc": "Eliminating ambiguity accelerates technical execution.",
+      "principle2Title": "Communication as a system",
+      "principle2Desc": "Strict documentation layouts prevent cross-team operational apathy.",
+      "principle3Title": "Root-cause priority",
+      "principle3Desc": "Investing upfront effort into defining the issue drops engineering layout iteration loops.",
+      "principle4Title": "Autonomous execution blocks",
+      "principle4Desc": "Providing total situational data allows engineers to work without active dependencies."
     }
   },
   "biotec": {
@@ -399,14 +408,14 @@
     },
     "challenge": {
       "title": "Challenge",
-      "c1title": "Manual processes",
-      "c1desc": "Orders were placed via calls, WhatsApp, and spreadsheets. Every order was a different process with no standardization.",
-      "c2title": "Unstructured catalog",
-      "c2desc": "Products had no clear hierarchy. Finding a specific item required prior knowledge of the business.",
-      "c3title": "No B2B digital channel",
-      "c3desc": "There was no platform designed for the wholesale purchase flow: quantities, volume pricing, order history.",
-      "c4title": "Purchase speed",
-      "c4desc": "Wholesale buyers move fast and buy in volume. The experience needed to match that pace, not slow it down."
+      "c1title": "Manual workflows",
+      "c1desc": "Orders scattered across calls and spreadsheets without standard guidelines.",
+      "c2title": "Unstructured layout catalog",
+      "c2desc": "Items lacked clear categories, forcing buyers to require deep institutional store knowledge.",
+      "c3title": "Absence of wholesale portals",
+      "c3desc": "No support for bulk volumes, tier pricing structures, or instant record retrieval.",
+      "c4title": "Low operational checkout speed",
+      "c4desc": "B2B buyers require efficient procurement tools; standard systems slowed down reordering scales."
     },
     "beforeAfter": {
       "title": "Before vs After",
@@ -532,14 +541,14 @@
     },
     "challenge": {
       "title": "Challenge",
-      "c1title": "Disorganized catalog",
-      "c1desc": "Categories didn't reflect how users search for products. The internal business logic didn't match the buyer's logic.",
-      "c2title": "Inefficient search",
-      "c2desc": "Finding a specific product required prior knowledge or multiple attempts. Navigation abandonment was high.",
-      "c3title": "Hard to scale",
-      "c3desc": "Adding new categories or products broke the existing structure rather than integrating into it.",
-      "c4title": "Purchase friction",
-      "c4desc": "Every additional step to find a product is an abandonment opportunity. The flow needed to be simplified."
+      "c1title": "Visual Alignment",
+      "c1desc": "The legacy look failed to convey the premium nature and corporate reliability of Comafer's massive operations.",
+      "c2title": "Navigation Overhaul",
+      "c2desc": "Structuring large-scale corporate data and contact funnels into a balanced, clear layout.",
+      "c3title": "Design Continuity",
+      "c3desc": "Establishing a rigid frontend design framework that preserves aesthetic appeal across all corporate viewports.",
+      "c4title": "Purchase Friction Reduction",
+      "c4desc": "Streamlining search indexing parameters to minimize catalog checkout drop-offs."
     },
     "beforeAfter": {
       "title": "Before vs After",
@@ -708,14 +717,14 @@
     },
     "challenge": {
       "title": "Challenge",
-      "c1title": "Misaligned image",
-      "c1desc": "The digital presence didn't reflect the real quality of the service. The first impression generated distrust rather than interest.",
-      "c2title": "No differentiation",
-      "c2desc": "In a visual and competitive market like events, the lack of a distinct identity made the brand invisible against competitors.",
-      "c3title": "Unclear commercial offer",
-      "c3desc": "Visitors couldn't quickly understand what OtraRonda offered, what types of events they served, or what the next step was to hire them.",
-      "c4title": "No conversion structure",
-      "c4desc": "The site didn't guide users toward any concrete action. There was no flow designed to convert visits into real inquiries."
+      "c1title": "Misaligned Identity",
+      "c1desc": "The generic interface undermined user trust, creating an artificial gap between the online image and the high-end physical execution.",
+      "c2title": "Static Content Delivery",
+      "c2desc": "The dynamic nature of social media channels showcasing real event atmosphere was completely isolated from the web.",
+      "c3title": "Friction in Inquiry Flow",
+      "c3desc": "A rigid, outdated form system prevented prospective clients from navigating menus or exploring specific service formats easily.",
+      "c4title": "Absence of Conversion Anchors",
+      "c4desc": "The structural architecture lacked explicit calls-to-action, dropping hot commercial user interest before acquisition."
     },
     "beforeAfter": {
       "title": "Before vs After",
@@ -735,10 +744,66 @@
     }
   },
   "footer": {
-    "identityTitle": "Identity",
+    "identityTitle": "Sebastian Paternostro",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
-    "subtitle": "Ecommerce & conversion designer. Structure, clarity, and business impact.",
+    "subtitle": "Ecommerce Designer & Project Lead. Balancing clean UI with business results.",
     "rights": "All rights reserved."
+  },
+  "hire": {
+    "badge": "Available for remote work",
+    "markets": "Japan · Europe · United States · LatAm",
+    "role": "Ecommerce Designer & Project Lead",
+    "tagline": "Successful digital products rarely come from design alone.",
+    "taglineSub": "My role is to bridge business objectives, user needs, and development realities—helping teams make better decisions, stay aligned during execution, and deliver solutions that support both user experience and business growth. The best results happen when business goals, user needs, and development constraints are aligned from the start",
+    "bookCall": "Book a call",
+    "downloadCV": "Download CV",
+    "moreOptions": "More options",
+    "whatIDo": "How I create value",
+    "card1Title": "Conversion-Focused Experience",
+    "card1Desc": "Creating clear and intuitive ecommerce experiences that help users complete their goals while supporting measurable business outcomes.",
+    "card2Title": "Cross-Team Leadership",
+    "card2Desc": "Bringing stakeholders, designers, and developers together around shared priorities to keep projects moving in the right direction.",
+    "card3Title": "Quality & Delivery",
+    "card3Desc": "I support implementation through review, validation, and collaboration with development teams, helping ensure the final product matches both the intended experience and business objectives.",
+    "selectedWork": "Selected work",
+    "case1Tag": "Ecommerce UX · Migration",
+    "case1Title": "GamingCity",
+    "case1Summary": "Redesigning the ecommerce experience during a critical platform migration, helping preserve business continuity while transitioning away from a deprecated marketplace.",
+    "case2Tag": "Ecommerce · TiendaNube",
+    "case2Title": "KIRO Store",
+    "case2Summary": "Creating a structured ecommerce experience that balanced platform limitations, usability, and conversion goals.",
+    "case3Tag": "Process Design · Operations",
+    "case3Title": "Incident Standardization",
+    "case3Summary": "Created an internal reporting workflow that eliminated communication noise between Support and Engineering, significantly accelerating development bug-fix timelines.",
+    "readCase": "See how it was solved →",
+    "aboutTitle": "About me",
+    "about1": "I'm an Ecommerce UX/UI Designer and Project Lead based in Buenos Aires. Over the years, I've found that successful digital products rarely come from design alone.",
+    "about2": "The best results happen when business goals, user needs, and development constraints are aligned from the start. I work closely with business stakeholders and development teams to turn requirements into clear, actionable solutions.",
+    "about3": "Whether it's defining structure, reducing friction in a purchase flow, or helping teams stay aligned during implementation, my focus is always the same: creating products that work for both users and the business.",
+    "skillsTitle": "Skills & Tools",
+    "skills": [
+      "UI/UX Design",
+      "Ecommerce Platforms",
+      "CMS Architecture",
+      "Platform-based Ecommerce",
+      "Frontend QA",
+      "Project Coordination",
+      "Design Systems",
+      "Business Alignment",
+      "Cross-team Collaboration",
+      "Conversion Optimization",
+      "Stakeholder Communication",
+      "SaaS E-commerce"
+    ],
+    "linksTitle": "Find me at",
+    "portfolio": "Full portfolio ↗"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "desc": "The link you followed might be broken, or the page has been moved.",
+    "redirect": "You will be redirected to the home page in {{count}}s.",
+    "home": "Back to Home",
+    "projects": "View Projects"
   }
 }

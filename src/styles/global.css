@@ -1358,6 +1358,10 @@ html.light .floating-contact-btn {
     font-size: clamp(2rem, 5vw, 3.5rem);
     line-height: 1.1;
     margin-bottom: 2rem;
+    background: linear-gradient(180deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .case-intro {
@@ -1755,6 +1759,8 @@ html.light .floating-contact-btn {
     gap: 1rem;
     margin-bottom: 0.75rem;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .hire-case-title {
