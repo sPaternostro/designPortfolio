@@ -39,7 +39,7 @@ const STACK_GROUPS = [
 const HIGHLIGHTS = [
   { key: 'gamingcity', tag1Key: 'home.highlight1Tag1', tag2Key: 'home.highlight1Tag2', titleKey: 'home.highlight1Title', descKey: 'home.highlight1Desc', link: '/projects/gamingcity' },
   { key: 'kiro',       tag1Key: 'home.highlight2Tag1', tag2Key: 'home.highlight2Tag2', titleKey: 'home.highlight2Title', descKey: 'home.highlight2Desc', link: '/projects/kiro' },
-  { key: 'bhb2b',      tag1Key: 'home.highlight3Tag1', tag2Key: 'home.highlight3Tag2', titleKey: 'home.highlight3Title', descKey: 'home.highlight3Desc', link: '/projects/bhb2b' },
+  { key: 'incident',      tag1Key: 'home.highlight3Tag1', tag2Key: 'home.highlight3Tag2', titleKey: 'home.highlight3Title', descKey: 'home.highlight3Desc', link: '/projects/incident-standardization' },
   { key: 'otraronda',  tag1Key: 'home.highlight4Tag1', tag2Key: 'home.highlight4Tag2', titleKey: 'home.highlight4Title', descKey: 'home.highlight4Desc', link: '/projects/otraronda' },
 ];
 

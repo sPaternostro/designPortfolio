@@ -653,7 +653,7 @@
   "zafirofarm": {
     "category": "Web Redesign • ERP",
     "title": "Zafiro Farmacias",
-    "intro": "Update of a pharmacy chain's website to achieve a clearer, more modern and usable experience aligned with the business level.",
+    "intro": "Update of a pharmacy's ERP website to achieve a clearer, more modern and usable experience aligned with the business level.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -744,7 +744,7 @@
     }
   },
   "footer": {
-    "identityTitle": "Sebastian Paternostro",
+    "identityTitle": "SP",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
     "subtitle": "Ecommerce Designer & Project Lead. Balancing clean UI with business results.",
