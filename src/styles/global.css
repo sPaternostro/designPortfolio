@@ -6,9 +6,9 @@
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.6);
     --text-muted: #52525b;
-    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-bg: rgba(0, 0, 0, 80%);
     --glass-border: rgba(255, 255, 255, 0.08);
-    --glass-blur: 16px;
+    --glass-blur: 100px;
     --accent-light: rgba(255, 255, 255, 0.1);
     --space-xs: 0.5rem;
     --space-s: 1rem;
@@ -16,7 +16,7 @@
     --space-l: 4rem;
     --space-xl: 8rem;
     --container-max: 1100px;
-    --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.2);
+    --shadow-card: inset 0 0 5px rgba(255, 255, 255, 30%);
     --shadow-float: 0 8px 32px rgba(0, 0, 0, 0.25);
     --radius-card: 24px;
     --radius-sm: 16px;
@@ -30,9 +30,9 @@ html.light {
     --text-muted: #9e9a93;
     --glass-bg: rgba(255, 255, 255, 0.72);
     --glass-border: rgba(26, 26, 24, 0.08);
-    --glass-blur: 20px;
+    --glass-blur: 100px;
     --accent-light: rgba(26, 26, 24, 0.04);
-    --shadow-card: 0 2px 16px rgba(26, 26, 24, 0.07);
+    --shadow-card: inset 0 2px 16px rgba(0, 0, 0, 15%);
     --shadow-float: 0 8px 32px rgba(26, 26, 24, 0.12);
 }
 
@@ -41,18 +41,20 @@ html.light .bg-glow {
 }
 
 html.light .glass-card {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 30%);
     border-color: rgba(26, 26, 24, 0.07);
     box-shadow: var(--shadow-card);
+    backdrop-filter: blur(100px);
 }
 
 html.light .glass-card:hover {
-    box-shadow: 0 8px 32px rgba(26, 26, 24, 0.1);
+    background: rgba(255, 255, 255, 60%);
+    /* box-shadow: 0 8px 32px rgba(26, 26, 24, 0.1); */
     border-color: rgba(26, 26, 24, 0.12);
 }
 
 html.light .navbar {
-    background: rgba(245, 242, 237, 0.92);
+    background: rgba(255, 255, 255, 10%);
     border-bottom-color: rgba(26, 26, 24, 0.07);
 }
 
@@ -61,8 +63,8 @@ html.light .mobile-menu-overlay {
 }
 
 html.light .lang-btn.active {
-    background: var(--text-primary);
-    color: var(--bg-color);
+    background: rgba(0, 0, 0, 20%);
+    color: var(--text-primary);
 }
 
 html.light .tech-item {
@@ -107,7 +109,7 @@ html.light .btn-secondary:hover {
 }
 
 html.light .footer {
-    background: #ede9e2;
+    background: linear-gradient(180deg, #f1f4f8 0%, #e2e8f0 100%);
     border-top-color: rgba(26, 26, 24, 0.08);
 }
 
@@ -116,8 +118,14 @@ html.light .floating-contact-btn {
 }
 
 html.light .back-to-top {
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 4px 16px rgba(26, 26, 24, 0.1);
+    background: rgba(255, 255, 255, 30%);
+    box-shadow: var(--shadow-card);
+    backdrop-filter: var(--glass-blur);
+}
+
+html.light .back-to-top:hover {
+    background: rgba(255, 255, 255, 60%);
+    color: #000;
 }
 
 html.light .case-nav-link {
@@ -172,13 +180,17 @@ html.light .form-textarea:focus {
 }
 
 body {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     color: var(--text-primary);
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     transition: background-color 0.3s ease, color 0.3s ease;
     padding-top: 64px;
+}
+
+html.light body {
+    background: linear-gradient(45deg, #edf2f7 0%, #f7fafc 100%);
 }
 
 .container {
@@ -272,11 +284,11 @@ body {
     z-index: 2000;
     background: var(--bg-color);
     backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(100px) saturate(180%);
     border-bottom: 1px solid var(--glass-border);
     display: flex;
     align-items: center;
-    opacity: 0.95;
+    opacity: 1;
 }
 
 .nav-container {
@@ -331,13 +343,17 @@ body {
 
 .lang-selector-pill {
     display: flex;
-    background: var(--glass-bg);
+    background:rgba(0, 0, 0, 10%) ;
     padding: 4px;
     border-radius: 100px;
     border: 1px solid var(--glass-border);
     min-width: 140px;
     justify-content: space-between;
+    box-shadow: var(--shadow-card);
 }
+
+html.light .lang-selector-pill {
+    background: rgba(255, 255, 255, 60%);}
 
 .lang-btn {
     background: transparent;
@@ -352,9 +368,10 @@ body {
 }
 
 .lang-btn.active {
-    background: var(--text-primary);
+    background: var(--text-secondary);
     color: var(--bg-color);
 }
+
 
 .theme-toggle-btn {
     background: none;
@@ -479,11 +496,14 @@ body {
     border-radius: var(--radius-card);
     padding: var(--space-m);
     transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    box-shadow: var(--shadow-card);
 }
 
 .glass-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-card);
+    background: rgba(0, 0, 0, 20%);
+    border-color: rgba(255, 255, 255, 20%);
 }
 
 .btn {
@@ -800,6 +820,7 @@ body {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border: 1px solid var(--glass-border);
     position: relative;
+    box-shadow: var(--shadow-card);
 }
 
 .highlight-quote::before {
@@ -961,7 +982,7 @@ body {
 
 .footer-link:hover {
     color: var(--text-primary);
-    transform: translateX(4px);
+    /* transform: translateX(4px); */
 }
 
 .footer-subtitle {
@@ -986,8 +1007,8 @@ body {
     height: 48px;
     border-radius: 50%;
     background: var(--glass-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
     border: 1px solid var(--glass-border);
     color: var(--text-primary);
     cursor: pointer;
@@ -996,12 +1017,12 @@ body {
     justify-content: center;
     z-index: 1000;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--shadow-float);
+    box-shadow: var(--shadow-card);
 }
 
 .back-to-top:hover {
-    background: var(--text-primary);
-    color: var(--bg-color);
+    background: rgba(255, 255, 255, 10%);
+    color: var(--text-primary);
     transform: translateY(-4px);
 }
 
@@ -1472,14 +1493,15 @@ html.light .floating-contact-btn {
     gap: 0.5rem;
     text-decoration: none;
     padding: 1.5rem;
-    border: 1px solid var(--glass-border);
+    border: 1px solid rgba(255, 255, 255, 10%);
     border-radius: var(--radius-sm);
     background: var(--glass-bg);
     transition: all 0.2s ease;
+    box-shadow: var(--shadow-card);
 }
 
 .case-nav-link:hover {
-    border-color: var(--text-secondary);
+    border-color: rgba(255, 255, 255, 20%);
     transform: translateY(-2px);
 }
 
@@ -1847,10 +1869,11 @@ html.light .floating-contact-btn {
     padding: 0.6rem 1rem;
     transition: border-color 0.2s ease, transform 0.2s ease;
     cursor: default;
+    box-shadow: var(--shadow-card);
 }
 
 .stack-item:hover {
-    border-color: var(--text-secondary);
+    border-color: rgba(255, 255, 255, 20%);
     transform: translateY(-2px);
 }
 
@@ -1875,37 +1898,41 @@ html.light .floating-contact-btn {
 }
 
 html.light .stack-item {
-    background: rgba(255, 255, 255, 0.85);
-    border-color: rgba(26, 26, 24, 0.08);
+    border-color: rgba(0, 0, 0, 10%);
+    background: rgba(255, 255, 255, 100%);
+    backdrop-filter: var(--glass-blur);
+    box-shadow: var(--shadow-card);
 }
 
 html.light .stack-item:hover {
-    border-color: rgba(26, 26, 24, 0.2);
+    background: rgba(255, 255, 255, 70%);
+    border-color: rgba(0, 0, 0, 20%);
+
 }
 
 .contact-link-calendly {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .contact-calendly-alt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
 }
 
 .contact-calendly-divider {
-  font-size: 0.82rem;
-  color: var(--text-muted);
+    font-size: 0.82rem;
+    color: var(--text-muted);
 }
 
 .contact-calendly-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 @media (max-width: 850px) {
