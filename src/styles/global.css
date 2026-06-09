@@ -133,12 +133,15 @@ html.light .case-nav-link {
 }
 
 html.light .hire-skill-tag {
-    background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(26, 26, 24, 0.08);
+    border-color: rgba(0, 0, 0, 10%);
+    background: rgba(255, 255, 255, 100%);
+    backdrop-filter: var(--glass-blur);
+    box-shadow: var(--shadow-card);
 }
 
 html.light .hire-skill-tag:hover {
-    border-color: rgba(26, 26, 24, 0.2);
+    background: rgba(255, 255, 255, 70%);
+    border-color: rgba(0, 0, 0, 20%);
 }
 
 html.light .project-soon-badge {
@@ -1757,11 +1760,13 @@ html.light .floating-contact-btn {
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--text-primary);
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    box-shadow: var(--shadow-card);
 }
 
 .hire-skill-tag:hover {
-    border-color: var(--text-secondary);
+    border-color: rgba(255, 255, 255, 20%);
+    transform: translateY(-2px);
 }
 
 .hire-cases {
