@@ -23,7 +23,8 @@ import ZafiroFarmacias from './projects/ZafiroFarmacias';
 function App() {
     return (
         <div className="app-wrapper">
-            <div className="bg-glow" aria-hidden="true" />
+            <div className="bg-glow bg-glow-a" aria-hidden="true" />
+            <div className="bg-glow bg-glow-b" aria-hidden="true" />
             <MainLayout>
                 <Routes>
                     <Route path='/' element={<Home />} />

@@ -7,9 +7,9 @@ export default function IncidentStandardization() {
   const { t } = useTranslation();
   useReveal();
 
-  <SEO title="Incident Standardization" description="Rediseño del proceso interno de reporte de incidentes para reducir fricción entre equipos." path="/projects/incident-standardization" />
-
   return (
+    <>
+    <SEO title="Incident Standardization" description="Rediseño del proceso interno de reporte de incidentes para reducir fricción entre equipos." path="/projects/incident-standardization" />
     <main className="container case-study-page">
       <section className="reveal case-hero section-spacer">
         <p className="case-category">{t('incident.category')}</p>
@@ -151,5 +151,6 @@ export default function IncidentStandardization() {
         next={{ label: 'GamingCity', to: '/projects/gamingcity' }}
       />
     </main>
+    </>
   );
 }

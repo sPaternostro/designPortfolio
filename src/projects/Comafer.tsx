@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function Comafer() {
@@ -21,6 +22,7 @@ export default function Comafer() {
           <p className="case-category">{t('comafer.category')}</p>
           <h1 className="case-title">{t('comafer.title')}</h1>
           <p className="case-intro">{t('comafer.intro')}</p>
+          <CaseLiveLink href="https://www.comafer.com.ar/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">

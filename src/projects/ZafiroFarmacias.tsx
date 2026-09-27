@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function ZafiroFarmacias() {
@@ -21,6 +22,7 @@ export default function ZafiroFarmacias() {
           <p className="case-category">{t('zafirofarm.category')}</p>
           <h1 className="case-title">{t('zafirofarm.title')}</h1>
           <p className="case-intro">{t('zafirofarm.intro')}</p>
+          <CaseLiveLink href="https://zafirofarmacias.com.ar/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">

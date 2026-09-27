@@ -8,11 +8,11 @@ interface SEOProps {
 }
 
 const SITE_NAME = 'Sebastián Paternostro';
-const BASE_URL = 'https://spaternostro.com.ar'; // ← cambiá por tu dominio real cuando lo tengas
+const BASE_URL = 'https://spaternostro.com.ar';
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.jpg`;
 
 const DEFAULT_DESCRIPTION =
-  'Portfolio de Sebastián Paternostro, diseñador web basado en Buenos Aires. Especializado en estructura, claridad e impacto de negocio.';
+  'Sebastián Paternostro, desarrollador web de ecommerce. Arma tiendas y sitios y los deja publicados.';
 
 export default function SEO({
   title,
@@ -20,7 +20,7 @@ export default function SEO({
   path = '',
   image = DEFAULT_IMAGE,
 }: SEOProps) {
-  const fullTitle = title ? `${title} — ${SITE_NAME}` : `${SITE_NAME} — Web Designer & Project Manager`;
+  const fullTitle = title ? `${title} — ${SITE_NAME}` : `${SITE_NAME} — Ecommerce Web Developer`;
   const url = `${BASE_URL}${path}`;
 
   return (

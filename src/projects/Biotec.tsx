@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function Biotec() {
@@ -21,6 +22,7 @@ export default function Biotec() {
           <p className="case-category">{t('biotec.category')}</p>
           <h1 className="case-title">{t('biotec.title')}</h1>
           <p className="case-intro">{t('biotec.intro')}</p>
+          <CaseLiveLink href="https://www.biotecsa.com.ar/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">
