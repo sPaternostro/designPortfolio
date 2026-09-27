@@ -2,6 +2,7 @@ export type Site = {
   key: string;
   to: string;
   image?: string;
+  logo?: string;
   live?: string;
   demo?: boolean;
 };
@@ -11,24 +12,28 @@ export const SITES: Site[] = [
     key: 'gamingcity',
     to: '/projects/gamingcity',
     image: '/images/gamingcity/despues1.png',
+    logo: '/images/logos/gamingcity.webp',
     live: 'https://www.gamingcity.com.ar/',
   },
   {
     key: 'accesoriosjorge',
     to: '/projects/accesoriosjorge',
     image: '/images/accesoriosjorge/despues2.png',
+    logo: '/images/logos/accesoriosjorge.png',
     live: 'https://accesoriosjorge-jrd-mayoristas.com.ar/',
   },
   {
     key: 'biotec',
     to: '/projects/biotec',
     image: '/images/biotec/despues1.png',
+    logo: '/images/logos/biotec.gif',
     live: 'https://www.biotecsa.com.ar/',
   },
   {
     key: 'otraronda',
     to: '/projects/otraronda',
     image: '/images/otraronda/despues2.png',
+    logo: '/images/logos/otraronda.png',
     live: 'https://www.otra-ronda.com/',
   },
   {
@@ -71,6 +76,7 @@ export const SITES: Site[] = [
     key: 'kiro',
     to: '/projects/kiro',
     image: '/images/kiro/home.png',
+    logo: '/images/logos/kiro.svg',
     demo: true,
   },
   {
@@ -79,7 +85,7 @@ export const SITES: Site[] = [
   },
 ];
 
-export const FEATURED_KEYS = ['gamingcity', 'accesoriosjorge', 'kiro'] as const;
+export const FEATURED_KEYS = ['gamingcity', 'accesoriosjorge', 'otraronda', 'kiro'] as const;
 
 export function findSite(key: string) {
   return SITES.find((site) => site.key === key);

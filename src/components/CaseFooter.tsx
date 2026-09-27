@@ -56,8 +56,8 @@ export default function CaseFooter({ prev, next }: CaseFooterProps) {
           {t('caseNav.ctaDesc', 'Puedo aportar estructura, claridad y foco en resultados a tu próximo proyecto.')}
         </p>
         <div className="case-cta-actions">
-          <Link to="/contact" className="btn btn-primary">
-            {t('caseNav.ctaButton', 'Escribime')}
+          <Link to="/hire" className="btn btn-primary">
+            {t('caseNav.ctaButton', 'Ver perfil')}
           </Link>
           <Link to="/projects" className="btn btn-secondary">
             {t('caseNav.ctaProjects', 'Ver otros casos')}

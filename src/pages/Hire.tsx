@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
+import PlaceLine from '../components/PlaceLine';
 import { FEATURED_KEYS, findSite } from '../data/sites';
 
 const CALENDLY_LINK = 'https://calendly.com/paternostro';
@@ -32,8 +33,8 @@ export default function Hire() {
                 <span className="hire-available-dot" />
                 {t('hire.badge')}
               </span>
-              <p className="hire-updated">{t('hire.markets')}</p>
             </div>
+            <PlaceLine />
 
             <h1 className="hire-name">Sebastián Paternostro</h1>
             <p className="hire-role">{t('hire.role')}</p>
@@ -49,16 +50,6 @@ export default function Hire() {
               </a>
               <a href={CALENDLY_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                 {t('hire.bookCall')}
-              </a>
-            </div>
-          </div>
-
-          <div className="hire-hero-visual">
-            <img src="/images/gamingcity/despues1.png" alt={t('hire.heroAlt')} />
-            <div className="hire-hero-caption glass-card">
-              <span>GamingCity</span>
-              <a href="https://www.gamingcity.com.ar/" target="_blank" rel="noopener noreferrer">
-                gamingcity.com.ar
               </a>
             </div>
           </div>
@@ -86,10 +77,10 @@ export default function Hire() {
               if (!site) return null;
               return (
                 <article key={id} className="hire-case glass-card">
-                  {site.image && (
-                    <Link to={site.to} className="hire-case-media" tabIndex={-1} aria-hidden="true">
-                      <img src={site.image} alt="" />
-                    </Link>
+                  {site.logo && (
+                    <div className="hire-case-logo">
+                      <img src={site.logo} alt="" />
+                    </div>
                   )}
                   <div className="hire-case-body">
                     <div className="hire-case-header">
@@ -98,9 +89,9 @@ export default function Hire() {
                     </div>
                     <p className="hire-case-summary">{t(`hire.case${n}Summary`)}</p>
                     <div className="hire-case-actions">
-                      <Link to={site.to} className="hire-case-link">{t('hire.readCase')}</Link>
+                      <Link to={site.to} className="btn btn-secondary">{t('hire.readCase')}</Link>
                       {site.live && (
-                        <a href={site.live} target="_blank" rel="noopener noreferrer" className="hire-case-link">
+                        <a href={site.live} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                           {t('hire.viewLive')}
                         </a>
                       )}

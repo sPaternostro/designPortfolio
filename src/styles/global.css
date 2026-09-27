@@ -104,7 +104,8 @@ html.light .browser-header {
 }
 
 html.light .btn-secondary {
-    border-color: rgba(26, 26, 24, 0.15);
+    background: rgba(26, 26, 24, 0.04);
+    border-color: rgba(26, 26, 24, 0.22);
 }
 
 html.light .btn-secondary:hover {
@@ -547,9 +548,9 @@ html.light .lang-selector-pill {
 }
 
 .btn-secondary {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.06);
     color: var(--text-primary);
-    border-color: var(--glass-border);
+    border-color: rgba(255, 255, 255, 0.32);
 }
 
 .btn-secondary:hover {
@@ -614,38 +615,12 @@ html.light .lang-selector-pill {
 }
 
 .hero-about-section {
-    display: flex;
-    align-items: center;
-    min-height: 78vh;
-}
-
-.home-hero {
-    display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
-    gap: 1.5rem;
-    align-items: center;
-    width: 100%;
-}
-
-.home-hero-visual {
-    border-radius: 28px;
-    overflow: hidden;
-    min-height: 420px;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.28);
-    border: 1px solid var(--glass-border);
-}
-
-.home-hero-visual img {
-    width: 100%;
-    height: 100%;
-    min-height: 420px;
-    object-fit: cover;
-    object-position: top;
     display: block;
 }
 
 .hero-card {
     width: 100%;
+    max-width: none;
     padding: 2.5rem 2.25rem;
     text-align: left;
     margin: 0;
@@ -674,10 +649,30 @@ html.light .lang-selector-pill {
     color: var(--text-primary);
 }
 
-.hero-card-note {
+.place-line {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.55rem 0.75rem;
+    margin: 0 0 1.25rem;
     color: var(--text-secondary);
-    margin-bottom: 1.75rem;
-    max-width: 36rem;
+    font-size: 0.92rem;
+}
+
+.place-now,
+.place-next {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.place-now {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.place-arrow {
+    opacity: 0.7;
 }
 
 .hero-card-actions {
@@ -1708,51 +1703,12 @@ html.light .floating-contact-btn {
 }
 
 .hire-hero {
-    display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
-    gap: 1.5rem;
-    align-items: center;
+    display: block;
+    max-width: none;
 }
 
 .hire-hero-copy {
     padding: 2.25rem 2rem;
-}
-
-.hire-hero-visual {
-    position: relative;
-    border-radius: 28px;
-    overflow: hidden;
-    min-height: 460px;
-    border: 1px solid var(--glass-border);
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.28);
-}
-
-.hire-hero-visual img {
-    width: 100%;
-    height: 100%;
-    min-height: 460px;
-    object-fit: cover;
-    object-position: top;
-    display: block;
-}
-
-.hire-hero-caption {
-    position: absolute;
-    left: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.85rem 1rem;
-    border-radius: 16px;
-    font-size: 0.85rem;
-    font-weight: 600;
-}
-
-.hire-hero-caption a {
-    color: var(--text-primary);
-    text-decoration: none;
 }
 
 .hire-step {
@@ -1935,7 +1891,7 @@ html.light .floating-contact-btn {
 
 .hire-case {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 168px 1fr;
     padding: 0;
     overflow: hidden;
     border-radius: var(--radius-sm);
@@ -1945,18 +1901,22 @@ html.light .floating-contact-btn {
     transform: none;
 }
 
-.hire-case-media {
-    display: block;
-    min-height: 180px;
+.hire-case-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f3ee;
+    padding: 1.25rem;
+    min-height: 148px;
 }
 
-.hire-case-media img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+.hire-case-logo img {
+    max-width: 128px;
+    max-height: 72px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     display: block;
-    min-height: 180px;
 }
 
 .hire-case-body {
@@ -1985,8 +1945,14 @@ html.light .floating-contact-btn {
 
 .hire-case-actions {
     display: flex;
-    gap: 1.25rem;
+    gap: 0.75rem;
     flex-wrap: wrap;
+}
+
+.hire-case-actions .btn,
+.card-footer-row .btn {
+    padding: 0.55rem 1.05rem;
+    font-size: 0.85rem;
 }
 
 .hire-case-link {
@@ -2232,11 +2198,9 @@ html.light .stack-item:hover {
         grid-template-columns: 1fr;
     }
 
-    .home-hero-visual,
-    .home-hero-visual img,
-    .hire-hero-visual,
-    .hire-hero-visual img {
-        min-height: 240px;
+    .hire-hero,
+    .hero-card {
+        max-width: none;
     }
 
     .hire-links {

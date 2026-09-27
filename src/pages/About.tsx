@@ -17,7 +17,7 @@ export default function About() {
     <>
       <SEO
         title={t('about.title')}
-        description="Diseño e implemento tiendas y sitios. De la estructura a la publicación."
+        description={t('about.description')}
         path="/about"
       />
       <div className="container">
@@ -31,10 +31,10 @@ export default function About() {
 
           {/* CV Download */}
           <div className="about-cv-links">
-            <a href={isEs ? CV.es : CV.en} className="cv-download-link" download>
+            <a href={isEs ? CV.es : CV.en} className="btn btn-primary" download>
               {t(isEs ? 'hire.downloadCVEs' : 'hire.downloadCVEn')}
             </a>
-            <a href={isEs ? CV.en : CV.es} className="cv-download-link" download>
+            <a href={isEs ? CV.en : CV.es} className="btn btn-secondary" download>
               {t(isEs ? 'hire.downloadCVEn' : 'hire.downloadCVEs')}
             </a>
           </div>

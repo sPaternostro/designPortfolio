@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
+import PlaceLine from '../components/PlaceLine';
 import { findSite } from '../data/sites';
 
 const HIGHLIGHTS = [
   { key: 'gamingcity', tag1Key: 'home.highlight1Tag1', tag2Key: 'home.highlight1Tag2', titleKey: 'home.highlight1Title', descKey: 'home.highlight1Desc' },
   { key: 'accesoriosjorge', tag1Key: 'home.highlight2Tag1', tag2Key: 'home.highlight2Tag2', titleKey: 'home.highlight2Title', descKey: 'home.highlight2Desc' },
-  { key: 'kiro', tag1Key: 'home.highlight3Tag1', tag2Key: 'home.highlight3Tag2', titleKey: 'home.highlight3Title', descKey: 'home.highlight3Desc' },
+  { key: 'otraronda', tag1Key: 'home.highlight3Tag1', tag2Key: 'home.highlight3Tag2', titleKey: 'home.highlight3Title', descKey: 'home.highlight3Desc' },
+  { key: 'kiro', tag1Key: 'home.highlight4Tag1', tag2Key: 'home.highlight4Tag2', titleKey: 'home.highlight4Title', descKey: 'home.highlight4Desc' },
 ];
 
 export default function Home() {
@@ -19,20 +21,15 @@ export default function Home() {
       <div className="container">
 
         <section className="section-spacer hero-about-section">
-          <div className="home-hero">
-            <div className="hero-card glass-card">
-              <div className="hero-card-badge">{t('home.professionTag')}</div>
-              <h1 className="hero-card-name">{t('home.name')}</h1>
-              <p className="hero-card-bio">{t('home.shortBio')}</p>
-              <p className="hero-card-note">{t('home.location')}</p>
-              <div className="hero-card-actions">
-                <Link to="/hire" className="btn btn-primary">{t('home.hire')}</Link>
-                <Link to="/projects" className="btn btn-secondary">{t('home.viewWork')}</Link>
-                <Link to="/contact" className="btn btn-secondary">{t('navbar.contact')}</Link>
-              </div>
-            </div>
-            <div className="home-hero-visual">
-              <img src="/images/accesoriosjorge/despues2.png" alt={t('home.heroAlt')} />
+          <div className="hero-card glass-card">
+            <div className="hero-card-badge">{t('home.professionTag')}</div>
+            <PlaceLine />
+            <h1 className="hero-card-name">{t('home.name')}</h1>
+            <p className="hero-card-bio">{t('home.shortBio')}</p>
+            <div className="hero-card-actions">
+              <Link to="/hire" className="btn btn-primary">{t('home.hire')}</Link>
+              <Link to="/projects" className="btn btn-secondary">{t('home.viewWork')}</Link>
+              <Link to="/contact" className="btn btn-secondary">{t('navbar.contact')}</Link>
             </div>
           </div>
         </section>
@@ -90,10 +87,15 @@ export default function Home() {
                       <p className="text-secondary">{t(h.descKey)}</p>
                     </header>
                   </div>
-                  <footer className="project-card-footer">
+                  <footer className="project-card-footer card-footer-row">
                     <Link to={site?.to || '/projects'} className="btn btn-secondary">
                       {t('home.readCase')}
                     </Link>
+                    {site?.live && (
+                      <a href={site.live} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                        {t('projects.viewLive')}
+                      </a>
+                    )}
                   </footer>
                 </article>
               );
