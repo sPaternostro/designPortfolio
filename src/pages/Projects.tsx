@@ -56,12 +56,12 @@ export default function Projects() {
                 </div>
 
                 <footer className="card-footer card-footer-row">
-                  <Link to={site.to} className="btn btn-secondary">
-                    {t('projects.readCase', 'Ver caso')}
+                  <Link to={site.to} className="btn btn-primary">
+                    {t('hire.readCase')}
                   </Link>
                   {site.live && (
                     <a href={site.live} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                      {t('projects.viewLive')}
+                      {t('hire.viewLive')}
                     </a>
                   )}
                 </footer>

@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
-import PlaceLine from '../components/PlaceLine';
+import ProfileHero from '../components/ProfileHero';
 import { findSite } from '../data/sites';
 
 const HIGHLIGHTS = [
   { key: 'gamingcity', tag1Key: 'home.highlight1Tag1', tag2Key: 'home.highlight1Tag2', titleKey: 'home.highlight1Title', descKey: 'home.highlight1Desc' },
   { key: 'accesoriosjorge', tag1Key: 'home.highlight2Tag1', tag2Key: 'home.highlight2Tag2', titleKey: 'home.highlight2Title', descKey: 'home.highlight2Desc' },
   { key: 'otraronda', tag1Key: 'home.highlight3Tag1', tag2Key: 'home.highlight3Tag2', titleKey: 'home.highlight3Title', descKey: 'home.highlight3Desc' },
-  { key: 'kiro', tag1Key: 'home.highlight4Tag1', tag2Key: 'home.highlight4Tag2', titleKey: 'home.highlight4Title', descKey: 'home.highlight4Desc' },
+  { key: 'biotec', tag1Key: 'home.highlight4Tag1', tag2Key: 'home.highlight4Tag2', titleKey: 'home.highlight4Title', descKey: 'home.highlight4Desc' },
 ];
 
 export default function Home() {
@@ -21,21 +21,19 @@ export default function Home() {
       <div className="container">
 
         <section className="section-spacer hero-about-section">
-          <div className="hero-card glass-card">
-            <div className="hero-card-badge">{t('home.professionTag')}</div>
-            <PlaceLine />
-            <h1 className="hero-card-name">{t('home.name')}</h1>
-            <p className="hero-card-bio">{t('home.shortBio')}</p>
-            <div className="hero-card-actions">
-              <Link to="/hire" className="btn btn-primary">{t('home.hire')}</Link>
-              <Link to="/projects" className="btn btn-secondary">{t('home.viewWork')}</Link>
-              <Link to="/contact" className="btn btn-secondary">{t('navbar.contact')}</Link>
-            </div>
-          </div>
+          <ProfileHero
+            actions={
+              <>
+                <Link to="/hire" className="btn btn-primary">{t('home.hire')}</Link>
+                <Link to="/projects" className="btn btn-secondary">{t('home.viewWork')}</Link>
+                <Link to="/contact" className="btn btn-secondary">{t('navbar.contact')}</Link>
+              </>
+            }
+          />
         </section>
 
         <section className="section-spacer work-section">
-          <h2 className="section-title work-section-heading">
+          <h2 className="section-title text-gradient work-section-heading">
             {t('home.howTitle')}
           </h2>
           <p className="text-secondary work-section-subheading">
@@ -56,7 +54,7 @@ export default function Home() {
         </section>
 
         <section className="section-spacer">
-          <h2 className="section-title">{t('home.techTitle')}</h2>
+          <h2 className="section-title text-gradient">{t('home.techTitle')}</h2>
           <div className="hire-skills-grid home-skills">
             {skills.map((skill) => (
               <span key={skill} className="hire-skill-tag">{skill}</span>
@@ -65,7 +63,7 @@ export default function Home() {
         </section>
 
         <section className="section-spacer">
-          <h2 className="section-title">{t('home.highlights')}</h2>
+          <h2 className="section-title text-gradient">{t('home.highlights')}</h2>
           <div className="home-grid">
             {HIGHLIGHTS.map((h) => {
               const site = findSite(h.key);
@@ -88,12 +86,12 @@ export default function Home() {
                     </header>
                   </div>
                   <footer className="project-card-footer card-footer-row">
-                    <Link to={site?.to || '/projects'} className="btn btn-secondary">
-                      {t('home.readCase')}
+                    <Link to={site?.to || '/projects'} className="btn btn-primary">
+                      {t('hire.readCase')}
                     </Link>
                     {site?.live && (
                       <a href={site.live} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                        {t('projects.viewLive')}
+                        {t('hire.viewLive')}
                       </a>
                     )}
                   </footer>
@@ -112,7 +110,7 @@ export default function Home() {
         </section>
 
         <section className="section-spacer cta-section">
-          <h3 className="cta-title">{t('home.ctaTitle')}</h3>
+          <h3 className="cta-title text-gradient">{t('home.ctaTitle')}</h3>
           <Link to="/hire" className="btn btn-primary">{t('home.ctaButton')}</Link>
         </section>
 

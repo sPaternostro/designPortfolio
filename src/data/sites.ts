@@ -12,7 +12,7 @@ export const SITES: Site[] = [
     key: 'gamingcity',
     to: '/projects/gamingcity',
     image: '/images/gamingcity/despues1.png',
-    logo: '/images/logos/gamingcity.webp',
+    logo: '/images/logos/gamingcity.png',
     live: 'https://www.gamingcity.com.ar/',
   },
   {
@@ -26,7 +26,7 @@ export const SITES: Site[] = [
     key: 'biotec',
     to: '/projects/biotec',
     image: '/images/biotec/despues1.png',
-    logo: '/images/logos/biotec.gif',
+    logo: '/images/logos/biotec.png',
     live: 'https://www.biotecsa.com.ar/',
   },
   {
@@ -85,7 +85,7 @@ export const SITES: Site[] = [
   },
 ];
 
-export const FEATURED_KEYS = ['gamingcity', 'accesoriosjorge', 'otraronda', 'kiro'] as const;
+export const FEATURED_KEYS = ['gamingcity', 'accesoriosjorge', 'otraronda', 'biotec'] as const;
 
 export function findSite(key: string) {
   return SITES.find((site) => site.key === key);

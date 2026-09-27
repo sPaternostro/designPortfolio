@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
-import PlaceLine from '../components/PlaceLine';
+import ProfileHero from '../components/ProfileHero';
 import { FEATURED_KEYS, findSite } from '../data/sites';
 
 const CALENDLY_LINK = 'https://calendly.com/paternostro';
@@ -27,32 +27,21 @@ export default function Hire() {
 
       <main className="container hire-page">
         <section className="hire-hero section-spacer">
-          <div className="hire-hero-copy glass-card">
-            <div className="hire-header-meta">
-              <span className="hire-available-badge">
-                <span className="hire-available-dot" />
-                {t('hire.badge')}
-              </span>
-            </div>
-            <PlaceLine />
-
-            <h1 className="hire-name">Sebastián Paternostro</h1>
-            <p className="hire-role">{t('hire.role')}</p>
-            <p className="hire-tagline">{t('hire.tagline')}</p>
-            <p className="hire-tagline-sub">{t('hire.taglineSub')}</p>
-
-            <div className="hire-actions">
-              <a href={primaryCv} className="btn btn-primary" download>
-                {t(isEs ? 'hire.downloadCVEs' : 'hire.downloadCVEn')}
-              </a>
-              <a href={secondaryCv} className="btn btn-secondary" download>
-                {t(isEs ? 'hire.downloadCVEn' : 'hire.downloadCVEs')}
-              </a>
-              <a href={CALENDLY_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                {t('hire.bookCall')}
-              </a>
-            </div>
-          </div>
+          <ProfileHero
+            actions={
+              <>
+                <a href={primaryCv} className="btn btn-primary" download>
+                  {t(isEs ? 'hire.downloadCVEs' : 'hire.downloadCVEn')}
+                </a>
+                <a href={secondaryCv} className="btn btn-secondary" download>
+                  {t(isEs ? 'hire.downloadCVEn' : 'hire.downloadCVEs')}
+                </a>
+                <a href={CALENDLY_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                  {t('hire.bookCall')}
+                </a>
+              </>
+            }
+          />
         </section>
 
         <section className="hire-section">
@@ -89,7 +78,7 @@ export default function Hire() {
                     </div>
                     <p className="hire-case-summary">{t(`hire.case${n}Summary`)}</p>
                     <div className="hire-case-actions">
-                      <Link to={site.to} className="btn btn-secondary">{t('hire.readCase')}</Link>
+                      <Link to={site.to} className="btn btn-primary">{t('hire.readCase')}</Link>
                       {site.live && (
                         <a href={site.live} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                           {t('hire.viewLive')}
