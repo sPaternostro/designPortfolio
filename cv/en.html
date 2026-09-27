@@ -1,99 +1,111 @@
 <!doctype html>
+<!--
+  How to update this CV:
+  1. Edit this file (cv/en.html) and cv/es.html.
+  2. Replace the PDFs in public/cv/ keeping the same filenames:
+     public/cv/sebastian-paternostro-en.pdf
+     public/cv/sebastian-paternostro-es.pdf
+  3. The site buttons point at those filenames. No code change is required.
+  Export from Chrome:
+  google-chrome --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
+    --print-to-pdf=public/cv/sebastian-paternostro-en.pdf file://$PWD/cv/en.html
+  From Google Docs: download a PDF and replace the file in public/cv/ with the same name.
+  The CV must stay real text, not a screenshot.
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Sebastián Paternostro — CV</title>
   <style>
-    @page { size: A4; margin: 12mm 14mm; }
+    @page { size: A4; margin: 11mm 13mm; }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
     body {
-      font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+      font-family: "Helvetica Neue", Arial, sans-serif;
       color: #1a1a18;
-      font-size: 10.4px;
-      line-height: 1.38;
+      font-size: 10.2px;
+      line-height: 1.36;
     }
-    h1 { font-size: 22px; line-height: 1.1; margin: 0 0 2px; letter-spacing: -0.02em; }
+    h1 { font-size: 21px; line-height: 1.1; margin: 0 0 2px; }
     h2 {
       font-size: 10px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      margin: 11px 0 4px;
+      margin: 9px 0 3px;
       color: #3f3f46;
       border-bottom: 1px solid #e4e4e7;
       padding-bottom: 2px;
     }
-    p { margin: 0 0 4px; }
-    ul { margin: 2px 0 0; padding-left: 16px; }
+    p { margin: 0 0 3px; }
+    ul { margin: 2px 0 0; padding-left: 15px; }
     li { margin: 0 0 2px; }
-    .role { font-size: 12.5px; font-weight: 650; margin: 0 0 3px; }
-    .meta { color: #3f3f46; }
+    .role { font-size: 12px; font-weight: 700; margin: 0 0 2px; }
+    .meta, .when { color: #3f3f46; }
     a { color: #1a1a18; text-decoration: none; }
-    .job { margin-top: 7px; }
+    .job { margin-top: 6px; }
     .job-head { display: flex; justify-content: space-between; gap: 12px; }
     .job strong { font-size: 11px; }
-    .when { color: #3f3f46; white-space: nowrap; }
-    .links { margin-top: 2px; }
+    .when { white-space: nowrap; }
   </style>
 </head>
 <body>
   <h1>Sebastián Elías Paternostro</h1>
-  <p class="role">Ecommerce web developer</p>
+  <p class="role">Ecommerce web designer</p>
   <p class="meta">Japan (12 months) · Remote, EU and US hours · Relocating to Europe</p>
-  <p class="links">
+  <p>
     <a href="mailto:sebastian.paternostro@gmail.com">sebastian.paternostro@gmail.com</a>
     · <a href="https://www.linkedin.com/in/spaternostro99/">linkedin.com/in/spaternostro99</a>
     · <a href="https://spaternostro.com.ar/hire">spaternostro.com.ar/hire</a>
   </p>
 
   <h2>Profile</h2>
-  <p>I build online stores and websites and ship them. At NetOne (2024–2026) I took 15+ B2B and B2C projects from client requirements through the interface, the frontend, QA, and training so the client could run the store. I work on the platform and in code: HTML, CSS, JavaScript, and React.</p>
+  <p>I design online stores and websites for small businesses and leave them published on the platform. At NetOne (2024–2026) I took 15+ B2B and B2C projects through client requirements, catalog and page structure, responsive interface, QA, and training so the client could run the store.</p>
+  <p>I implement on TornadoStore, GlobalBluePoint, and TiendaNube, and I adjust HTML and CSS. I do not program custom integrations (ERP, payment gateways) or backend features. Development builds those. I specify them and review the result.</p>
 
   <h2>Experience</h2>
   <div class="job">
     <div class="job-head">
-      <strong>NetOne Soluciones Web — Ecommerce web designer and developer</strong>
+      <strong>NetOne Soluciones Web — Ecommerce web designer</strong>
       <span class="when">Jun 2024 – Jun 2026</span>
     </div>
     <ul>
-      <li>Shipped 15+ B2B and B2C stores and sites on TornadoStore and GlobalBluePoint.</li>
-      <li>Owned structure, responsive layout, and implementation. When a feature needed custom code, I followed it with the development team.</li>
-      <li>Client contact on my projects: requirements, revisions, and launch.</li>
-      <li>Visual and functional QA before release, plus training so the client could operate the store.</li>
+      <li>Designed and published 15+ B2B/B2C stores and sites on TornadoStore and GlobalBluePoint.</li>
+      <li>Defined catalog structure, navigation, pages, and responsive layout, and implemented the interface on the platform.</li>
+      <li>Client contact on my projects: requirements, revisions, visual and functional QA, and launch.</li>
+      <li>Trained clients to operate the store without the team.</li>
+      <li>When a feature needed an integration or backend work, I handed it to development and reviewed the result. I did not program it.</li>
     </ul>
+    <p style="margin-top:3px">Shipped work: GamingCity (gamingcity.com.ar), migration before Mercado Shops shut down. Accesorios Jorge (accesoriosjorge-jrd-mayoristas.com.ar), wholesale catalog and ordering. Biotec S.A. (biotecsa.com.ar), bilingual industrial site.</p>
   </div>
-  <p style="margin-top:6px"><strong>Shipped:</strong>
-    GamingCity, migration before Mercado Shops shut down — gamingcity.com.ar ·
-    Accesorios Jorge, wholesale ordering — accesoriosjorge-jrd-mayoristas.com.ar ·
-    Biotec S.A., bilingual industrial site — biotecsa.com.ar
-  </p>
   <div class="job">
     <div class="job-head">
       <strong>sPaternostro — Freelance web designer</strong>
       <span class="when">Sep 2022 – Dec 2023</span>
     </div>
-    <p>Websites and small online stores for local businesses, in HTML, CSS, and JavaScript.</p>
+    <p>Websites and small stores for local businesses. Structure, interface, and layout in HTML, CSS, and JavaScript.</p>
   </div>
   <div class="job">
     <div class="job-head">
-      <strong>RET — Frontend web designer</strong>
+      <strong>RET — Web designer, frontend layout</strong>
       <span class="when">May 2022 – May 2023</span>
     </div>
-    <p>Responsive interfaces in React, JavaScript, and CSS from UI specifications.</p>
+    <p>Turned existing UI specs into HTML, CSS, and React. I was not building the backend.</p>
   </div>
   <div class="job">
     <div class="job-head">
-      <strong>JULMAR — Web designer and frontend support</strong>
+      <strong>JULMAR — Web designer and interface support</strong>
       <span class="when">Dec 2021 – Dec 2022</span>
     </div>
     <p>Maintenance, responsive fixes, and updates on institutional and ecommerce sites.</p>
   </div>
 
   <h2>Training</h2>
-  <p>Courses, not a university degree. Front-End with React — Oracle Next Education / Alura (2023). Full-Stack Python and SQL — Codo a Codo (2024). Business Agility and Scrum — Alura (2024).</p>
+  <p>Courses, no university degree. Front-End with React — Oracle Next Education / Alura (2023). Full-Stack Python and SQL — Codo a Codo (2024). Business Agility and Scrum — Alura (2024).</p>
 
-  <h2>Languages and tools</h2>
+  <h2>Languages</h2>
   <p>Spanish, native · English, C1 · Japanese, N3</p>
-  <p>HTML, CSS, JavaScript, React, responsive layout, TornadoStore, GlobalBluePoint, TiendaNube, WordPress, visual QA.</p>
+
+  <h2>Skills</h2>
+  <p>Web design, ecommerce UX/UI, information architecture, responsive design, CMS, TornadoStore, GlobalBluePoint, TiendaNube, WordPress, HTML, CSS, visual and functional QA, client requirements, client training. JavaScript and React for layout, not for backend or integrations.</p>
 </body>
 </html>

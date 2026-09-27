@@ -12,7 +12,7 @@ const BASE_URL = 'https://spaternostro.com.ar';
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.jpg`;
 
 const DEFAULT_DESCRIPTION =
-  'Sebastián Paternostro, desarrollador web de ecommerce. Arma tiendas y sitios y los deja publicados.';
+  'Sebastián Paternostro, diseñador web de ecommerce. Diseña tiendas y las deja publicadas en la plataforma.';
 
 export default function SEO({
   title,
@@ -20,7 +20,7 @@ export default function SEO({
   path = '',
   image = DEFAULT_IMAGE,
 }: SEOProps) {
-  const fullTitle = title ? `${title} — ${SITE_NAME}` : `${SITE_NAME} — Ecommerce Web Developer`;
+  const fullTitle = title ? `${title} — ${SITE_NAME}` : `${SITE_NAME} — Diseñador web de ecommerce`;
   const url = `${BASE_URL}${path}`;
 
   return (
