@@ -46,8 +46,9 @@ export default function Hire() {
 
         <section className="hire-section">
           <h2 className="hire-section-title">{t('hire.whatIDo')}</h2>
+          <p className="section-lead">{t('hire.whatIDoLead')}</p>
           <div className="hire-what-grid">
-            {[1, 2, 3].map((n) => (
+            {[1, 2, 3, 4].map((n) => (
               <div key={n} className="hire-what-item glass-card">
                 <p className="hire-step">0{n}</p>
                 <h3 className="hire-what-title">{t(`hire.card${n}Title`)}</h3>

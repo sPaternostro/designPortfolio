@@ -15,7 +15,7 @@ export default function ProfileHero({ actions }: { actions: ReactNode }) {
       </div>
       <PlaceLine />
       <p className="profile-role">{t('hire.role')}</p>
-      <h1 className="profile-name text-gradient">Sebastián Paternostro</h1>
+      <h1 className="profile-name text-gradient">{t('home.name')}</h1>
       <p className="profile-lead">{t('hire.tagline')}</p>
       <p className="profile-sub">{t('hire.taglineSub')}</p>
       <div className="profile-actions">{actions}</div>

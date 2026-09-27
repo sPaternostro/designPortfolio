@@ -40,10 +40,11 @@ export default function About() {
           </div>
         </section>
 
-        <section className="reveal">
+        <section className="reveal about-principles">
           <h2 className="text-gradient about-principles-heading">
             {t('about.principlesTitle')}
           </h2>
+          <p className="text-secondary section-lead">{t('about.principlesLead')}</p>
           <div className="home-grid">
             <article className="glass-card">
               <p className="card-tag">01</p>

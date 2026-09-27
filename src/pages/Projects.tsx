@@ -19,9 +19,6 @@ export default function Projects() {
         <section className="reveal section-spacer">
           <h1 className="text-gradient page-title">{t('projects.title')}</h1>
           <p className="text-secondary page-subtitle">{t('projects.subtitle')}</p>
-        </section>
-
-        <section className="reveal projects-grid-layout">
           <div className="home-grid">
             {SITES.map((site) => (
               <article

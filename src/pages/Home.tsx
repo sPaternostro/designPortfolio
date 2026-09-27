@@ -36,20 +36,17 @@ export default function Home() {
           <h2 className="section-title text-gradient work-section-heading">
             {t('home.howTitle')}
           </h2>
-          <p className="text-secondary work-section-subheading">
-            {t('home.howSubtitle')}
+          <p className="text-secondary section-lead">
+            {t('hire.whatIDoLead')}
           </p>
           <div className="work-grid">
-            {[1, 2, 3].map((n) => {
-              const key = n === 1 ? 'One' : n === 2 ? 'Two' : 'Three';
-              return (
-                <div key={n} className="glass-card work-card">
-                  <p className="hire-step">0{n}</p>
-                  <h3 className="work-card-title">{t(`home.how${key}Title`)}</h3>
-                  <p className="work-card-desc">{t(`home.how${key}Desc`)}</p>
-                </div>
-              );
-            })}
+            {[1, 2, 3, 4].map((n) => (
+              <div key={n} className="glass-card work-card">
+                <p className="hire-step">0{n}</p>
+                <h3 className="work-card-title">{t(`hire.card${n}Title`)}</h3>
+                <p className="work-card-desc">{t(`hire.card${n}Desc`)}</p>
+              </div>
+            ))}
           </div>
         </section>
 
