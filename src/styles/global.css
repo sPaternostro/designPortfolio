@@ -1744,7 +1744,22 @@ html.light .floating-contact-btn {
 }
 
 .profile-hero {
-    padding: 2.25rem 2.25rem 2rem;
+    padding: 2.75rem 2.5rem 2.5rem;
+    text-align: center;
+}
+
+.profile-hero .hire-header-meta,
+.profile-hero .place-line,
+.profile-hero .profile-actions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.profile-hero .profile-lead,
+.profile-hero .profile-sub {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-role {
@@ -1830,9 +1845,13 @@ html.light .floating-contact-btn {
 .hire-available-badge {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
+    max-width: 100%;
     font-size: 0.8rem;
     font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
     color: var(--text-primary);
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
@@ -2282,7 +2301,7 @@ html.light .stack-item:hover {
 
     .profile-actions {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .home-hero,
