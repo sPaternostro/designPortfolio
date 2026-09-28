@@ -17,7 +17,7 @@ export default function About() {
     <>
       <SEO
         title={t('about.title')}
-        description={t('about.description')}
+        description={t('about.seoDesc')}
         path="/about"
       />
       <div className="container">

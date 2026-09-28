@@ -26,7 +26,7 @@
   "home": {
     "professionTag": "Diseñador web especializado en ecommerce",
     "name": "Sebastián Paternostro",
-    "shortBio": "Diseño tiendas y sitios web, y los acompaño desde el primer contacto hasta después de publicarlos.",
+    "shortBio": "Diseño tiendas y sitios web. En cada proyecto sigo el trabajo desde el primer contacto hasta el soporte después de publicarlo.",
     "location": "Japón, hasta septiembre de 2027. Busco trabajo remoto, con horario flexible, y también presencial en Japón.",
     "heroAlt": "Tienda mayorista de Accesorios Jorge",
     "viewWork": "Ver proyectos",
@@ -35,11 +35,11 @@
     "highlights": "Destacados",
     "readCase": "Ver caso",
     "howTitle": "Cómo llevo un proyecto",
-    "howSubtitle": "El trabajo cubre el ciclo completo, del primer contacto al soporte después de publicar.",
+    "howSubtitle": "En cada proyecto cubro el ciclo completo: del primer contacto al soporte después de publicar.",
     "howOneTitle": "Diseñar",
     "howOneDesc": "La armo desde cero o acomodo lo que ya está: estructura, textos e interfaz. El foco es ecommerce, y también hago landings y otros sitios.",
     "howTwoTitle": "Publicar",
-    "howTwoDesc": "La dejo publicada en la plataforma del proyecto, o con el stack que haga falta.",
+    "howTwoDesc": "Dejo el sitio publicado en la plataforma del proyecto, o con el stack que haga falta.",
     "howThreeTitle": "Acompañar",
     "howThreeDesc": "Doy soporte sobre lo publicado y puedo incorporar cosas nuevas: ajustes, páginas y cambios.",
     "techTitle": "Con qué trabajo",
@@ -68,11 +68,11 @@
     "highlight1Tag1": "Ecommerce",
     "highlight1Tag2": "Migración",
     "highlight1Title": "GamingCity",
-    "highlight1Desc": "Diseñé el sitio según las pautas de marketing. Hice el seguimiento con desarrollo, mantuve el contacto con el cliente y di las capacitaciones. Salió antes del cierre de Mercado Shops.",
+    "highlight1Desc": "Diseñé la tienda a partir de las pautas de marketing. Seguí el trabajo con desarrollo, fui el contacto del cliente y di las capacitaciones. Salió antes del cierre de Mercado Shops.",
     "highlight2Tag1": "Ecommerce",
     "highlight2Tag2": "Mayorista",
     "highlight2Title": "Accesorios Jorge",
-    "highlight2Desc": "Catálogo y pedidos B2B para un mayorista de accesorios. El sitio reemplaza el pedido por teléfono y planilla.",
+    "highlight2Desc": "Diseñé el catálogo y el flujo de pedidos B2B para un mayorista de accesorios. El sitio reemplaza el pedido por teléfono y planilla.",
     "highlight3Tag1": "Marca",
     "highlight3Tag2": "Sitio web",
     "highlight3Title": "Otra Ronda",
@@ -80,14 +80,15 @@
     "highlight4Tag1": "Sitio",
     "highlight4Tag2": "ES / EN",
     "highlight4Title": "Biotec",
-    "highlight4Desc": "Sitio institucional para una empresa de aditivos. Lo diseñé en español y en inglés.",
-    "philosophy": "Un sitio bien resuelto se siente simple: se entiende la oferta, la marca se ve cuidada y el siguiente paso es claro.",
+    "highlight4Desc": "Diseñé el sitio institucional de una empresa de aditivos, en español y en inglés.",
+    "philosophy": "Un sitio bien resuelto se entiende rápido: la oferta es clara, la marca se ve cuidada y el siguiente paso es evidente.",
     "ctaTitle": "Disponible para trabajo remoto / presencial en Japón.",
-    "ctaButton": "Ver perfil para reclutadores"
+    "ctaButton": "Ver perfil para reclutadores",
+    "seoDesc": "Diseñador web especializado en ecommerce. Diseño de tiendas y sitios B2B y B2C, del primer contacto al soporte después de publicar. Remoto y presencial en Japón."
   },
   "about": {
     "title": "Sobre mí",
-    "description": "Diseñador web especializado en ecommerce. En NetOne, de junio de 2024 a julio de 2026, trabajé con más de 30 clientes B2B y B2C, y llegué a llevar 10 proyectos a la vez, del primer contacto al soporte después de publicar. Antes hice diseño web y maquetación en RET, JULMAR y como freelance. Estoy en Japón hasta septiembre de 2027: busco trabajo remoto, con horario flexible, y también presencial en Japón.",
+    "description": "Diseñador web especializado en ecommerce. En NetOne, de junio de 2024 a julio de 2026, trabajé con más de 30 clientes B2B y B2C, y llegué a llevar 10 proyectos en paralelo. En cada uno seguí el trabajo del primer contacto al soporte después de publicar. Antes hice diseño web y maquetación en RET, JULMAR y como freelance. Estoy en Japón hasta septiembre de 2027. Busco trabajo remoto, con horario flexible, y también presencial en Japón.",
     "principlesTitle": "Cómo encaro un proyecto",
     "principles": {
       "root": "Primer contacto",
@@ -95,7 +96,7 @@
       "thinking": "Estructura e interfaz",
       "thinkingDesc": "Defino páginas, navegación e interfaz. Puede ser un sitio nuevo o una revisión de uno que ya está publicado.",
       "business": "Implementación",
-      "businessDesc": "La dejo funcionando en la plataforma del proyecto o con el stack que haga falta, y hago el seguimiento con desarrollo hasta que coincide con lo acordado.",
+      "businessDesc": "Dejo el sitio funcionando en la plataforma del proyecto o con el stack que haga falta, y hago el seguimiento con desarrollo hasta que coincide con lo acordado.",
       "collaboration": "Después de publicar",
       "collaborationDesc": "Reviso la salida, capacito a quien administra el sitio y sigo disponible para ajustes o para incorporar lo que haga falta."
     },
@@ -103,11 +104,12 @@
     "ctaText": "El resumen para reclutadores, con casos y CV, está en una sola página.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Ver perfil",
-    "principlesLead": "Acompaño el ciclo completo, del primer contacto al soporte después de publicar."
+    "principlesLead": "En cada proyecto cubro el ciclo completo, del primer contacto al soporte después de publicar.",
+    "seoDesc": "Diseñador web especializado en ecommerce. Más de 30 clientes B2B y B2C en NetOne. Remoto, con horario flexible, y presencial en Japón hasta septiembre de 2027."
   },
   "contact": {
     "title": "Hablemos",
-    "description": "Si estás mirando el perfil, escribime o agendá una llamada.",
+    "description": "Si estás evaluando el perfil, escribime o agendá una llamada.",
     "info": {
       "email": "Email",
       "linkedin": "LinkedIn",
@@ -129,7 +131,7 @@
   },
   "projects": {
     "title": "Proyectos",
-    "subtitle": "Tiendas y sitios que publiqué. En cada caso: qué había que resolver, qué hice y el link.",
+    "subtitle": "Tiendas y sitios de ecommerce que diseñé y publiqué. En cada caso: qué había que resolver, qué hice y el sitio en vivo.",
     "readCase": "Ver caso",
     "viewLive": "Ver sitio",
     "demo": "Demo",
@@ -167,7 +169,7 @@
   "gamingcity": {
     "category": "Caso de Estudio",
     "title": "GamingCity — De tienda en marketplace a E‑commerce de marca",
-    "intro": "GamingCity necesitaba migrar de MercadoShops a su propia plataforma antes del cierre definitivo del servicio. El desafío radicaba en traducir su identidad de marca y necesidades de marketing en una experiencia flexible, operando bajo las reglas de un CMS existente.",
+    "intro": "Diseñé y publiqué la tienda de GamingCity para salir de Mercado Shops antes del cierre. Partí de las pautas de marketing y de la identidad de marca, dentro del CMS de la plataforma.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño e implementación web",
@@ -300,7 +302,7 @@
     "category": "Diseño de Procesos",
     "title": "Estandarización de Reportes de Incidentes",
     "subtitle": "Optimización de procesos interfuncionales mediante comunicación estructurada",
-    "intro": "Rediseñé el flujo de trabajo para la documentación interna de incidentes, transformando reportes caóticos en un protocolo altamente estructurado. Esto redujo la sobrecarga de comunicación y los cuellos de botella en desarrollo.",
+    "intro": "Rediseñé el reporte interno de incidentes: de notas incompletas a un protocolo con la información que desarrollo necesita para arrancar.",
     "meta": {
       "role": "Rol",
       "roleValue": "Documentación y QA interno",
@@ -378,7 +380,7 @@
   "biotec": {
     "category": "Diseño Web • Bilingüe • Industrial",
     "title": "Biotec S.A.",
-    "intro": "Diseño web bilingüe para una empresa de tecnología alimentaria, enfocado en la claridad técnica y el alcance internacional.",
+    "intro": "Diseñé el sitio institucional de Biotec, en español y en inglés, para ordenar una oferta técnica y dejarla fácil de leer.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -413,7 +415,7 @@
   "accesoriosjorge": {
     "category": "E-commerce • B2B",
     "title": "Accesorios Jorge",
-    "intro": "Diseño y desarrollo de un e-commerce mayorista enfocado en simplificar el proceso de compra y estructurar las operaciones comerciales.",
+    "intro": "Diseñé la tienda mayorista de Accesorios Jorge: catálogo, navegación y un pedido que reemplaza el circuito de teléfono y planilla.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -459,7 +461,7 @@
   "bhb2b": {
     "category": "E-commerce • Mayorista",
     "title": "Bulonera Hurlingham",
-    "intro": "Diseño de una tienda online mayorista enfocada en la navegación eficiente y la carga rápida de pedidos para compradores B2B.",
+    "intro": "Diseñé la tienda mayorista de Bulonera Hurlingham, para encontrar el producto y cargar el pedido sin fricción.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -503,7 +505,7 @@
   "bombas": {
     "category": "Rediseño Web • Servicios",
     "title": "Bombas y Servicios",
-    "intro": "Actualización del portal corporativo para optimizar la organización del contenido y la experiencia de navegación.",
+    "intro": "Actualicé el sitio de Bombas y Servicios para ordenar el contenido y hacer más directa la navegación.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -546,7 +548,7 @@
   "comafer": {
     "category": "E-commerce • Mayorista",
     "title": "Comafer",
-    "intro": "Rediseño de e-commerce enfocado en la organización de un catálogo extenso y en la optimización de la experiencia de búsqueda y navegación.",
+    "intro": "Rediseñé el ecommerce de Comafer para ordenar un catálogo grande y mejorar la búsqueda y la navegación.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -592,7 +594,7 @@
   "fjg": {
     "category": "Landing • Servicios",
     "title": "FJG Impermeabilizaciones",
-    "intro": "Diseño de una landing page clara y directa para comunicar servicios de impermeabilización y facilitar el contacto con clientes potenciales.",
+    "intro": "Diseñé la landing de FJG Impermeabilizaciones para explicar el servicio y dejar un camino claro al contacto.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -635,7 +637,7 @@
   "netegia": {
     "category": "SaaS • ERP",
     "title": "Netegia",
-    "intro": "Reestructuración web para mejorar la comprensión de un sistema de gestión con múltiples módulos y funcionalidades.",
+    "intro": "Reorganicé el sitio de Netegia para que un sistema con varios módulos se entienda sin una demo previa.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -679,7 +681,7 @@
   "zafirofarm": {
     "category": "Rediseño Web • ERP",
     "title": "Zafiro Farmacias",
-    "intro": "Actualización del sitio web de un ERP de farmacias para lograr una experiencia más clara, moderna y usable, alineada con el nivel del negocio.",
+    "intro": "Actualicé el sitio de Zafiro Farmacias para que la oferta del ERP se lea más clara y al nivel del negocio.",
     "meta": {
       "role": "Rol",
       "roleValue": "Diseño UX/UI • Diseño Web",
@@ -722,7 +724,7 @@
   "otraronda": {
     "category": "Branding • Diseño Web • Conversión",
     "title": "Otra Ronda",
-    "intro": "Rediseño completo de la presencia digital para transformar un servicio de barras móviles en una marca profesional, atractiva y orientada a la conversión.",
+    "intro": "Rediseñé la marca y el sitio de Otra Ronda, un servicio de barras para eventos, de la identidad al formulario de contacto.",
     "meta": {
       "role": "Rol",
       "roleValue": "Branding • Diseño UX/UI • Diseño Web",
@@ -773,17 +775,17 @@
     "identityTitle": "SP",
     "navTitle": "Navegación",
     "contactTitle": "Contacto",
-    "subtitle": "Diseñador web especializado en ecommerce.",
+    "subtitle": "Diseñador web especializado en ecommerce. Tiendas y sitios, del primer contacto al soporte después de publicar.",
     "hire": "Para reclutadores",
     "rights": "Todos los derechos reservados."
   },
   "hire": {
-    "seoTitle": "Disponible para trabajo remoto / presencial en Japón",
-    "seoDesc": "Sebastián Paternostro, diseñador web especializado en ecommerce. En Japón hasta septiembre de 2027. Remoto, y presencial en Japón.",
+    "seoTitle": "Diseñador web de ecommerce",
+    "seoDesc": "Sebastián Paternostro diseña tiendas y sitios de ecommerce, del primer contacto al soporte después de publicar. Más de 30 clientes B2B y B2C. Remoto y presencial en Japón.",
     "badge": "Disponible para trabajo remoto / presencial en Japón",
     "markets": "Japón · hasta sept. 2027",
     "role": "Diseñador web especializado en ecommerce",
-    "tagline": "Diseño tiendas y sitios web, y los acompaño desde el primer contacto hasta después de publicarlos.",
+    "tagline": "Diseño tiendas y sitios web. En cada proyecto sigo el trabajo desde el primer contacto hasta el soporte después de publicarlo.",
     "taglineSub": "En NetOne (junio 2024 – julio 2026) trabajé con más de 30 clientes, B2B y B2C, y llegué a llevar 10 proyectos a la vez. Me ocupo de la estructura, la interfaz y la implementación, en contacto con el cliente y con desarrollo. Mis tecnologías más usadas son HTML, CSS, JavaScript (vanilla, React, Next.js), TypeScript y Tailwind.",
     "heroAlt": "Home de GamingCity, tienda publicada",
     "bookCall": "Agendar una llamada",
@@ -795,14 +797,14 @@
     "card2Title": "Estructura e interfaz",
     "card2Desc": "Defino páginas, navegación e interfaz. Puede ser un sitio nuevo o una revisión de uno que ya está publicado.",
     "card3Title": "Implementación",
-    "card3Desc": "La dejo funcionando en la plataforma del proyecto o con el stack que haga falta, y hago el seguimiento con desarrollo hasta que coincide con lo acordado.",
+    "card3Desc": "Dejo el sitio funcionando en la plataforma del proyecto o con el stack que haga falta, y hago el seguimiento con desarrollo hasta que coincide con lo acordado.",
     "selectedWork": "Para mirar primero",
     "case1Tag": "Ecommerce · Migración",
     "case1Title": "GamingCity",
-    "case1Summary": "Diseñé el sitio según las pautas de marketing sobre qué mostrar y comunicar. Hice el seguimiento con desarrollo, hablé con el cliente durante todo el proyecto y di las capacitaciones. Salió antes del cierre de Mercado Shops.",
+    "case1Summary": "Diseñé la tienda a partir de las pautas de marketing: qué mostrar y cómo decirlo. Seguí el trabajo con desarrollo, fui el contacto del cliente y di las capacitaciones. Salió antes del cierre de Mercado Shops.",
     "case2Tag": "Ecommerce · Mayorista",
     "case2Title": "Accesorios Jorge",
-    "case2Summary": "Catálogo y pedidos mayoristas. El sitio reemplaza el circuito de teléfono y planilla.",
+    "case2Summary": "Diseñé el catálogo y el flujo de pedidos para un mayorista. El sitio reemplaza el pedido por teléfono y planilla.",
     "case3Tag": "Marca · Sitio web",
     "case3Title": "Otra Ronda",
     "case3Summary": "Rediseño de la presencia digital de un servicio de barras para eventos: identidad, estructura del sitio y camino hasta el contacto.",
@@ -839,8 +841,8 @@
     "portfolio": "Todos los proyectos",
     "case4Tag": "Sitio · ES / EN",
     "case4Title": "Biotec",
-    "case4Summary": "Sitio institucional para una empresa de aditivos. Lo diseñé en español y en inglés: estructura, interfaz y una lectura clara de la oferta.",
-    "whatIDoLead": "El trabajo cubre el ciclo completo, del primer contacto al soporte después de publicar.",
+    "case4Summary": "Diseñé el sitio institucional de una empresa de aditivos, en español y en inglés: estructura, interfaz y una lectura clara de la oferta.",
+    "whatIDoLead": "En cada proyecto cubro el ciclo completo: del primer contacto al soporte después de publicar.",
     "card4Title": "Después de publicar",
     "card4Desc": "Reviso la salida, capacito a quien administra el sitio y sigo disponible para ajustes o para incorporar lo que haga falta."
   },

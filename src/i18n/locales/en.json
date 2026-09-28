@@ -26,28 +26,28 @@
   "home": {
     "professionTag": "Web designer specialized in ecommerce",
     "name": "Sebastián Paternostro",
-    "shortBio": "I design online stores and websites, and I stay with them from the first conversation through support after launch.",
+    "shortBio": "I design online stores and websites. On each project I stay from the first conversation through support after the site goes live.",
     "viewWork": "View projects",
     "contact": "Contact",
     "highlights": "Selected work",
     "readCase": "View case",
     "howTitle": "How I take a project through",
-    "howSubtitle": "The work covers the full cycle, from the first conversation to support after launch.",
+    "howSubtitle": "On each project I cover the full cycle: from the first conversation to support after launch.",
     "howOneTitle": "Design",
     "howOneDesc": "I build it from scratch or reshape what is already there: structure, copy, and interface. Ecommerce is the focus, and I also do landing pages and other sites.",
     "howTwoTitle": "Publish",
-    "howTwoDesc": "I ship it on the project's platform, or with the stack the work needs.",
+    "howTwoDesc": "I get the site live on the project's platform, or with the stack the work needs.",
     "howThreeTitle": "Support",
     "howThreeDesc": "I support what is live and can add new pieces: adjustments, pages, and content changes.",
     "techTitle": "What I work with",
     "highlight1Tag1": "Ecommerce",
     "highlight1Tag2": "Migration",
     "highlight1Title": "GamingCity",
-    "highlight1Desc": "I designed the site from the marketing guidelines. I followed up with development, stayed in contact with the client, and ran the training. It launched before Mercado Shops shut down.",
+    "highlight1Desc": "I designed the store from the marketing guidelines. I followed the work with development, was the client contact, and ran the training. It launched before Mercado Shops shut down.",
     "highlight2Tag1": "Ecommerce",
     "highlight2Tag2": "Wholesale",
     "highlight2Title": "Accesorios Jorge",
-    "highlight2Desc": "Catalog and B2B ordering for an auto-accessories wholesaler. The site replaces phone and spreadsheet orders.",
+    "highlight2Desc": "I designed the catalog and the B2B ordering flow for an accessories wholesaler. The site replaces phone and spreadsheet orders.",
     "highlight3Tag1": "Brand",
     "highlight3Tag2": "Website",
     "highlight3Title": "Otra Ronda",
@@ -55,8 +55,8 @@
     "highlight4Tag1": "Website",
     "highlight4Tag2": "ES / EN",
     "highlight4Title": "Biotec",
-    "highlight4Desc": "An institutional site for an additives company. I designed it in Spanish and English.",
-    "philosophy": "A well-resolved site feels simple: the offer is clear, the brand looks cared for, and the next step is obvious.",
+    "highlight4Desc": "I designed the institutional site for an additives company, in Spanish and in English.",
+    "philosophy": "A well-resolved site is easy to read: the offer is clear, the brand looks cared for, and the next step is obvious.",
     "ctaTitle": "Available for remote work / on-site in Japan.",
     "ctaButton": "View recruiter profile",
     "stackDesign": "Design & UI/UX",
@@ -86,11 +86,12 @@
       "Visual QA",
       "Client contact",
       "Client training"
-    ]
+    ],
+    "seoDesc": "Web designer specialized in ecommerce. I design B2B and B2C stores and sites, from the first conversation through support after launch. Remote, and on-site in Japan."
   },
   "about": {
     "title": "About me",
-    "description": "Web designer specialized in ecommerce. At NetOne, from June 2024 to July 2026, I worked with more than 30 B2B and B2C clients, and at times I was running 10 projects at once, from the first conversation through support after launch. Before that I did web design and layout at RET, JULMAR, and as a freelancer. I am in Japan through September 2027: looking for remote work, with flexible hours, and also on-site in Japan.",
+    "description": "Web designer specialized in ecommerce. At NetOne, from June 2024 to July 2026, I worked with more than 30 B2B and B2C clients, and at times I was running 10 projects in parallel. On each one I stayed from the first conversation through support after launch. Before that I did web design and layout at RET, JULMAR, and as a freelancer. I am in Japan through September 2027. I am looking for remote work, with flexible hours, and also on-site in Japan.",
     "principlesTitle": "How I approach a project",
     "principles": {
       "root": "First conversation",
@@ -98,7 +99,7 @@
       "thinking": "Structure and interface",
       "thinkingDesc": "I define pages, navigation, and the interface. It can be a new site or a revision of one that is already live.",
       "business": "Implementation",
-      "businessDesc": "I get it working on the project's platform or with the stack the work needs, and I follow up with development until it matches what we agreed.",
+      "businessDesc": "I get the site working on the project's platform or with the stack the work needs, and I follow up with development until it matches what we agreed.",
       "collaboration": "After launch",
       "collaborationDesc": "I review the launch, train the person who will run the site, and stay available for adjustments or for whatever needs to be added."
     },
@@ -106,11 +107,12 @@
     "ctaText": "The recruiter summary, with cases and a CV, is on one page.",
     "ctaProjects": "View projects",
     "ctaContact": "View profile",
-    "principlesLead": "I stay through the full cycle, from the first conversation to support after launch."
+    "principlesLead": "On each project I cover the full cycle, from the first conversation to support after launch.",
+    "seoDesc": "Web designer specialized in ecommerce. 30+ B2B and B2C clients at NetOne. Remote, with flexible hours, and on-site in Japan through September 2027."
   },
   "contact": {
     "title": "Let's talk",
-    "description": "If you are reviewing this profile, write to me or book a call.",
+    "description": "If you are reviewing the profile, write to me or book a call.",
     "info": {
       "email": "Email",
       "linkedin": "LinkedIn",
@@ -132,7 +134,7 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Stores and sites I shipped. Each case says what was broken, what I did, and links to the live site.",
+    "subtitle": "Ecommerce stores and sites I designed and shipped. Each case shows the problem, the work, and the live site.",
     "readCase": "Read case",
     "project1Tag1": "Process Design",
     "project1Tag2": "Full Redesign",
@@ -170,7 +172,7 @@
   "gamingcity": {
     "category": "Case Study",
     "title": "GamingCity — From marketplace store to brand E‑commerce",
-    "intro": "GamingCity needed to migrate from MercadoShops to its own platform before the service shutdown. The challenge was translating their brand identity and marketing needs into a flexible experience while working under an existing CMS.",
+    "intro": "I designed and shipped GamingCity's store so it could leave Mercado Shops before the shutdown. The work started from the marketing guidelines and the brand, inside the platform CMS.",
     "meta": {
       "role": "Role",
       "roleValue": "Web design and implementation",
@@ -303,7 +305,7 @@
     "category": "Process Design",
     "title": "Incident Reporting Standardization",
     "subtitle": "Cross-team process improvement through structured communication",
-    "intro": "Redesigned the internal issue documentation workflow to transform chaotic reporting into a highly structured protocol, reducing communication overhead and development bottlenecks.",
+    "intro": "I redesigned the internal incident report: from incomplete notes to a protocol with the information development needs to start.",
     "meta": {
       "role": "Role",
       "roleValue": "Internal documentation and QA",
@@ -381,7 +383,7 @@
   "biotec": {
     "category": "Web Design • Bilingual • Industrial",
     "title": "Biotec S.A.",
-    "intro": "Bilingual web design for a food technology company focused on technical clarity and international reach.",
+    "intro": "I designed Biotec's institutional site, in Spanish and English, to organize a technical offer and make it easy to read.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -416,7 +418,7 @@
   "accesoriosjorge": {
     "category": "Ecommerce • B2B",
     "title": "Accesorios Jorge",
-    "intro": "Design and development of a wholesale ecommerce focused on simplifying the purchase process and structuring commercial operations.",
+    "intro": "I designed Accesorios Jorge's wholesale store: catalog, navigation, and an order flow that replaces phone and spreadsheet orders.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -462,7 +464,7 @@
   "bhb2b": {
     "category": "Ecommerce • Wholesale",
     "title": "Bulonera Hurlingham",
-    "intro": "Design of a wholesale online store focused on efficient navigation and fast ordering for B2B buyers.",
+    "intro": "I designed Bulonera Hurlingham's wholesale store so buyers can find a product and place an order without friction.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -506,7 +508,7 @@
   "bombas": {
     "category": "Web Redesign • Services",
     "title": "Bombas y Servicios",
-    "intro": "Corporate portal update to improve content organization and navigation experience.",
+    "intro": "I updated the Bombas y Servicios site to organize the content and make navigation more direct.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -549,7 +551,7 @@
   "comafer": {
     "category": "Ecommerce • Wholesale",
     "title": "Comafer",
-    "intro": "Ecommerce redesign focused on organizing an extensive catalog and improving the search and navigation experience.",
+    "intro": "I redesigned Comafer's ecommerce to organize a large catalog and improve search and navigation.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -595,7 +597,7 @@
   "fjg": {
     "category": "Landing • Services",
     "title": "FJG Impermeabilizaciones",
-    "intro": "Design of a clear and direct landing page to communicate waterproofing services and facilitate contact with potential clients.",
+    "intro": "I designed the FJG Impermeabilizaciones landing page to explain the service and leave a clear path to contact.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -638,7 +640,7 @@
   "netegia": {
     "category": "SaaS • ERP",
     "title": "Netegia",
-    "intro": "Website restructuring to improve comprehension of a management system with multiple modules and functionalities.",
+    "intro": "I reorganized the Netegia site so a system with several modules can be understood without a demo first.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -682,7 +684,7 @@
   "zafirofarm": {
     "category": "Web Redesign • ERP",
     "title": "Zafiro Farmacias",
-    "intro": "Update of a pharmacy's ERP website to achieve a clearer, more modern and usable experience aligned with the business level.",
+    "intro": "I updated the Zafiro Farmacias site so the ERP offer reads more clearly and matches the level of the business.",
     "meta": {
       "role": "Role",
       "roleValue": "UX/UI Design • Web Design",
@@ -725,7 +727,7 @@
   "otraronda": {
     "category": "Branding • Web Design • Conversion",
     "title": "Otra Ronda",
-    "intro": "Full digital presence redesign to transform a bar service into a professional, attractive, and conversion-oriented brand.",
+    "intro": "I redesigned the brand and the site for Otra Ronda, a mobile bar service, from the identity to the contact form.",
     "meta": {
       "role": "Role",
       "roleValue": "Branding • UX/UI Design • Web Design",
@@ -776,17 +778,17 @@
     "identityTitle": "SP",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
-    "subtitle": "Web designer specialized in ecommerce.",
+    "subtitle": "Web designer specialized in ecommerce. Stores and sites, from the first conversation through support after launch.",
     "rights": "All rights reserved.",
     "hire": "For recruiters"
   },
   "hire": {
-    "seoTitle": "Available for remote work / on-site in Japan",
-    "seoDesc": "Sebastián Paternostro, web designer specialized in ecommerce. In Japan through September 2027. Remote, and on-site in Japan.",
+    "seoTitle": "Ecommerce web designer",
+    "seoDesc": "Sebastián Paternostro designs ecommerce stores and sites, from the first conversation through support after launch. 30+ B2B and B2C clients. Remote and on-site in Japan.",
     "badge": "Available for remote work / on-site in Japan",
     "markets": "Japan · through Sept 2027",
     "role": "Web designer specialized in ecommerce",
-    "tagline": "I design online stores and websites, and I stay with them from the first conversation through support after launch.",
+    "tagline": "I design online stores and websites. On each project I stay from the first conversation through support after the site goes live.",
     "taglineSub": "At NetOne (June 2024 – July 2026) I worked with more than 30 clients, B2B and B2C, and at times I was running 10 projects at once. I handle structure, interface, and implementation, alongside the client and development. The technologies I use most are HTML, CSS, JavaScript (vanilla, React, Next.js), TypeScript, and Tailwind.",
     "heroAlt": "GamingCity homepage, a shipped store",
     "bookCall": "Book a call",
@@ -798,14 +800,14 @@
     "card2Title": "Structure and interface",
     "card2Desc": "I define pages, navigation, and the interface. It can be a new site or a revision of one that is already live.",
     "card3Title": "Implementation",
-    "card3Desc": "I get it working on the project's platform or with the stack the work needs, and I follow up with development until it matches what we agreed.",
+    "card3Desc": "I get the site working on the project's platform or with the stack the work needs, and I follow up with development until it matches what we agreed.",
     "selectedWork": "Worth a look first",
     "case1Tag": "Ecommerce · Migration",
     "case1Title": "GamingCity",
-    "case1Summary": "I designed the site from the marketing guidelines on what to show and say. I followed up with development, stayed in contact with the client throughout, and ran the training. It launched before Mercado Shops shut down.",
+    "case1Summary": "I designed the store from the marketing guidelines: what to show and how to say it. I followed the work with development, was the client contact, and ran the training. It launched before Mercado Shops shut down.",
     "case2Tag": "Ecommerce · Wholesale",
     "case2Title": "Accesorios Jorge",
-    "case2Summary": "Wholesale catalog and ordering. The site replaces phone and spreadsheet orders.",
+    "case2Summary": "I designed the catalog and the ordering flow for a wholesaler. The site replaces phone and spreadsheet orders.",
     "case3Tag": "Brand · Website",
     "case3Title": "Otra Ronda",
     "case3Summary": "A new digital presence for a mobile bar service: identity, site structure, and a clear path to contact.",
@@ -842,8 +844,8 @@
     "portfolio": "All projects",
     "case4Tag": "Website · ES / EN",
     "case4Title": "Biotec",
-    "case4Summary": "An institutional site for an additives company. I designed it in Spanish and English: structure, interface, and a clear reading of the offer.",
-    "whatIDoLead": "The work covers the full cycle, from the first conversation to support after launch.",
+    "case4Summary": "I designed the institutional site for an additives company, in Spanish and in English: structure, interface, and a clear reading of the offer.",
+    "whatIDoLead": "On each project I cover the full cycle: from the first conversation to support after launch.",
     "card4Title": "After launch",
     "card4Desc": "I review the launch, train the person who will run the site, and stay available for adjustments or for whatever needs to be added."
   },

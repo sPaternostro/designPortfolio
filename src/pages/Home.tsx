@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <>
-      <SEO path="/" />
+      <SEO title={t('hire.role')} description={t('home.seoDesc')} path="/" />
       <div className="container">
 
         <section className="section-spacer hero-about-section">
