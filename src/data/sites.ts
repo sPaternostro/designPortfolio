@@ -64,7 +64,7 @@ export const SITES: Site[] = [
     key: 'bombas',
     to: '/projects/bombas',
     image: '/images/bombas/despues2.png',
-    live: 'https://www.bombasysuministros.com.ar/',
+    live: 'https://www.bombasyservicios.com.ar/',
   },
   {
     key: 'fjg',

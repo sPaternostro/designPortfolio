@@ -22,7 +22,7 @@ export default function Bombas() {
           <p className="case-category">{t('bombas.category')}</p>
           <h1 className="case-title">{t('bombas.title')}</h1>
           <p className="case-intro">{t('bombas.intro')}</p>
-          <CaseLiveLink href="https://www.bombasysuministros.com.ar/" />
+          <CaseLiveLink href="https://www.bombasyservicios.com.ar/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">
