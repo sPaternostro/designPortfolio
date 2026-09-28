@@ -1,0 +1,111 @@
+<!doctype html>
+<!--
+  Cómo actualizar este CV:
+  1. Editá este archivo (cv/es.html) y cv/en.html.
+  2. Reemplazá los PDF en public/cv/ con el mismo nombre:
+     public/cv/sebastian-paternostro-es.pdf
+     public/cv/sebastian-paternostro-en.pdf
+  3. Los botones del sitio apuntan a esos nombres. No hace falta cambiar el código.
+  Exportar desde Chrome:
+  google-chrome --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
+    --print-to-pdf=public/cv/sebastian-paternostro-es.pdf file://$PWD/cv/es.html
+  Si lo armás en Google Docs, descargá el PDF y reemplazá el archivo de public/cv/
+  manteniendo el nombre. El texto tiene que seguir siendo texto, no una imagen.
+-->
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Sebastián Paternostro — CV</title>
+  <style>
+    @page { size: A4; margin: 11mm 13mm; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #1a1a18;
+      font-size: 10.2px;
+      line-height: 1.36;
+    }
+    h1 { font-size: 21px; line-height: 1.1; margin: 0 0 2px; }
+    h2 {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 9px 0 3px;
+      color: #3f3f46;
+      border-bottom: 1px solid #e4e4e7;
+      padding-bottom: 2px;
+    }
+    p { margin: 0 0 3px; }
+    ul { margin: 2px 0 0; padding-left: 15px; }
+    li { margin: 0 0 2px; }
+    .role { font-size: 12px; font-weight: 700; margin: 0 0 2px; }
+    .meta, .when { color: #3f3f46; }
+    a { color: #1a1a18; text-decoration: none; }
+    .job { margin-top: 6px; }
+    .job-head { display: flex; justify-content: space-between; gap: 12px; }
+    .job strong { font-size: 11px; }
+    .when { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <h1>Sebastián Elías Paternostro</h1>
+  <p class="role">Diseñador web especializado en ecommerce</p>
+  <p class="meta">Japón, hasta septiembre 2027 · Remoto, horario flexible / presencial en Japón</p>
+  <p>
+    <a href="mailto:sebastian.paternostro@gmail.com">sebastian.paternostro@gmail.com</a>
+    · <a href="https://www.linkedin.com/in/spaternostro99/">linkedin.com/in/spaternostro99</a>
+    · <a href="https://spaternostro.com.ar/hire">spaternostro.com.ar/hire</a>
+  </p>
+
+  <h2>Perfil</h2>
+  <p>Diseño tiendas y sitios web. En cada proyecto sigo el trabajo desde el primer contacto hasta el soporte después de publicarlo. En NetOne (junio 2024 – julio 2026) trabajé con más de 30 clientes B2B y B2C, y llegué a llevar 10 proyectos en paralelo: estructura, interfaz, implementación, contacto con el cliente, control de calidad y capacitación.</p>
+  <p>Mis tecnologías más usadas son HTML, CSS, JavaScript (vanilla, React, Next.js), TypeScript y Tailwind. Si algo necesita integración o backend, lo dejo especificado para desarrollo y reviso el resultado.</p>
+
+  <h2>Experiencia</h2>
+  <div class="job">
+    <div class="job-head">
+      <strong>NetOne Soluciones Web — Diseñador web de ecommerce</strong>
+      <span class="when">Jun 2024 – Jul 2026</span>
+    </div>
+    <ul>
+      <li>Trabajé con más de 30 clientes B2B/B2C, y llegué a llevar 10 proyectos a la vez, en TornadoStore y GlobalBluePoint.</li>
+      <li>Definí estructura de catálogo, navegación, páginas y layout responsive, e implementé la interfaz en la plataforma.</li>
+      <li>Fui el contacto del cliente en mis proyectos: reuniones, ajustes, QA visual y funcional, y salida.</li>
+      <li>Capacité a los clientes para operar la tienda.</li>
+      <li>Dejé especificadas para desarrollo las funciones que necesitaban integración o backend, y revisé el resultado.</li>
+    </ul>
+    <p style="margin-top:3px">Trabajo publicado: GamingCity (gamingcity.com.ar), migración antes del cierre de Mercado Shops. Accesorios Jorge (accesoriosjorge-jrd-mayoristas.com.ar), catálogo y pedidos mayoristas. Biotec S.A. (biotecsa.com.ar), sitio industrial bilingüe.</p>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <strong>sPaternostro — Diseñador web freelance</strong>
+      <span class="when">Sep 2022 – Dic 2023</span>
+    </div>
+    <p>Sitios y tiendas para negocios chicos: estructura, interfaz y maquetación.</p>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <strong>RET — Diseñador web, maquetación frontend</strong>
+      <span class="when">May 2022 – May 2023</span>
+    </div>
+    <p>Pasé interfaces a código a partir de un diseño ya definido, con foco en maquetación y responsive.</p>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <strong>JULMAR — Diseñador web y soporte de interfaz</strong>
+      <span class="when">Dic 2021 – Dic 2022</span>
+    </div>
+    <p>Mantenimiento, correcciones responsive y actualizaciones de sitios institucionales y de ecommerce.</p>
+  </div>
+
+  <h2>Formación</h2>
+  <p>Front-End con React — Oracle Next Education / Alura (2023). Full-Stack Python y SQL — Codo a Codo (2024). Agile y Scrum — Alura (2024).</p>
+
+  <h2>Idiomas</h2>
+  <p>Español nativo · Inglés C1 · Japonés N3</p>
+
+  <h2>Habilidades</h2>
+  <p>Diseño web, UX/UI de ecommerce, Figma, Photoshop, Illustrator. Plataformas: TornadoStore, GlobalBluePoint, TiendaNube, WordPress. Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, SQL. QA visual y funcional, contacto con clientes, capacitación.</p>
+</body>
+</html>

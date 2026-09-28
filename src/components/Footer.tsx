@@ -27,6 +27,9 @@ export default function Footer() {
 					<div className='footer-column'>
 						<h4 className='footer-column-title'>{t('footer.navTitle')}</h4>
 						<nav className='footer-list'>
+							<Link to='/hire' className='footer-link'>
+								{t('footer.hire')}
+							</Link>
 							<Link to='/projects' className='footer-link'>
 								{t('navbar.projects')}
 							</Link>

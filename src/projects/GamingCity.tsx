@@ -2,20 +2,22 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from "../components/BrowserFrame";
 import useReveal from "../hooks/useReveal";
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function GamingCity() {
   const { t } = useTranslation();
   useReveal();
 
-  <SEO title="GamingCity" description="Migración de marketplace a ecommerce independiente con foco en escalabilidad y experiencia de marca." path="/projects/gamingcity" />
-
   return (
-    <main className="container case-study-page">
+    <>
+      <SEO title="GamingCity" description="Migración de marketplace a ecommerce independiente." path="/projects/gamingcity" />
+      <main className="container case-study-page">
       <section className="reveal case-hero section-spacer">
         <p className="case-category">{t('gamingcity.category')}</p>
         <h1 className="case-title">{t('gamingcity.title')}</h1>
         <p className="case-intro">{t('gamingcity.intro')}</p>
+        <CaseLiveLink href="https://www.gamingcity.com.ar/" />
 
         <div className="case-meta-grid">
           <div className="meta-item">
@@ -96,5 +98,6 @@ export default function GamingCity() {
         next={{ label: 'KIRO Store', to: '/projects/kiro' }}
       />
     </main>
+    </>
   );
 }

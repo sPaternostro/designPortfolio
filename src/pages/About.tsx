@@ -3,17 +3,21 @@ import { Link } from 'react-router-dom';
 import useReveal from '../hooks/useReveal';
 import SEO from '../components/SEO';
 
-const CV_LINK = 'https://drive.google.com/drive/folders/1kupIQ87pj4JWaQSYbLx0xLsTbIOi96gL?usp=sharing';
+const CV = {
+  es: '/cv/sebastian-paternostro-es.pdf',
+  en: '/cv/sebastian-paternostro-en.pdf',
+};
 
 export default function About() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isEs = i18n.language.startsWith('es');
   useReveal();
 
   return (
     <>
       <SEO
         title={t('about.title')}
-        description="Diseñador web basado en Buenos Aires especializado en estructura, claridad e impacto de negocio."
+        description={t('about.seoDesc')}
         path="/about"
       />
       <div className="container">
@@ -26,34 +30,21 @@ export default function About() {
           </p>
 
           {/* CV Download */}
-          <a
-            href={CV_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cv-download-link"
-            aria-label={t('about.downloadCV', 'Descargar CV')}
-          >
-            <svg
-              className="cv-download-icon"
-              width="18"
-              height="18"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round" />
-              <polyline points="7 10 12 15 17 10" strokeLinecap="round" strokeLinejoin="round" />
-              <line x1="12" y1="15" x2="12" y2="3" strokeLinecap="round" />
-            </svg>
-            {t('about.downloadCV', 'CV')}
-          </a>
+          <div className="about-cv-links">
+            <a href={isEs ? CV.es : CV.en} className="btn btn-primary" download>
+              {t(isEs ? 'hire.downloadCVEs' : 'hire.downloadCVEn')}
+            </a>
+            <a href={isEs ? CV.en : CV.es} className="btn btn-secondary" download>
+              {t(isEs ? 'hire.downloadCVEn' : 'hire.downloadCVEs')}
+            </a>
+          </div>
         </section>
 
-        <section className="reveal">
+        <section className="reveal about-principles">
           <h2 className="text-gradient about-principles-heading">
             {t('about.principlesTitle')}
           </h2>
+          <p className="text-secondary section-lead">{t('about.principlesLead')}</p>
           <div className="home-grid">
             <article className="glass-card">
               <p className="card-tag">01</p>

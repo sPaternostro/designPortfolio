@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function AccesoriosJorge() {
@@ -21,6 +22,7 @@ export default function AccesoriosJorge() {
           <p className="case-category">{t('accesoriosjorge.category')}</p>
           <h1 className="case-title">{t('accesoriosjorge.title')}</h1>
           <p className="case-intro">{t('accesoriosjorge.intro')}</p>
+          <CaseLiveLink href="https://accesoriosjorge-jrd-mayoristas.com.ar/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">

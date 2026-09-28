@@ -8,13 +8,13 @@ export default function Kiro() {
 	const { t } = useTranslation();
 	useReveal();
 
-	<SEO
-		title='KIRO Store'
-		description='Desarrollo de tienda online desde cero sobre TiendaNube con diseño personalizado y foco en conversión.'
-		path='/projects/kiro'
-	/>;
-
 	return (
+		<>
+		<SEO
+		title='KIRO'
+		description='Tienda de demostración en TiendaNube. No es un cliente.'
+		path='/projects/kiro'
+	/>
 		<main className='container case-study-page'>
 			<section className='reveal case-hero section-spacer'>
 				<p className='case-category'>{t('kiro.category')}</p>
@@ -176,5 +176,6 @@ export default function Kiro() {
 
 			<CaseFooter prev={{ label: 'GamingCity', to: '/projects/gamingcity' }} />
 		</main>
+		</>
 	);
 }

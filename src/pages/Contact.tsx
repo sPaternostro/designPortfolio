@@ -38,7 +38,7 @@ export default function Contact() {
     <>
       <SEO
         title={t('contact.title')}
-        description="Contactá a Sebastián Paternostro para proyectos de diseño web, UX y producto."
+        description={t('contact.description')}
         path="/contact"
       />
       <main className='container'>

@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function BHB2B() {
@@ -21,6 +22,7 @@ export default function BHB2B() {
           <p className="case-category">{t('bhb2b.category')}</p>
           <h1 className="case-title">{t('bhb2b.title')}</h1>
           <p className="case-intro">{t('bhb2b.intro')}</p>
+          <CaseLiveLink href="https://www.bulonerahurlingham.com/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">

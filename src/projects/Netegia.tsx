@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import BrowserFrame from '../components/BrowserFrame';
 import useReveal from '../hooks/useReveal';
 import CaseFooter from '../components/CaseFooter';
+import CaseLiveLink from '../components/CaseLiveLink';
 import SEO from '../components/SEO';
 
 export default function Netegia() {
@@ -21,6 +22,7 @@ export default function Netegia() {
           <p className="case-category">{t('netegia.category')}</p>
           <h1 className="case-title">{t('netegia.title')}</h1>
           <p className="case-intro">{t('netegia.intro')}</p>
+          <CaseLiveLink href="https://www.netegia.com/" />
 
           <div className="case-meta-grid">
             <div className="meta-item">
