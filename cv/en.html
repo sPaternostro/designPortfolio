@@ -7,9 +7,8 @@
      public/cv/sebastian-paternostro-es.pdf
   3. The site buttons point at those filenames. No code change is required.
   Export from Chrome:
-  google-chrome --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
+    google-chrome --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
     --print-to-pdf=public/cv/sebastian-paternostro-en.pdf file://$PWD/cv/en.html
-  From Google Docs: download a PDF and replace the file in public/cv/ with the same name.
   The CV must stay real text, not a screenshot.
 -->
 <html lang="en">
@@ -17,95 +16,120 @@
   <meta charset="utf-8" />
   <title>Sebastián Paternostro — CV</title>
   <style>
-    @page { size: A4; margin: 11mm 13mm; }
+    @page { size: A4; margin: 9mm 12mm; }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
       color: #1a1a18;
-      font-size: 10.2px;
-      line-height: 1.36;
+      font-size: 9.6px;
+      line-height: 1.32;
     }
-    h1 { font-size: 21px; line-height: 1.1; margin: 0 0 2px; }
+    h1 { font-size: 20px; line-height: 1.05; margin: 0 0 2px; }
     h2 {
-      font-size: 10px;
+      font-size: 9.5px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      margin: 9px 0 3px;
+      margin: 8px 0 3px;
       color: #3f3f46;
       border-bottom: 1px solid #e4e4e7;
       padding-bottom: 2px;
     }
-    p { margin: 0 0 3px; }
-    ul { margin: 2px 0 0; padding-left: 15px; }
-    li { margin: 0 0 2px; }
-    .role { font-size: 12px; font-weight: 700; margin: 0 0 2px; }
+    p { margin: 0 0 2px; }
+    ul { margin: 2px 0 0; padding-left: 14px; }
+    li { margin: 0 0 1.5px; }
+    ul ul { margin: 1px 0 2px; }
+    .role { font-size: 11.5px; font-weight: 700; margin: 0 0 2px; }
     .meta, .when { color: #3f3f46; }
     a { color: #1a1a18; text-decoration: none; }
-    .job { margin-top: 6px; }
-    .job-head { display: flex; justify-content: space-between; gap: 12px; }
-    .job strong { font-size: 11px; }
+    .job { margin-top: 5px; }
+    .job-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+    .job strong { font-size: 10.5px; }
     .when { white-space: nowrap; }
   </style>
 </head>
 <body>
   <h1>Sebastián Elías Paternostro</h1>
-  <p class="role">Web designer specialized in ecommerce</p>
-  <p class="meta">Japan, through September 2027 · Remote, flexible hours / on-site in Japan</p>
+  <p class="role">UI/UX Designer &amp; Front-End Developer</p>
+  <p class="meta">Current location: Japan (work visa through September 2027) · Available for global remote and on-site/hybrid in Japan</p>
   <p>
     <a href="mailto:sebastian.paternostro@gmail.com">sebastian.paternostro@gmail.com</a>
     · <a href="https://www.linkedin.com/in/spaternostro99/">linkedin.com/in/spaternostro99</a>
     · <a href="https://spaternostro.com.ar/hire">spaternostro.com.ar/hire</a>
   </p>
 
-  <h2>Profile</h2>
-  <p>I design online stores and websites. On each project I stay from the first conversation through support after the site goes live. At NetOne (June 2024 – July 2026) I worked with more than 30 B2B and B2C clients, and at times I was running 10 projects in parallel: structure, interface, implementation, client contact, QA, and training.</p>
-  <p>The technologies I use most are HTML, CSS, JavaScript (vanilla, React, Next.js), TypeScript, and Tailwind. When a feature needs an integration or backend work, I specify it for development and review the result.</p>
+  <h2>Professional profile</h2>
+  <p>UI/UX Web Designer and Front-End Developer specialized in e-commerce and digital products. Experience across the full lifecycle of a site: from research and visual prototyping in Figma through layout, template customization, and responsive interface implementation. Proven record managing more than 30 B2B/B2C clients and up to 10 projects in parallel, combining aesthetic judgment, conversion optimization, and clean technical implementation.</p>
 
   <h2>Experience</h2>
   <div class="job">
     <div class="job-head">
-      <strong>NetOne Soluciones Web — Ecommerce web designer</strong>
-      <span class="when">Jun 2024 – Jul 2026</span>
+      <strong>NetOne Soluciones Web — E-commerce UI/UX Designer &amp; Web Implementer</strong>
+      <span class="when">June 2024 – July 2026</span>
     </div>
     <ul>
-      <li>Worked with 30+ B2B/B2C clients, at times running 10 projects at once, on TornadoStore and GlobalBluePoint.</li>
-      <li>Defined catalog structure, navigation, pages, and responsive layout, and implemented the interface on the platform.</li>
-      <li>Client contact on my projects: meetings, revisions, visual and functional QA, and launch.</li>
-      <li>Trained clients to operate the store.</li>
-      <li>Specified for development the features that needed an integration or backend work, and reviewed the result.</li>
+      <li>Designed and implemented the visual structure, interface, and responsive layout for more than 30 B2B and B2C stores and websites (on platforms such as TornadoStore and GlobalBluePoint).</li>
+      <li>Customized and built web templates, adjusting HTML, CSS, JavaScript, and basic PHP to each client’s visual and brand requirements.</li>
+      <li>Managed up to 10 projects in parallel as the direct client contact for meetings, discovery, quality control (visual and functional QA), and post-launch training.</li>
+      <li>Wrote technical specifications for the backend development team on features that required custom integrations, and reviewed the final result.</li>
+      <li>Selected work:
+        <ul>
+          <li>GamingCity (gamingcity.com.ar): E-commerce store migration and implementation.</li>
+          <li>Accesorios Jorge (accesoriosjorge-jrd-mayoristas.com.ar): Design and layout of a B2B catalog and wholesale ordering system.</li>
+          <li>Biotec S.A. (biotecsa.com.ar): Visual redesign and layout of a bilingual industrial site.</li>
+        </ul>
+      </li>
     </ul>
-    <p style="margin-top:3px">Shipped work: GamingCity (gamingcity.com.ar), migration before Mercado Shops shut down. Accesorios Jorge (accesoriosjorge-jrd-mayoristas.com.ar), wholesale catalog and ordering. Biotec S.A. (biotecsa.com.ar), bilingual industrial site.</p>
   </div>
   <div class="job">
     <div class="job-head">
-      <strong>sPaternostro — Freelance web designer</strong>
-      <span class="when">Sep 2022 – Dec 2023</span>
+      <strong>sPaternostro — Web Designer &amp; Freelance Front-End</strong>
+      <span class="when">September 2022 – December 2023</span>
     </div>
-    <p>Websites and small stores for local businesses: structure, interface, and layout.</p>
+    <ul>
+      <li>UI/UX design and layout of websites and stores for small businesses and ventures.</li>
+      <li>Custom responsive interfaces focused on usability and performance.</li>
+    </ul>
   </div>
   <div class="job">
     <div class="job-head">
-      <strong>RET — Web designer, frontend layout</strong>
+      <strong>RET — Web Designer / Front-End Developer</strong>
       <span class="when">May 2022 – May 2023</span>
     </div>
-    <p>Turned existing UI specs into code, focused on layout and responsive implementation.</p>
+    <ul>
+      <li>Responsive layout and code implementation of interfaces from existing Figma/Photoshop designs.</li>
+    </ul>
   </div>
   <div class="job">
     <div class="job-head">
-      <strong>JULMAR — Web designer and interface support</strong>
-      <span class="when">Dec 2021 – Dec 2022</span>
+      <strong>JULMAR — Web Designer &amp; Interface Support</strong>
+      <span class="when">December 2021 – December 2022</span>
     </div>
-    <p>Maintenance, responsive fixes, and updates on institutional and ecommerce sites.</p>
+    <ul>
+      <li>Maintenance, responsive fixes, and content updates for institutional and e-commerce sites.</li>
+    </ul>
   </div>
 
-  <h2>Training</h2>
-  <p>Front-End with React — Oracle Next Education / Alura (2023). Full-Stack Python and SQL — Codo a Codo (2024). Agile and Scrum — Alura (2024).</p>
+  <h2>Technical skills</h2>
+  <ul>
+    <li>Design &amp; UX/UI: Figma, Photoshop, Illustrator, Prototyping, Wireframing, Responsive Design, Information Architecture.</li>
+    <li>Front-End &amp; Technologies: HTML5, CSS3, Tailwind CSS, JavaScript, TypeScript, React, Next.js.</li>
+    <li>Platforms &amp; CMS: WordPress, TiendaNube, TornadoStore, GlobalBluePoint.</li>
+    <li>Tools and other: Git, visual/functional QA, template adjustments (PHP/CSS/JS).</li>
+  </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li>Front-End with React — Oracle Next Education / Alura (2023)</li>
+    <li>Full-Stack Python and SQL — Codo a Codo (2024)</li>
+    <li>Agile and Scrum — Alura (2024)</li>
+  </ul>
 
   <h2>Languages</h2>
-  <p>Spanish, native · English, C1 · Japanese, N3</p>
-
-  <h2>Skills</h2>
-  <p>Web design, ecommerce UX/UI, Figma, Photoshop, Illustrator. Platforms: TornadoStore, GlobalBluePoint, TiendaNube, WordPress. Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, SQL. Visual and functional QA, client contact, client training.</p>
+  <ul>
+    <li>Spanish: Native</li>
+    <li>English: C1 (Advanced / Professional)</li>
+    <li>Japanese: Intermediate / Conversational</li>
+  </ul>
 </body>
 </html>
